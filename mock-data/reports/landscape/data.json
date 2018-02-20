@@ -1,0 +1,599 @@
+{
+  "data": {
+    "columns": [
+      {
+        "id": "promotion",
+        "name": "Promotion",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "00": "(Promotion 00)",
+            "01": "(Promotion 01)",
+            "02": "(Promotion 02)",
+            "03": "(Promotion 03)",
+            "04": "(Promotion 04)",
+            "05": "(Promotion 05)",
+            "06": "(Promotion 06)",
+            "07": "(Promotion 07)",
+            "08": "(Promotion 08)",
+            "09": "(Promotion 09)",
+            "10": "(Promotion 10)",
+            "11": "(Promotion 11)",
+            "12": "(Promotion 12)",
+            "13": "(Promotion 13)",
+            "14": "(Promotion 14)",
+            "15": "(Promotion 15)",
+            "16": "(Promotion 16)",
+            "17": "(Promotion 17)",
+            "18": "(Promotion 18)",
+            "19": "(Promotion 19)",
+            "20": "(Promotion 20)",
+            "21": "(Promotion 21)",
+            "22": "(Promotion 22)",
+            "23": "(Promotion 23)",
+            "24": "(Promotion 24)",
+            "25": "(Promotion 25)",
+            "26": "(Promotion 26)",
+            "27": "(Promotion 27)",
+            "28": "(Promotion 28)",
+            "29": "(Promotion 29)",
+            "30": "(Promotion 30)",
+            "31": "(Promotion 31)",
+            "32": "(Promotion 32)",
+            "33": "(Promotion 33)",
+            "34": "(Promotion 34)",
+            "35": "(Promotion 35)",
+            "36": "(Promotion 36)",
+            "37": "(Promotion 37)",
+            "38": "(Promotion 38)",
+            "39": "(Promotion 39)",
+            "40": "(Promotion 40)",
+            "41": "(Promotion 41)",
+            "42": "(Promotion 42)",
+            "43": "(Promotion 43)",
+            "44": "(Promotion 44)",
+            "45": "(Promotion 45)",
+            "46": "(Promotion 46)",
+            "47": "(Promotion 47)",
+            "48": "(Promotion 48)",
+            "49": "(Promotion 49)",
+            "50": "(Promotion 50)",
+            "51": "(Promotion 51)",
+            "52": "(Promotion 52)",
+            "53": "(Promotion 53)",
+            "54": "(Promotion 54)",
+            "55": "FV_HALLOWEENLEELANAU CELLARS WITCHES BREW 2/$10",
+            "56": "(Promotion 56)",
+            "57": "(Promotion 57)",
+            "58": "(Promotion 58)",
+            "59": "(Promotion 59)",
+            "60": "(Promotion 60)",
+            "61": "(Promotion 61)",
+            "62": "(Promotion 62)",
+            "63": "(Promotion 63)",
+            "64": "(Promotion 64)",
+            "65": "(Promotion 65)",
+            "66": "(Promotion 66)",
+            "67": "(Promotion 67)",
+            "68": "(Promotion 68)",
+            "69": "(Promotion 69)",
+            "70": "(Promotion 70)",
+            "71": "(Promotion 71)",
+            "72": "(Promotion 72)",
+            "73": "(Promotion 73)",
+            "74": "(Promotion 74)",
+            "75": "(Promotion 75)",
+            "76": "(Promotion 76)",
+            "77": "(Promotion 77)",
+            "78": "(Promotion 78)",
+            "79": "(Promotion 79)",
+            "80": "(Promotion 80)",
+            "81": "(Promotion 81)",
+            "82": "(Promotion 82)",
+            "83": "(Promotion 83)",
+            "84": "(Promotion 84)",
+            "85": "(Promotion 85)",
+            "86": "(Promotion 86)",
+            "87": "(Promotion 87)",
+            "88": "(Promotion 88)",
+            "89": "(Promotion 89)",
+            "90": "(Promotion 90)",
+            "91": "(Promotion 91)",
+            "92": "(Promotion 92)",
+            "93": "(Promotion 93)",
+            "94": "(Promotion 94)",
+            "95": "(Promotion 95)",
+            "96": "(Promotion 96)",
+            "97": "(Promotion 97)",
+            "98": "(Promotion 98)",
+            "99": "(Promotion 99)"
+          }
+        }
+      },
+      {
+        "id": "startDate",
+        "name": "Start Date",
+        "format": {
+          "type": "date"
+        }
+      },
+      {
+        "id": "endDate",
+        "name": "End Date",
+        "format": {
+          "type": "date"
+        }
+      },
+      {
+        "id": "mechanic",
+        "name": "Mechanic",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "01": "(Mechanic 01)",
+            "02": "(Mechanic 02)",
+            "03": "(Mechanic 03)",
+            "04": "(Mechanic 04)",
+            "05": "(Mechanic 05)",
+            "06": "(Mechanic 06)",
+            "07": "(Mechanic 07)",
+            "08": "(Mechanic 08)",
+            "09": "(Mechanic 09)",
+            "10": "(Mechanic 10)",
+            "11": "(Mechanic 11)",
+            "12": "(Mechanic 12)",
+            "13": "(Mechanic 13)",
+            "14": "(Mechanic 14)",
+            "15": "(Mechanic 15)",
+            "16": "(Mechanic 16)"
+          },
+          "ordering": ["16", "11", "09", "04", "02", "03", "01", "05", "08", "15", "07", "14", "06", "10", "13", "12"]
+        }
+      },
+      {
+        "id": "discount",
+        "name": "Discount",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "01": "(Discount 01)",
+            "02": "(Discount 02)",
+            "03": "(Discount 03)",
+            "04": "(Discount 04)"
+          },
+          "ordering": ["03", "04", "02", "01"]
+        }
+      },
+      {
+        "id": "storeFormat",
+        "name": "Store Format",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "01": "(Store Format 01)",
+            "02": "(Store Format 02)",
+            "03": "(Store Format 03)",
+            "04": "(Store Format 04)",
+            "05": "(Store Format 05)",
+            "06": "(Store Format 06)",
+            "07": "(Store Format 07)",
+            "08": "(Store Format 08)"
+          },
+          "ordering": ["01", "03", "05", "07", "02", "04", "06", "08"]
+        }
+      },
+      {
+        "id": "categoryUpliftPct",
+        "name": "Category Uplift %",
+        "format": {
+          "type": "percent",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "productUpliftPct",
+        "name": "Product Uplift %",
+        "format": {
+          "type": "percent",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "avgWeeklyGiveaway",
+        "name": "Average Weekly Giveaway",
+        "format": {
+          "type": "currency",
+          "code": "USD",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "avgWeeklySpend",
+        "name": "Average Weekly Spend",
+        "format": {
+          "type": "currency",
+          "code": "USD",
+          "decimals": 0
+        }
+      }
+    ],
+    "legendColumnIds": ["mechanic", "discount", "storeFormat"],
+    "tileColumnIds": ["categoryUpliftPct", "productUpliftPct", "avgWeeklyGiveaway", "avgWeeklySpend"],
+    "tileTotals": {"categoryUpliftPct": 0.05, "productUpliftPct": 0.20, "avgWeeklyGiveaway": 5153, "avgWeeklySpend": 152482},
+    "weekStartDay": 0,
+    "rows": [
+      {"promotion": "00", "startDate": "2017-04-12", "endDate": "2017-04-18", "mechanic": "01", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.01, "productUpliftPct": 0.51, "avgWeeklyGiveaway": 4082, "avgWeeklySpend": 349457},
+      {"promotion": "01", "startDate": "2017-05-08", "endDate": "2017-05-12", "mechanic": "04", "discount": "03", "storeFormat": "01", "categoryUpliftPct": 0.31, "productUpliftPct": 0.53, "avgWeeklyGiveaway": 5316, "avgWeeklySpend": 165253},
+      {"promotion": "02", "startDate": "2017-02-05", "endDate": "2017-02-06", "mechanic": "02", "discount": "01", "storeFormat": "04", "categoryUpliftPct": 0.11, "productUpliftPct": 0.71, "avgWeeklyGiveaway": 7113, "avgWeeklySpend": 134671},
+      {"promotion": "03", "startDate": "2017-08-03", "endDate": "2017-08-10", "mechanic": "03", "discount": "04", "storeFormat": "05", "categoryUpliftPct": 0.61, "productUpliftPct": 0.66, "avgWeeklyGiveaway": 6611, "avgWeeklySpend": 116166},
+      {"promotion": "04", "startDate": "2017-04-04", "endDate": "2017-04-09", "mechanic": "01", "discount": "02", "storeFormat": "04", "categoryUpliftPct": 0.61, "productUpliftPct": 0.16, "avgWeeklyGiveaway": 1614, "avgWeeklySpend": 146116},
+      {"promotion": "05", "startDate": "2017-11-02", "endDate": "2017-11-08", "mechanic": "16", "discount": "01", "storeFormat": "08", "categoryUpliftPct": 0.21, "productUpliftPct": 0.32, "avgWeeklyGiveaway": 3214, "avgWeeklySpend": 142132},
+      {"promotion": "06", "startDate": "2017-12-18", "endDate": "2018-01-13", "mechanic": "06", "discount": "01", "storeFormat": "07", "categoryUpliftPct": 0.31, "productUpliftPct": 0.93, "avgWeeklyGiveaway": 9313, "avgWeeklySpend": 133193},
+      {"promotion": "07", "startDate": "2017-01-15", "endDate": "2017-01-16", "mechanic": "12", "discount": "04", "storeFormat": "03", "categoryUpliftPct": 0.41, "productUpliftPct": 0.14, "avgWeeklyGiveaway": 1412, "avgWeeklySpend": 124114},
+      {"promotion": "08", "startDate": "2017-03-03", "endDate": "2017-03-20", "mechanic": "05", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.91, "productUpliftPct": 0.59, "avgWeeklyGiveaway": 5910, "avgWeeklySpend": 109159},
+      {"promotion": "09", "startDate": "2017-04-14", "endDate": "2017-04-19", "mechanic": "08", "discount": "03", "storeFormat": "05", "categoryUpliftPct": 0.91, "productUpliftPct": 0.29, "avgWeeklyGiveaway": 2915, "avgWeeklySpend": 159129},
+      {"promotion": "10", "startDate": "2017-07-12", "endDate": "2017-07-18", "mechanic": "09", "discount": "03", "storeFormat": "05", "categoryUpliftPct": 0.81, "productUpliftPct": 0.48, "avgWeeklyGiveaway": 4819, "avgWeeklySpend": 198148},
+      {"promotion": "11", "startDate": "2017-09-08", "endDate": "2017-09-12", "mechanic": "10", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.01, "productUpliftPct": 0.90, "avgWeeklyGiveaway": 9017, "avgWeeklySpend": 170190},
+      {"promotion": "12", "startDate": "2017-10-05", "endDate": "2017-10-06", "mechanic": "11", "discount": "03", "storeFormat": "03", "categoryUpliftPct": 0.01, "productUpliftPct": 0.30, "avgWeeklyGiveaway": 3016, "avgWeeklySpend": 160130},
+      {"promotion": "13", "startDate": "2017-05-03", "endDate": "2017-05-10", "mechanic": "13", "discount": "01", "storeFormat": "01", "categoryUpliftPct": 0.31, "productUpliftPct": 0.63, "avgWeeklyGiveaway": 6313, "avgWeeklySpend": 133163},
+      {"promotion": "14", "startDate": "2017-02-04", "endDate": "2017-02-09", "mechanic": "07", "discount": "04", "storeFormat": "08", "categoryUpliftPct": 0.51, "productUpliftPct": 0.85, "avgWeeklyGiveaway": 8514, "avgWeeklySpend": 145185},
+      {"promotion": "15", "startDate": "2017-08-02", "endDate": "2017-08-08", "mechanic": "14", "discount": "02", "storeFormat": "07", "categoryUpliftPct": 0.21, "productUpliftPct": 0.52, "avgWeeklyGiveaway": 5213, "avgWeeklySpend": 132152},
+      {"promotion": "16", "startDate": "2017-04-18", "endDate": "2017-04-22", "mechanic": "15", "discount": "03", "storeFormat": "04", "categoryUpliftPct": 0.21, "productUpliftPct": 0.42, "avgWeeklyGiveaway": 4216, "avgWeeklySpend": 162142},
+      {"promotion": "17", "startDate": "2017-11-15", "endDate": "2017-11-16", "mechanic": "04", "discount": "01", "storeFormat": "03", "categoryUpliftPct": 0.11, "productUpliftPct": 0.11, "avgWeeklyGiveaway": 1119, "avgWeeklySpend": 191111},
+      {"promotion": "18", "startDate": "2017-12-03", "endDate": "2017-12-20", "mechanic": "02", "discount": "02", "storeFormat": "04", "categoryUpliftPct": 0.61, "productUpliftPct": 0.36, "avgWeeklyGiveaway": 3614, "avgWeeklySpend": 146136},
+      {"promotion": "19", "startDate": "2017-01-14", "endDate": "2017-01-19", "mechanic": "03", "discount": "03", "storeFormat": "08", "categoryUpliftPct": 0.71, "productUpliftPct": 0.67, "avgWeeklyGiveaway": 6716, "avgWeeklySpend": 167167},
+      {"promotion": "20", "startDate": "2017-03-12", "endDate": "2017-03-18", "mechanic": "01", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.91, "productUpliftPct": 0.99, "avgWeeklyGiveaway": 9913, "avgWeeklySpend": 139199},
+      {"promotion": "21", "startDate": "2017-04-08", "endDate": "2017-04-12", "mechanic": "16", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.11, "productUpliftPct": 0.51, "avgWeeklyGiveaway": 5113, "avgWeeklySpend": 131151},
+      {"promotion": "22", "startDate": "2017-07-05", "endDate": "2017-07-06", "mechanic": "06", "discount": "01", "storeFormat": "01", "categoryUpliftPct": 0.31, "productUpliftPct": 0.23, "avgWeeklyGiveaway": 2315, "avgWeeklySpend": 153123},
+      {"promotion": "23", "startDate": "2017-09-03", "endDate": "2017-09-10", "mechanic": "12", "discount": "01", "storeFormat": "04", "categoryUpliftPct": 0.46, "productUpliftPct": 0.34, "avgWeeklyGiveaway": 3465, "avgWeeklySpend": 654634},
+      {"promotion": "24", "startDate": "2017-10-04", "endDate": "2017-10-09", "mechanic": "05", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.19, "productUpliftPct": 0.71, "avgWeeklyGiveaway": 7193, "avgWeeklySpend": 931971},
+      {"promotion": "25", "startDate": "2017-05-02", "endDate": "2017-05-08", "mechanic": "08", "discount": "02", "storeFormat": "05", "categoryUpliftPct": 0.11, "productUpliftPct": 0.91, "avgWeeklyGiveaway": 9116, "avgWeeklySpend": 161191},
+      {"promotion": "26", "startDate": "2017-02-18", "endDate": "2017-02-22", "mechanic": "09", "discount": "03", "storeFormat": "07", "categoryUpliftPct": 0.31, "productUpliftPct": 0.43, "avgWeeklyGiveaway": 4311, "avgWeeklySpend": 113143},
+      {"promotion": "27", "startDate": "2017-08-15", "endDate": "2017-08-16", "mechanic": "10", "discount": "01", "storeFormat": "08", "categoryUpliftPct": 0.41, "productUpliftPct": 0.34, "avgWeeklyGiveaway": 3412, "avgWeeklySpend": 124134},
+      {"promotion": "28", "startDate": "2017-04-03", "endDate": "2017-04-20", "mechanic": "11", "discount": "03", "storeFormat": "01", "categoryUpliftPct": 0.61, "productUpliftPct": 0.16, "avgWeeklyGiveaway": 1615, "avgWeeklySpend": 156116},
+      {"promotion": "29", "startDate": "2017-11-14", "endDate": "2017-11-19", "mechanic": "13", "discount": "04", "storeFormat": "05", "categoryUpliftPct": 0.91, "productUpliftPct": 0.69, "avgWeeklyGiveaway": 6918, "avgWeeklySpend": 189169},
+      {"promotion": "30", "startDate": "2017-12-12", "endDate": "2017-12-18", "mechanic": "07", "discount": "03", "storeFormat": "04", "categoryUpliftPct": 0.71, "productUpliftPct": 0.57, "avgWeeklyGiveaway": 5717, "avgWeeklySpend": 177157},
+      {"promotion": "31", "startDate": "2017-01-08", "endDate": "2017-01-12", "mechanic": "14", "discount": "01", "storeFormat": "03", "categoryUpliftPct": 0.52, "productUpliftPct": 0.85, "avgWeeklyGiveaway": 8524, "avgWeeklySpend": 245285},
+      {"promotion": "32", "startDate": "2017-03-05", "endDate": "2017-03-06", "mechanic": "15", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.12, "productUpliftPct": 0.31, "avgWeeklyGiveaway": 3126, "avgWeeklySpend": 261231},
+      {"promotion": "33", "startDate": "2017-04-03", "endDate": "2017-04-10", "mechanic": "04", "discount": "01", "storeFormat": "07", "categoryUpliftPct": 0.13, "productUpliftPct": 0.11, "avgWeeklyGiveaway": 1136, "avgWeeklySpend": 361311},
+      {"promotion": "34", "startDate": "2017-07-04", "endDate": "2017-07-09", "mechanic": "02", "discount": "03", "storeFormat": "08", "categoryUpliftPct": 0.14, "productUpliftPct": 0.61, "avgWeeklyGiveaway": 6145, "avgWeeklySpend": 451461},
+      {"promotion": "35", "startDate": "2017-09-02", "endDate": "2017-09-08", "mechanic": "03", "discount": "02", "storeFormat": "04", "categoryUpliftPct": 0.22, "productUpliftPct": 0.72, "avgWeeklyGiveaway": 7221, "avgWeeklySpend": 212272},
+      {"promotion": "36", "startDate": "2017-10-18", "endDate": "2017-10-22", "mechanic": "01", "discount": "01", "storeFormat": "01", "categoryUpliftPct": 0.23, "productUpliftPct": 0.62, "avgWeeklyGiveaway": 6233, "avgWeeklySpend": 332362},
+      {"promotion": "37", "startDate": "2017-05-15", "endDate": "2017-05-16", "mechanic": "16", "discount": "04", "storeFormat": "03", "categoryUpliftPct": 0.44, "productUpliftPct": 0.34, "avgWeeklyGiveaway": 3445, "avgWeeklySpend": 454434},
+      {"promotion": "38", "startDate": "2017-02-03", "endDate": "2017-02-20", "mechanic": "06", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.64, "productUpliftPct": 0.16, "avgWeeklyGiveaway": 1648, "avgWeeklySpend": 486416},
+      {"promotion": "39", "startDate": "2017-08-14", "endDate": "2017-08-19", "mechanic": "12", "discount": "03", "storeFormat": "02", "categoryUpliftPct": 0.76, "productUpliftPct": 0.57, "avgWeeklyGiveaway": 5764, "avgWeeklySpend": 647657},
+      {"promotion": "40", "startDate": "2017-04-12", "endDate": "2017-04-18", "mechanic": "05", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.98, "productUpliftPct": 0.39, "avgWeeklyGiveaway": 3986, "avgWeeklySpend": 869839},
+      {"promotion": "41", "startDate": "2017-11-08", "endDate": "2017-11-12", "mechanic": "08", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.22, "productUpliftPct": 0.62, "avgWeeklyGiveaway": 6229, "avgWeeklySpend": 292262},
+      {"promotion": "42", "startDate": "2017-12-05", "endDate": "2017-12-06", "mechanic": "09", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.30, "productUpliftPct": 0.43, "avgWeeklyGiveaway": 4300, "avgWeeklySpend": 103043},
+      {"promotion": "43", "startDate": "2017-01-03", "endDate": "2017-01-10", "mechanic": "10", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.43, "productUpliftPct": 0.94, "avgWeeklyGiveaway": 9430, "avgWeeklySpend": 304394},
+      {"promotion": "44", "startDate": "2017-03-04", "endDate": "2017-03-09", "mechanic": "11", "discount": "03", "storeFormat": "02", "categoryUpliftPct": 0.62, "productUpliftPct": 0.76, "avgWeeklyGiveaway": 7623, "avgWeeklySpend": 236276},
+      {"promotion": "45", "startDate": "2017-04-02", "endDate": "2017-04-08", "mechanic": "13", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.41, "productUpliftPct": 0.24, "avgWeeklyGiveaway": 2411, "avgWeeklySpend": 114124},
+      {"promotion": "46", "startDate": "2017-07-18", "endDate": "2017-07-22", "mechanic": "07", "discount": "02", "storeFormat": "05", "categoryUpliftPct": 0.16, "productUpliftPct": 0.31, "avgWeeklyGiveaway": 3163, "avgWeeklySpend": 631631},
+      {"promotion": "47", "startDate": "2017-09-15", "endDate": "2017-09-16", "mechanic": "14", "discount": "04", "storeFormat": "07", "categoryUpliftPct": 0.21, "productUpliftPct": 0.12, "avgWeeklyGiveaway": 1212, "avgWeeklySpend": 122112},
+      {"promotion": "48", "startDate": "2017-10-03", "endDate": "2017-10-20", "mechanic": "15", "discount": "04", "storeFormat": "08", "categoryUpliftPct": 0.31, "productUpliftPct": 0.63, "avgWeeklyGiveaway": 6315, "avgWeeklySpend": 153163},
+      {"promotion": "49", "startDate": "2017-05-14", "endDate": "2017-05-19", "mechanic": "04", "discount": "02", "storeFormat": "04", "categoryUpliftPct": 0.61, "productUpliftPct": 0.56, "avgWeeklyGiveaway": 5619, "avgWeeklySpend": 196156},
+      {"promotion": "50", "startDate": "2017-02-12", "endDate": "2017-02-18", "mechanic": "02", "discount": "03", "storeFormat": "05", "categoryUpliftPct": 0.14, "productUpliftPct": 0.91, "avgWeeklyGiveaway": 9147, "avgWeeklySpend": 471491},
+      {"promotion": "51", "startDate": "2017-08-08", "endDate": "2017-08-12", "mechanic": "03", "discount": "03", "storeFormat": "01", "categoryUpliftPct": 0.17, "productUpliftPct": 0.71, "avgWeeklyGiveaway": 7173, "avgWeeklySpend": 731771},
+      {"promotion": "52", "startDate": "2017-04-05", "endDate": "2017-04-06", "mechanic": "01", "discount": "03", "storeFormat": "03", "categoryUpliftPct": 0.19, "productUpliftPct": 0.61, "avgWeeklyGiveaway": 6192, "avgWeeklySpend": 921961},
+      {"promotion": "53", "startDate": "2017-11-03", "endDate": "2017-11-10", "mechanic": "16", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.26, "productUpliftPct": 0.32, "avgWeeklyGiveaway": 3265, "avgWeeklySpend": 652632},
+      {"promotion": "54", "startDate": "2017-12-04", "endDate": "2017-12-09", "mechanic": "06", "discount": "02", "storeFormat": "07", "categoryUpliftPct": 0.34, "productUpliftPct": 0.23, "avgWeeklyGiveaway": 2349, "avgWeeklySpend": 493423},
+      {"promotion": "55", "startDate": "2016-12-21", "endDate": "2017-01-08", "mechanic": "12", "discount": "04", "storeFormat": "08", "categoryUpliftPct": 0.43, "productUpliftPct": 0.14, "avgWeeklyGiveaway": 1434, "avgWeeklySpend": 344314},
+      {"promotion": "56", "startDate": "2017-03-18", "endDate": "2017-03-22", "mechanic": "05", "discount": "02", "storeFormat": "04", "categoryUpliftPct": 0.62, "productUpliftPct": 0.56, "avgWeeklyGiveaway": 5626, "avgWeeklySpend": 266256},
+      {"promotion": "57", "startDate": "2017-04-15", "endDate": "2017-04-16", "mechanic": "08", "discount": "01", "storeFormat": "02", "categoryUpliftPct": 0.80, "productUpliftPct": 0.38, "avgWeeklyGiveaway": 3803, "avgWeeklySpend": 338038},
+      {"promotion": "58", "startDate": "2017-07-03", "endDate": "2017-07-20", "mechanic": "09", "discount": "04", "storeFormat": "05", "categoryUpliftPct": 0.50, "productUpliftPct": 0.15, "avgWeeklyGiveaway": 1500, "avgWeeklySpend": 605015},
+      {"promotion": "59", "startDate": "2017-09-14", "endDate": "2017-09-19", "mechanic": "10", "discount": "01", "storeFormat": "01", "categoryUpliftPct": 0.29, "productUpliftPct": 0.62, "avgWeeklyGiveaway": 6291, "avgWeeklySpend": 912962},
+      {"promotion": "60", "startDate": "2017-10-12", "endDate": "2017-10-18", "mechanic": "11", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.13, "productUpliftPct": 0.11, "avgWeeklyGiveaway": 1132, "avgWeeklySpend": 321311},
+      {"promotion": "61", "startDate": "2017-05-08", "endDate": "2017-05-12", "mechanic": "13", "discount": "04", "storeFormat": "05", "categoryUpliftPct": 0.01, "productUpliftPct": 0.30, "avgWeeklyGiveaway": 3016, "avgWeeklySpend": 160130},
+      {"promotion": "62", "startDate": "2017-02-05", "endDate": "2017-02-06", "mechanic": "07", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.06, "productUpliftPct": 0.40, "avgWeeklyGiveaway": 4065, "avgWeeklySpend": 650640},
+      {"promotion": "63", "startDate": "2017-08-03", "endDate": "2017-08-10", "mechanic": "14", "discount": "03", "storeFormat": "05", "categoryUpliftPct": 0.34, "productUpliftPct": 0.93, "avgWeeklyGiveaway": 9347, "avgWeeklySpend": 473493},
+      {"promotion": "64", "startDate": "2017-04-04", "endDate": "2017-04-09", "mechanic": "15", "discount": "02", "storeFormat": "01", "categoryUpliftPct": 0.67, "productUpliftPct": 0.36, "avgWeeklyGiveaway": 3679, "avgWeeklySpend": 796736},
+      {"promotion": "65", "startDate": "2017-11-02", "endDate": "2017-11-08", "mechanic": "04", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.43, "productUpliftPct": 0.74, "avgWeeklyGiveaway": 7436, "avgWeeklySpend": 364374},
+      {"promotion": "66", "startDate": "2017-12-18", "endDate": "2017-12-22", "mechanic": "02", "discount": "02", "storeFormat": "08", "categoryUpliftPct": 0.57, "productUpliftPct": 0.55, "avgWeeklyGiveaway": 5570, "avgWeeklySpend": 705755},
+      {"promotion": "67", "startDate": "2017-01-15", "endDate": "2017-01-16", "mechanic": "03", "discount": "03", "storeFormat": "07", "categoryUpliftPct": 0.69, "productUpliftPct": 0.66, "avgWeeklyGiveaway": 6694, "avgWeeklySpend": 946966},
+      {"promotion": "68", "startDate": "2017-03-03", "endDate": "2017-03-20", "mechanic": "01", "discount": "02", "storeFormat": "05", "categoryUpliftPct": 0.54, "productUpliftPct": 0.25, "avgWeeklyGiveaway": 2546, "avgWeeklySpend": 465425},
+      {"promotion": "69", "startDate": "2017-04-14", "endDate": "2017-04-19", "mechanic": "16", "discount": "01", "storeFormat": "03", "categoryUpliftPct": 0.63, "productUpliftPct": 0.36, "avgWeeklyGiveaway": 3633, "avgWeeklySpend": 336336},
+      {"promotion": "70", "startDate": "2017-07-12", "endDate": "2017-07-18", "mechanic": "06", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.43, "productUpliftPct": 0.44, "avgWeeklyGiveaway": 4431, "avgWeeklySpend": 314344},
+      {"promotion": "71", "startDate": "2017-09-08", "endDate": "2017-09-12", "mechanic": "12", "discount": "02", "storeFormat": "03", "categoryUpliftPct": 0.52, "productUpliftPct": 0.95, "avgWeeklyGiveaway": 9527, "avgWeeklySpend": 275295},
+      {"promotion": "72", "startDate": "2017-10-05", "endDate": "2017-10-06", "mechanic": "05", "discount": "03", "storeFormat": "02", "categoryUpliftPct": 0.26, "productUpliftPct": 0.72, "avgWeeklyGiveaway": 7269, "avgWeeklySpend": 692672},
+      {"promotion": "73", "startDate": "2017-05-03", "endDate": "2017-05-10", "mechanic": "08", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.36, "productUpliftPct": 0.33, "avgWeeklyGiveaway": 3365, "avgWeeklySpend": 653633},
+      {"promotion": "74", "startDate": "2017-02-04", "endDate": "2017-02-09", "mechanic": "09", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.24, "productUpliftPct": 0.62, "avgWeeklyGiveaway": 6240, "avgWeeklySpend": 402462},
+      {"promotion": "75", "startDate": "2017-08-02", "endDate": "2017-08-08", "mechanic": "10", "discount": "02", "storeFormat": "07", "categoryUpliftPct": 0.61, "productUpliftPct": 0.86, "avgWeeklyGiveaway": 8614, "avgWeeklySpend": 146186},
+      {"promotion": "76", "startDate": "2017-04-18", "endDate": "2017-04-22", "mechanic": "11", "discount": "03", "storeFormat": "08", "categoryUpliftPct": 0.81, "productUpliftPct": 0.38, "avgWeeklyGiveaway": 3813, "avgWeeklySpend": 138138},
+      {"promotion": "77", "startDate": "2017-11-15", "endDate": "2017-11-16", "mechanic": "13", "discount": "02", "storeFormat": "08", "categoryUpliftPct": 0.81, "productUpliftPct": 0.18, "avgWeeklyGiveaway": 1810, "avgWeeklySpend": 108118},
+      {"promotion": "78", "startDate": "2017-12-03", "endDate": "2017-12-20", "mechanic": "07", "discount": "02", "storeFormat": "01", "categoryUpliftPct": 0.91, "productUpliftPct": 0.99, "avgWeeklyGiveaway": 9919, "avgWeeklySpend": 199199},
+      {"promotion": "79", "startDate": "2017-01-14", "endDate": "2017-01-19", "mechanic": "14", "discount": "03", "storeFormat": "08", "categoryUpliftPct": 0.71, "productUpliftPct": 0.77, "avgWeeklyGiveaway": 7712, "avgWeeklySpend": 127177},
+      {"promotion": "80", "startDate": "2017-03-12", "endDate": "2017-03-18", "mechanic": "15", "discount": "02", "storeFormat": "01", "categoryUpliftPct": 0.51, "productUpliftPct": 0.65, "avgWeeklyGiveaway": 6514, "avgWeeklySpend": 145165},
+      {"promotion": "81", "startDate": "2017-04-08", "endDate": "2017-04-12", "mechanic": "04", "discount": "03", "storeFormat": "03", "categoryUpliftPct": 0.61, "productUpliftPct": 0.56, "avgWeeklyGiveaway": 5616, "avgWeeklySpend": 166156},
+      {"promotion": "82", "startDate": "2017-07-05", "endDate": "2017-07-06", "mechanic": "02", "discount": "01", "storeFormat": "02", "categoryUpliftPct": 0.11, "productUpliftPct": 0.41, "avgWeeklyGiveaway": 4116, "avgWeeklySpend": 161141},
+      {"promotion": "83", "startDate": "2017-09-03", "endDate": "2017-09-10", "mechanic": "03", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.31, "productUpliftPct": 0.33, "avgWeeklyGiveaway": 3313, "avgWeeklySpend": 133133},
+      {"promotion": "84", "startDate": "2017-10-04", "endDate": "2017-10-09", "mechanic": "01", "discount": "01", "storeFormat": "08", "categoryUpliftPct": 0.01, "productUpliftPct": 0.20, "avgWeeklyGiveaway": 2011, "avgWeeklySpend": 110120},
+      {"promotion": "85", "startDate": "2017-05-02", "endDate": "2017-05-08", "mechanic": "16", "discount": "04", "storeFormat": "07", "categoryUpliftPct": 0.21, "productUpliftPct": 0.92, "avgWeeklyGiveaway": 9210, "avgWeeklySpend": 102192},
+      {"promotion": "86", "startDate": "2017-02-18", "endDate": "2017-02-22", "mechanic": "06", "discount": "04", "storeFormat": "04", "categoryUpliftPct": 0.41, "productUpliftPct": 0.74, "avgWeeklyGiveaway": 7418, "avgWeeklySpend": 184174},
+      {"promotion": "87", "startDate": "2017-08-15", "endDate": "2017-08-16", "mechanic": "12", "discount": "01", "storeFormat": "05", "categoryUpliftPct": 0.61, "productUpliftPct": 0.36, "avgWeeklyGiveaway": 3610, "avgWeeklySpend": 106136},
+      {"promotion": "88", "startDate": "2017-04-03", "endDate": "2017-04-20", "mechanic": "05", "discount": "04", "storeFormat": "02", "categoryUpliftPct": 0.51, "productUpliftPct": 0.25, "avgWeeklyGiveaway": 2516, "avgWeeklySpend": 165125},
+      {"promotion": "89", "startDate": "2017-11-14", "endDate": "2017-11-19", "mechanic": "08", "discount": "01", "storeFormat": "04", "categoryUpliftPct": 0.21, "productUpliftPct": 0.12, "avgWeeklyGiveaway": 1217, "avgWeeklySpend": 172112},
+      {"promotion": "90", "startDate": "2017-12-12", "endDate": "2017-12-18", "mechanic": "09", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.41, "productUpliftPct": 0.34, "avgWeeklyGiveaway": 3419, "avgWeeklySpend": 194134},
+      {"promotion": "91", "startDate": "2017-01-08", "endDate": "2017-01-12", "mechanic": "10", "discount": "03", "storeFormat": "03", "categoryUpliftPct": 0.61, "productUpliftPct": 0.46, "avgWeeklyGiveaway": 4610, "avgWeeklySpend": 106146},
+      {"promotion": "92", "startDate": "2017-03-05", "endDate": "2017-03-06", "mechanic": "11", "discount": "02", "storeFormat": "01", "categoryUpliftPct": 0.22, "productUpliftPct": 0.62, "avgWeeklyGiveaway": 6221, "avgWeeklySpend": 212262},
+      {"promotion": "93", "startDate": "2017-04-03", "endDate": "2017-04-10", "mechanic": "13", "discount": "02", "storeFormat": "06", "categoryUpliftPct": 0.43, "productUpliftPct": 0.34, "avgWeeklyGiveaway": 3431, "avgWeeklySpend": 314334},
+      {"promotion": "94", "startDate": "2017-07-04", "endDate": "2017-07-09", "mechanic": "07", "discount": "03", "storeFormat": "07", "categoryUpliftPct": 0.54, "productUpliftPct": 0.55, "avgWeeklyGiveaway": 5541, "avgWeeklySpend": 415455},
+      {"promotion": "95", "startDate": "2017-09-02", "endDate": "2017-09-08", "mechanic": "14", "discount": "01", "storeFormat": "08", "categoryUpliftPct": 0.91, "productUpliftPct": 0.89, "avgWeeklyGiveaway": 8911, "avgWeeklySpend": 119189},
+      {"promotion": "96", "startDate": "2017-10-18", "endDate": "2017-10-22", "mechanic": "15", "discount": "03", "storeFormat": "04", "categoryUpliftPct": 0.61, "productUpliftPct": 0.76, "avgWeeklyGiveaway": 7611, "avgWeeklySpend": 116176},
+      {"promotion": "97", "startDate": "2017-05-15", "endDate": "2017-05-16", "mechanic": "04", "discount": "01", "storeFormat": "06", "categoryUpliftPct": 0.88, "productUpliftPct": 0.68, "avgWeeklyGiveaway": 6881, "avgWeeklySpend": 818868},
+      {"promotion": "98", "startDate": "2017-02-03", "endDate": "2017-02-20", "mechanic": "02", "discount": "03", "storeFormat": "05", "categoryUpliftPct": 0.45, "productUpliftPct": 0.44, "avgWeeklyGiveaway": 4451, "avgWeeklySpend": 514544},
+      {"promotion": "99", "startDate": "2017-08-14", "endDate": "2017-08-19", "mechanic": "03", "discount": "04", "storeFormat": "05", "categoryUpliftPct": 0.68, "productUpliftPct": 0.26, "avgWeeklyGiveaway": 2685, "avgWeeklySpend": 856826}
+    ],
+    "summaryData": {
+      "metadata": {
+        "filters": [
+          {
+            "id": "summaryType",
+            "name": "Summary Type",
+            "defaultSelectedIndex": 0,
+            "selection": "single",
+            "type": "items",
+            "values": [
+              {"id": "all", "name": "All Transactions"},
+              {"id": "promotion", "name": "Promotion Transactions"}
+            ]
+          }
+        ]
+      },
+      "columns": [
+        {
+          "id": "week",
+          "name": "Week",
+          "format": {
+            "type": "period",
+            "period": "week",
+            "weekStartDay": 0
+          }
+        },
+        {
+          "id": "spend",
+          "name": "Spend",
+          "format": {
+            "type": "currency",
+            "code": "USD",
+            "decimals": 0
+          }
+        },
+        {
+          "id": "pctUnitsOnDeal",
+          "name": "% Units on Deal",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        }
+      ],
+      "rows": {
+        "all": [
+          {"week": "2016-12-04", "spend": 276763, "pctUnitsOnDeal": 0.267},
+          {"week": "2016-12-11", "spend": 563634, "pctUnitsOnDeal": 0.236},
+          {"week": "2016-12-18", "spend": 664644, "pctUnitsOnDeal": 0.546},
+          {"week": "2016-12-25", "spend": 812128, "pctUnitsOnDeal": 0.621},
+          {"week": "2017-01-01", "spend": 365655, "pctUnitsOnDeal": 0.856},
+          {"week": "2017-01-08", "spend": 258583, "pctUnitsOnDeal": 0.385},
+          {"week": "2017-01-15", "spend": 421214, "pctUnitsOnDeal": 0.212},
+          {"week": "2017-01-22", "spend": 682827, "pctUnitsOnDeal": 0.428},
+          {"week": "2017-01-29", "spend": 844445, "pctUnitsOnDeal": 0.644},
+          {"week": "2017-02-05", "spend": 853538, "pctUnitsOnDeal": 0.835},
+          {"week": "2017-02-12", "spend": 648488, "pctUnitsOnDeal": 0.884},
+          {"week": "2017-02-19", "spend": 437376, "pctUnitsOnDeal": 0.673},
+          {"week": "2017-02-26", "spend": 234342, "pctUnitsOnDeal": 0.443},
+          {"week": "2017-03-05", "spend": 113136, "pctUnitsOnDeal": 0.231},
+          {"week": "2017-03-12", "spend": 149497, "pctUnitsOnDeal": 0.194},
+          {"week": "2017-03-19", "spend": 128283, "pctUnitsOnDeal": 0.182},
+          {"week": "2017-03-26", "spend": 136365, "pctUnitsOnDeal": 0.163},
+          {"week": "2017-04-02", "spend": 173736, "pctUnitsOnDeal": 0.137},
+          {"week": "2017-04-09", "spend": 181814, "pctUnitsOnDeal": 0.118},
+          {"week": "2017-04-16", "spend": 196966, "pctUnitsOnDeal": 0.169},
+          {"week": "2017-04-23", "spend": 611114, "pctUnitsOnDeal": 0.111},
+          {"week": "2017-04-30", "spend": 773735, "pctUnitsOnDeal": 0.637},
+          {"week": "2017-05-07", "spend": 542423, "pctUnitsOnDeal": 0.724},
+          {"week": "2017-05-14", "spend": 476767, "pctUnitsOnDeal": 0.567},
+          {"week": "2017-05-21", "spend": 333333, "pctUnitsOnDeal": 0.433},
+          {"week": "2017-05-28", "spend": 545456, "pctUnitsOnDeal": 0.354},
+          {"week": "2017-06-04", "spend": 675755, "pctUnitsOnDeal": 0.557},
+          {"week": "2017-06-11", "spend": 740403, "pctUnitsOnDeal": 0.604},
+          {"week": "2017-06-18", "spend": 862625, "pctUnitsOnDeal": 0.726},
+          {"week": "2017-06-25", "spend": 529293, "pctUnitsOnDeal": 0.892},
+          {"week": "2017-07-02", "spend": 371713, "pctUnitsOnDeal": 0.517},
+          {"week": "2017-07-09", "spend": 296965, "pctUnitsOnDeal": 0.369},
+          {"week": "2017-07-16", "spend": 502026, "pctUnitsOnDeal": 0.220},
+          {"week": "2017-07-23", "spend": 329291, "pctUnitsOnDeal": 0.592},
+          {"week": "2017-07-30", "spend": 248487, "pctUnitsOnDeal": 0.384},
+          {"week": "2017-08-06", "spend": 222226, "pctUnitsOnDeal": 0.222},
+          {"week": "2017-08-13", "spend": 765653, "pctUnitsOnDeal": 0.256},
+          {"week": "2017-08-20", "spend": 859594, "pctUnitsOnDeal": 0.795},
+          {"week": "2017-08-27", "spend": 931316, "pctUnitsOnDeal": 0.813},
+          {"week": "2017-09-03", "spend": 825258, "pctUnitsOnDeal": 0.952},
+          {"week": "2017-09-10", "spend": 745456, "pctUnitsOnDeal": 0.854},
+          {"week": "2017-09-17", "spend": 122226, "pctUnitsOnDeal": 0.722},
+          {"week": "2017-09-24", "spend": 815156, "pctUnitsOnDeal": 0.151},
+          {"week": "2017-10-01", "spend": 933339, "pctUnitsOnDeal": 0.833},
+          {"week": "2017-10-08", "spend": 570701, "pctUnitsOnDeal": 0.907},
+          {"week": "2017-10-15", "spend": 545453, "pctUnitsOnDeal": 0.554},
+          {"week": "2017-10-22", "spend": 302025, "pctUnitsOnDeal": 0.520},
+          {"week": "2017-10-29", "spend": 347478, "pctUnitsOnDeal": 0.374},
+          {"week": "2017-11-05", "spend": 534342, "pctUnitsOnDeal": 0.343},
+          {"week": "2017-11-12", "spend": 756567, "pctUnitsOnDeal": 0.565},
+          {"week": "2017-11-19", "spend": 573733, "pctUnitsOnDeal": 0.737},
+          {"week": "2017-11-26", "spend": 463636, "pctUnitsOnDeal": 0.536},
+          {"week": "2017-12-03", "spend": 395954, "pctUnitsOnDeal": 0.459},
+          {"week": "2017-12-10", "spend": 373737, "pctUnitsOnDeal": 0.337},
+          {"week": "2017-12-17", "spend": 485852, "pctUnitsOnDeal": 0.358},
+          {"week": "2017-12-24", "spend": 552528, "pctUnitsOnDeal": 0.425},
+          {"week": "2017-12-31", "spend": 715153, "pctUnitsOnDeal": 0.551},
+          {"week": "2018-01-07", "spend": 832328, "pctUnitsOnDeal": 0.723},
+          {"week": "2018-01-14", "spend": 621211, "pctUnitsOnDeal": 0.812},
+          {"week": "2018-01-21", "spend": 448485, "pctUnitsOnDeal": 0.684}
+        ],
+        "promotion": [
+          {"week": "2016-12-04", "spend": 152763, "pctUnitsOnDeal": 0.276},
+          {"week": "2016-12-11", "spend": 135634, "pctUnitsOnDeal": 0.563},
+          {"week": "2016-12-18", "spend": 156644, "pctUnitsOnDeal": 0.664},
+          {"week": "2016-12-25", "spend": 188128, "pctUnitsOnDeal": 0.812},
+          {"week": "2017-01-01", "spend": 133655, "pctUnitsOnDeal": 0.365},
+          {"week": "2017-01-08", "spend": 152583, "pctUnitsOnDeal": 0.258},
+          {"week": "2017-01-15", "spend": 174214, "pctUnitsOnDeal": 0.421},
+          {"week": "2017-01-22", "spend": 116827, "pctUnitsOnDeal": 0.682},
+          {"week": "2017-01-29", "spend": 198445, "pctUnitsOnDeal": 0.844},
+          {"week": "2017-02-05", "spend": 148538, "pctUnitsOnDeal": 0.853},
+          {"week": "2017-02-12", "spend": 116488, "pctUnitsOnDeal": 0.648},
+          {"week": "2017-02-19", "spend": 114376, "pctUnitsOnDeal": 0.437},
+          {"week": "2017-02-26", "spend": 122342, "pctUnitsOnDeal": 0.234},
+          {"week": "2017-03-05", "spend": 151136, "pctUnitsOnDeal": 0.113},
+          {"week": "2017-03-12", "spend": 141497, "pctUnitsOnDeal": 0.149},
+          {"week": "2017-03-19", "spend": 171283, "pctUnitsOnDeal": 0.128},
+          {"week": "2017-03-26", "spend": 191365, "pctUnitsOnDeal": 0.136},
+          {"week": "2017-04-02", "spend": 171736, "pctUnitsOnDeal": 0.173},
+          {"week": "2017-04-09", "spend": 151814, "pctUnitsOnDeal": 0.181},
+          {"week": "2017-04-16", "spend": 131966, "pctUnitsOnDeal": 0.196},
+          {"week": "2017-04-23", "spend": 156114, "pctUnitsOnDeal": 0.611},
+          {"week": "2017-04-30", "spend": 117735, "pctUnitsOnDeal": 0.773},
+          {"week": "2017-05-07", "spend": 115423, "pctUnitsOnDeal": 0.542},
+          {"week": "2017-05-14", "spend": 124767, "pctUnitsOnDeal": 0.476},
+          {"week": "2017-05-21", "spend": 143333, "pctUnitsOnDeal": 0.333},
+          {"week": "2017-05-28", "spend": 165456, "pctUnitsOnDeal": 0.545},
+          {"week": "2017-06-04", "spend": 146755, "pctUnitsOnDeal": 0.675},
+          {"week": "2017-06-11", "spend": 187403, "pctUnitsOnDeal": 0.740},
+          {"week": "2017-06-18", "spend": 108625, "pctUnitsOnDeal": 0.862},
+          {"week": "2017-06-25", "spend": 115293, "pctUnitsOnDeal": 0.529},
+          {"week": "2017-07-02", "spend": 113713, "pctUnitsOnDeal": 0.371},
+          {"week": "2017-07-09", "spend": 142965, "pctUnitsOnDeal": 0.296},
+          {"week": "2017-07-16", "spend": 155026, "pctUnitsOnDeal": 0.502},
+          {"week": "2017-07-23", "spend": 133291, "pctUnitsOnDeal": 0.329},
+          {"week": "2017-07-30", "spend": 182487, "pctUnitsOnDeal": 0.248},
+          {"week": "2017-08-06", "spend": 102226, "pctUnitsOnDeal": 0.222},
+          {"week": "2017-08-13", "spend": 187653, "pctUnitsOnDeal": 0.765},
+          {"week": "2017-08-20", "spend": 168594, "pctUnitsOnDeal": 0.859},
+          {"week": "2017-08-27", "spend": 149316, "pctUnitsOnDeal": 0.931},
+          {"week": "2017-09-03", "spend": 138258, "pctUnitsOnDeal": 0.825},
+          {"week": "2017-09-10", "spend": 127456, "pctUnitsOnDeal": 0.745},
+          {"week": "2017-09-17", "spend": 161226, "pctUnitsOnDeal": 0.122},
+          {"week": "2017-09-24", "spend": 178156, "pctUnitsOnDeal": 0.815},
+          {"week": "2017-10-01", "spend": 149339, "pctUnitsOnDeal": 0.933},
+          {"week": "2017-10-08", "spend": 145701, "pctUnitsOnDeal": 0.570},
+          {"week": "2017-10-15", "spend": 155453, "pctUnitsOnDeal": 0.545},
+          {"week": "2017-10-22", "spend": 143025, "pctUnitsOnDeal": 0.302},
+          {"week": "2017-10-29", "spend": 113478, "pctUnitsOnDeal": 0.347},
+          {"week": "2017-11-05", "spend": 175342, "pctUnitsOnDeal": 0.534},
+          {"week": "2017-11-12", "spend": 127567, "pctUnitsOnDeal": 0.756},
+          {"week": "2017-11-19", "spend": 195733, "pctUnitsOnDeal": 0.573},
+          {"week": "2017-11-26", "spend": 134636, "pctUnitsOnDeal": 0.463},
+          {"week": "2017-12-03", "spend": 143954, "pctUnitsOnDeal": 0.395},
+          {"week": "2017-12-10", "spend": 163737, "pctUnitsOnDeal": 0.373},
+          {"week": "2017-12-17", "spend": 124852, "pctUnitsOnDeal": 0.485},
+          {"week": "2017-12-24", "spend": 185528, "pctUnitsOnDeal": 0.552},
+          {"week": "2017-12-31", "spend": 187153, "pctUnitsOnDeal": 0.715},
+          {"week": "2018-01-07", "spend": 158328, "pctUnitsOnDeal": 0.832},
+          {"week": "2018-01-14", "spend": 196211, "pctUnitsOnDeal": 0.621},
+          {"week": "2018-01-21", "spend": 144485, "pctUnitsOnDeal": 0.448}
+        ]
+      }
+    },
+    "drillDownData": {
+      "products": {
+        "columns": [
+          {
+            "id": "product",
+            "name": "Product",
+            "format": {
+              "type": "lookup",
+              "lookup": {
+                "01": "Product 01",
+                "02": "Product 02",
+                "03": "Product 03",
+                "04": "Product 04",
+                "05": "Product 05",
+                "06": "Product 06",
+                "07": "Product 07",
+                "08": "Product 08",
+                "09": "Product 09",
+                "10": "Product 10"
+              }
+            }
+          }
+        ],
+        "rows": {
+          "55": [
+            {"product": "01"},
+            {"product": "03"},
+            {"product": "04"},
+            {"product": "07"},
+            {"product": "08"}
+          ],
+          "19": [
+            {"product": "02"},
+            {"product": "04"},
+            {"product": "05"},
+            {"product": "06"},
+            {"product": "09"}
+          ],
+          "38": [
+            {"product": "02"},
+            {"product": "03"},
+            {"product": "07"},
+            {"product": "08"},
+            {"product": "10"}
+          ]
+        }
+      },
+      "locations": {
+        "columns": [
+          {
+            "id": "location",
+            "name": "Location",
+            "format": {
+              "type": "lookup",
+              "lookup": {
+                "01": "Store 01",
+                "02": "Store 02",
+                "03": "Store 03",
+                "04": "Store 04",
+                "05": "Store 05",
+                "06": "Store 06",
+                "07": "Store 07",
+                "08": "Store 08",
+                "09": "Store 09",
+                "10": "Store 10"
+              }
+            }
+          },
+          {
+            "id": "pricePoint",
+            "name": "Price Point",
+            "format": {
+              "type": "variable"
+            }
+          }
+        ],
+        "rows": {
+          "55": [
+            {"location": "01", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "03", "pricePoint": {"value": "2 for $3"}},
+            {"location": "04", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+          ],
+          "19": [
+            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "04", "pricePoint": {"value": "2 for $3", "format": {"type": "text"}}},
+            {"location": "05", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "06", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "09", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+          ],
+          "38": [
+            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "03", "pricePoint": {"value": "2 for $3", "format": {"type": "text"}}},
+            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "10", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+          ]
+        }
+      }
+    }
+  }
+}

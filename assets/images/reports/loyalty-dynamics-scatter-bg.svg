@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 100 100"
+	width="100"
+	height="100"
+	preserveAspectRatio="none"
+	>
+
+	<g>
+
+		<!-- Switching (pink) -->
+		<path fill="#db88c3" d="M0,0 L0,49.75 L25,74.75 L99.75,0 L0,0 z"/>
+
+		<!-- Existing (blue) -->
+		<path fill="#9fd4f5" d="M0,50.25 L0,100 L49.75,100 L0,50.25 z"/>
+
+		<!-- New (cornflower) -->
+		<path fill="#afb9da" d="M100,0.25 L25.25,75 L50.25,100 L100,100 L100,0.25 z"/>
+
+	</g>
+
+</svg>

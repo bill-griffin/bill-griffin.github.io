@@ -1,0 +1,381 @@
+{
+  "data": {
+    "promotion": {
+      "columns": [
+        {
+          "id": "promotionKey",
+          "name": "Promotion",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "1995002": "AQUAFINA SPARKLING SCHWEPPES SELTZER SPK 8 PK 12Z"
+            }
+          }
+        },
+        {
+          "id": "startDate",
+          "name": "Start Date",
+          "format": {"type": "date"}
+        },
+        {
+          "id": "endDate",
+          "name": "End Date",
+          "format": {"type": "date"}
+        }
+      ],
+      "rows": [
+        {"promotionKey": "1995002", "startDate": "2017-10-29", "endDate": "2017-11-12"}
+      ]
+    },
+    "metadata": {
+      "filters": [
+        {
+          "id": "measure",
+          "name": "Measure",
+          "type": "items",
+          "selection": "single",
+          "defaultSelectedIndex": 0,
+          "values": [
+            {"id": "spend", "name": "Spend"},
+            {"id": "units", "name": "Units"},
+            {"id": "custs", "name": "Customers"},
+            {"id": "visits", "name": "Visits"}
+          ]
+        }
+      ],
+      "measureFormats": {
+        "spend": {"type": "currency", "code": "USD", "decimals": 2},
+        "units": {"type": "integer"},
+        "custs": {"type": "integer"},
+        "visits": {"type": "integer"}
+      }
+    },
+    "contribution": {
+      "columns": [
+        {
+          "id": "measure",
+          "name": "Measure",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "baseline": "Baseline",
+              "productUplift": "Product Uplift",
+              "pullForward": "Pull Forward",
+              "cannibalisation": "Cannibalisation",
+              "categoryUplift": "Category Uplift"
+            }
+          }
+        }
+      ],
+      "rows": [
+        {"measure": "baseline",        "spend":  1995, "units":  248, "custs":  322, "visits":  573},
+        {"measure": "productUplift",   "spend":  4578, "units":  431, "custs":  268, "visits":  267},
+        {"measure": "pullForward",     "spend": -1249, "units": -135, "custs": -103, "visits":  -48},
+        {"measure": "cannibalisation", "spend":  -461, "units": -179, "custs":  -52, "visits":  -21},
+        {"measure": "categoryUplift",  "spend":  2868, "units":  117, "custs":  113, "visits":  198}
+      ]
+    },
+    "timeline": {
+      "columns": [
+        {
+          "id": "week",
+          "name": "Week",
+          "format": {
+            "type": "period",
+            "period": "week",
+            "weekStartDay": 0
+          }
+        },
+        {
+          "id": "baseline",
+          "name": "Baseline"
+        },
+        {
+          "id": "productUplift",
+          "name": "Product Uplift"
+        }
+      ],
+      "rows": [
+        {
+          "week": "2017-10-17",
+          "spend": {"baseline": 127},
+          "units": {"baseline": 147},
+          "custs": {"baseline": 161},
+          "visits": {"baseline": 134}
+        },
+        {
+          "week": "2017-09-24",
+          "spend": {"baseline": 145},
+          "units": {"baseline": 152},
+          "custs": {"baseline": 119},
+          "visits": {"baseline": 148}
+        },
+        {
+          "week": "2017-10-01",
+          "spend": {"baseline": 151},
+          "units": {"baseline": 116},
+          "custs": {"baseline": 121},
+          "visits": {"baseline": 141}
+        },
+        {
+          "week": "2017-10-08",
+          "spend": {"baseline": 134},
+          "units": {"baseline": 182},
+          "custs": {"baseline": 137},
+          "visits": {"baseline": 148}
+        },
+        {
+          "week": "2017-10-15",
+          "spend": {"baseline": 128},
+          "units": {"baseline": 143},
+          "custs": {"baseline": 181},
+          "visits": {"baseline": 109}
+        },
+        {
+          "week": "2017-10-22",
+          "spend": {"baseline": 141},
+          "units": {"baseline": 131},
+          "custs": {"baseline": 128},
+          "visits": {"baseline": 139}
+        },
+        {
+          "week": "2017-10-29",
+          "spend": {"baseline": 141, "productUplift": 134},
+          "units": {"baseline": 176, "productUplift": 183},
+          "custs": {"baseline": 134, "productUplift": 120},
+          "visits": {"baseline": 172, "productUplift": 175}
+        },
+        {
+          "week": "2017-11-05",
+          "spend": {"baseline": 152, "productUplift": 142},
+          "units": {"baseline": 148, "productUplift": 112},
+          "custs": {"baseline": 138, "productUplift": 192},
+          "visits": {"baseline": 122, "productUplift": 150}
+        },
+        {
+          "week": "2017-11-12",
+          "spend": {"baseline": 185},
+          "units": {"baseline": 172},
+          "custs": {"baseline": 148},
+          "visits": {"baseline": 118}
+        },
+        {
+          "week": "2017-11-19",
+          "spend": {"baseline": 162},
+          "units": {"baseline": 187},
+          "custs": {"baseline": 114},
+          "visits": {"baseline": 149}
+        },
+        {
+          "week": "2017-11-26",
+          "spend": {"baseline": 149},
+          "units": {"baseline": 151},
+          "custs": {"baseline": 123},
+          "visits": {"baseline": 198}
+        },
+        {
+          "week": "2017-12-03",
+          "spend": {"baseline": 123},
+          "units": {"baseline": 186},
+          "custs": {"baseline": 101},
+          "visits": {"baseline": 149}
+        },
+        {
+          "week": "2017-12-10",
+          "spend": {"baseline": 137},
+          "units": {"baseline": 159},
+          "custs": {"baseline": 139},
+          "visits": {"baseline": 176}
+        },
+        {
+          "week": "2017-12-17",
+          "spend": {"baseline": 151},
+          "units": {"baseline": 146},
+          "custs": {"baseline": 129},
+          "visits": {"baseline": 189}
+        }
+      ]
+    },
+    "kpis": {
+      "columns": [
+        {
+          "id": "existingCustomers",
+          "name": "Existing Customers",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        },
+        {
+          "id": "switchers",
+          "name": "Switchers",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        },
+        {
+          "id": "increasedRepertoire",
+          "name": "Increased Repertoire",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        },
+        {
+          "id": "newToCategory",
+          "name": "New to Category",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        }
+      ],
+      "columnColorCodes": {
+        "existingCustomers" : {
+          "spend":  {"colors": [{"threshold": 0.50}, {"threshold": 0.70}]},
+          "units":  {"colors": [{"threshold": 0.40}, {"threshold": 0.60}]},
+          "custs":  {"colors": [{"threshold": 0.30}, {"threshold": 0.50}]},
+          "visits": {"colors": [{"threshold": 0.20}, {"threshold": 0.40}]}
+        },
+        "switchers" : {
+          "spend":  {"colors": [{"threshold": 0.60}, {"threshold": 0.80}]},
+          "units":  {"colors": [{"threshold": 0.50}, {"threshold": 0.70}]},
+          "custs":  {"colors": [{"threshold": 0.40}, {"threshold": 0.60}]},
+          "visits": {"colors": [{"threshold": 0.30}, {"threshold": 0.50}]}
+        },
+        "increasedRepertoire" : {
+          "spend":  {"colors": [{"threshold": 0.20}, {"threshold": 0.40}]},
+          "units":  {"colors": [{"threshold": 0.30}, {"threshold": 0.50}]},
+          "custs":  {"colors": [{"threshold": 0.40}, {"threshold": 0.60}]},
+          "visits": {"colors": [{"threshold": 0.50}, {"threshold": 0.70}]}
+        },
+        "newToCategory" : {
+          "spend":  {"colors": [{"threshold": 0.30}, {"threshold": 0.50}]},
+          "units":  {"colors": [{"threshold": 0.40}, {"threshold": 0.60}]},
+          "custs":  {"colors": [{"threshold": 0.50}, {"threshold": 0.70}]},
+          "visits": {"colors": [{"threshold": 0.60}, {"threshold": 0.80}]}
+        }
+      },
+      "rows": {
+        "spend":  [{"existingCustomers": 0.367, "switchers": 0.650, "increasedRepertoire": 0.350, "newToCategory": 0.487}],
+        "units":  [{"existingCustomers": 0.750, "switchers": 0.500, "increasedRepertoire": 0.435, "newToCategory": 0.563}],
+        "custs":  [{"existingCustomers": 0.667, "switchers": 0.300, "increasedRepertoire": 0.646, "newToCategory": 0.615}],
+        "visits": [{"existingCustomers": 0.119, "switchers": 0.247, "increasedRepertoire": 0.753, "newToCategory": 0.746}]
+      }
+    },
+    "products": {
+      "columns": [
+        {
+          "id": "product",
+          "name": "Product",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "1": "Product 1 with a long name lorem ipsum sit amet",
+              "2": "Product 2",
+              "3": "Product 3",
+              "4": "Product 4",
+              "5": "Product 5",
+              "6": "Product 6",
+              "7": "Product 7",
+              "8": "Product 8"
+            }
+          }
+        },
+        {
+          "id": "uplift",
+          "name": "Uplift"
+        },
+        {
+          "id": "pctUplift",
+          "name": "% Uplift",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        },
+        {
+          "id": "space",
+          "name": "Space",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "pl": "PL"
+            }
+          }
+        },
+        {
+          "id": "media",
+          "name": "Media",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "mix": "MIX",
+              "leaf": "LEAF"
+            }
+          }
+        }
+      ],
+      "measureColumnIds": ["uplift", "pctUplift"],
+      "rows": [
+        {
+          "product": 1, "space": "pl", "media": "mix",
+          "spend":  {"uplift": 111, "pctUplift": 0.112},
+          "units":  {"uplift": 121, "pctUplift": 0.122},
+          "custs":  {"uplift": 131, "pctUplift": 0.132},
+          "visits": {"uplift": 141, "pctUplift": 0.142}
+        },
+        {
+          "product": 2, "media": "leaf",
+          "spend":  {"uplift": 0, "pctUplift": 0},
+          "units":  {"uplift": 0, "pctUplift": 0},
+          "custs":  {"uplift": 0, "pctUplift": 0},
+          "visits": {"uplift": 0, "pctUplift": 0}
+        },
+        {
+          "product": 3, "space": "pl",
+          "spend":  {"uplift": -311, "pctUplift": -0.312},
+          "units":  {"uplift": -321, "pctUplift": -0.322},
+          "custs":  {"uplift": -331, "pctUplift": -0.332},
+          "visits": {"uplift": -341, "pctUplift": -0.342}
+        },
+        {
+          "product": 4, "space": "pl",
+          "spend":  {"uplift": 411, "pctUplift": 0.412},
+          "units":  {"uplift": 421, "pctUplift": 0.422},
+          "custs":  {"uplift": 431, "pctUplift": 0.432},
+          "visits": {"uplift": 441, "pctUplift": 0.442}
+        },
+        {
+          "product": 5, "media": "mix",
+          "spend":  {"uplift": -511, "pctUplift": -0.512},
+          "units":  {"uplift": -521, "pctUplift": -0.522},
+          "custs":  {"uplift": -531, "pctUplift": -0.532},
+          "visits": {"uplift": -541, "pctUplift": -0.542}
+        },
+        {
+          "product": 6,
+          "spend":  {"uplift": 611, "pctUplift": 0.612},
+          "units":  {"uplift": 621, "pctUplift": 0.622},
+          "custs":  {"uplift": 631, "pctUplift": 0.632},
+          "visits": {"uplift": 641, "pctUplift": 0.642}
+        },
+        {
+          "product": 7, "media": "leaf",
+          "spend":  {"uplift": 711, "pctUplift": 0.712},
+          "units":  {"uplift": 721, "pctUplift": 0.722},
+          "custs":  {"uplift": 731, "pctUplift": 0.732},
+          "visits": {"uplift": 741, "pctUplift": 0.742}
+        },
+        {
+          "product": 8, "space": "pl",
+          "spend":  {"uplift": 811, "pctUplift": 0.812},
+          "units":  {"uplift": 821, "pctUplift": 0.822},
+          "custs":  {"uplift": 831, "pctUplift": 0.832},
+          "visits": {"uplift": 841, "pctUplift": 0.842}
+        }
+      ]
+    }
+  }
+}

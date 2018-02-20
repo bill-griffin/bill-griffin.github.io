@@ -1,0 +1,187 @@
+{
+  "data": {
+    "columns": [
+      {
+        "id": "number",
+        "name": "",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "999": " "
+          }
+        }
+      },
+      {
+        "id": "type",
+        "name": "Type",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "1": "Sales & Margin Driver",
+            "2": "Good Trade-Off",
+            "3": "Expensive",
+            "4": "Sales Dilutive",
+            "5": "Low Impact",
+            "999": "Total"
+          }
+        }
+      },
+      {
+        "id": "numberOfPromotions",
+        "name": "# Promotions",
+        "format": {
+          "type": "integer"
+        }
+      },
+      {
+        "id": "increasedSales",
+        "name": "Increased Sales",
+        "format": {
+          "type": "currency",
+          "code": "GBP",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "increasedSalesPct",
+        "name": "Increased Sales %",
+        "format": {
+          "type": "percent",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "sales",
+        "name": "Sales",
+        "format": {
+          "type": "currency",
+          "code": "GBP",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "salesPct",
+        "name": "Sales %",
+        "format": {
+          "type": "percent",
+          "decimals": 0
+        }
+      },
+      {
+        "id": "index",
+        "name": "Index",
+        "format": {
+          "type": "integer"
+        }
+      }
+    ],
+    "rows": [
+      {
+        "number": 1,
+        "type": 1,
+        "numberOfPromotions": 234,
+        "increasedSales": 1111,
+        "increasedSalesPct": 0.50,
+        "sales": 11111,
+        "salesPct": 0.45,
+        "index": 111
+      },
+      {
+        "number": 2,
+        "type": 2,
+        "numberOfPromotions": 262,
+        "increasedSales": 2222,
+        "increasedSalesPct": 0.24,
+        "sales": 22222,
+        "salesPct": 0.22,
+        "index": 109
+      },
+      {
+        "number": 3,
+        "type": 3,
+        "numberOfPromotions": 324,
+        "increasedSales": 3333,
+        "increasedSalesPct": 0.21,
+        "sales": 33333,
+        "salesPct": 0.20,
+        "index": 102
+      },
+      {
+        "number": 4,
+        "type": 4,
+        "numberOfPromotions": 485,
+        "increasedSales": 4444,
+        "increasedSalesPct": 0.02,
+        "sales": 44444,
+        "salesPct": 0.10,
+        "index": 20
+      },
+      {
+        "number": 5,
+        "type": 5,
+        "numberOfPromotions": 102,
+        "increasedSales": 5555,
+        "increasedSalesPct": 0.03,
+        "sales": 55555,
+        "salesPct": 0.03,
+        "index": 100
+      },
+      {
+        "number": 999,
+        "type": 999,
+        "numberOfPromotions": 1234,
+        "increasedSales": 16665,
+        "increasedSalesPct": 0.50,
+        "sales": 166665,
+        "salesPct": 0.45,
+        "index": 100
+      }
+    ],
+    "detailData": {
+      "columns": [
+        {
+          "id": "promotion",
+          "name": "Promotion",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "1": "Promotion 1",
+              "2": "Promotion 2",
+              "3": "Promotion 3",
+              "4": "Promotion 4",
+              "5": "Promotion 5"
+            }
+          }
+        },
+        {
+          "id": "margin",
+          "name": "Margin",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        },
+        {
+          "id": "sales",
+          "name": "Sales",
+          "format": {
+            "type": "percent",
+            "decimals": 1
+          }
+        }
+      ],
+      "rows": [
+        {"promotion": 1, "margin":  0.75, "sales":  0.75},
+        {"promotion": 2, "margin": -0.25, "sales":  0.75},
+        {"promotion": 3, "margin": -0.75, "sales":  0.25},
+        {"promotion": 4, "margin": -0.75, "sales": -0.75},
+        {"promotion": 5, "margin":  0.05, "sales":  0.05}
+      ]
+    }
+  }
+}

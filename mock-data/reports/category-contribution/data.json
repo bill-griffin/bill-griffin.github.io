@@ -1,0 +1,82 @@
+{
+  "data": {
+    "columns": [
+      {
+        "id": "breakdown",
+        "name": "Breakdown",
+        "format": {
+          "type": "lookup",
+          "lookup": {
+            "baseline": "Baseline",
+            "productUplift": "Product Uplift",
+            "pullForward": "Pull Forward",
+            "cannibalisation": "Cannibalisation",
+            "categoryUplift": "Category Uplift"
+          }
+        }
+      },
+      {
+        "id": "spend",
+        "name": "Spend",
+        "format": {
+          "type": "currency",
+          "code": "USD",
+          "decimals": 0
+        }
+      }
+    ],
+    "rows": [
+      {"breakdown": "baseline", "spend": 1995},
+      {"breakdown": "productUplift", "spend": 4578},
+      {"breakdown": "pullForward", "spend": -1249},
+      {"breakdown": "cannibalisation", "spend": -461},
+      {"breakdown": "categoryUplift", "spend": 2868}
+    ],
+    "drillDownData": {
+      "columns": [
+        {
+          "id": "promotion",
+          "name": "Promotion",
+          "format": {
+            "type": "lookup",
+            "lookup": {
+              "123": "(Promotion 123)",
+              "234": "(Promotion 234)",
+              "345": "(Promotion 345)",
+              "456": "(Promotion 456)",
+              "567": "(Promotion 567)",
+              "678": "(Promotion 678)",
+              "789": "(Promotion 789)",
+              "890": "(Promotion 890)",
+              "012": "(Promotion 012)",
+              "246": "(Promotion 246)",
+              "468": "(Promotion 468)",
+              "802": "(Promotion 802)"
+            }
+          }
+        },
+        {
+          "id": "startDate",
+          "name": "Start Date",
+          "format": {
+            "type": "date"
+          }
+        }
+      ],
+      "rows": [
+        {"promotion": 123,   "startDate": "2017-07-22", "spend": {"baseline":  1200, "productUplift":  400, "pullForward":  400, "cannibalisation":  400, "categoryUplift":  400}},
+        {"promotion": 234,   "startDate": "2017-07-22", "spend": {"baseline":  1000, "productUplift":  200, "pullForward":  200, "cannibalisation":  200, "categoryUplift":  200}},
+        {"promotion": 345,   "startDate": "2017-07-22", "spend": {"baseline":   800, "productUplift": -100, "pullForward": -100, "cannibalisation": -100, "categoryUplift": -100}},
+        {"promotion": 456,   "startDate": "2017-07-22", "spend": {"baseline":   600, "productUplift": -200, "pullForward": -200, "cannibalisation": -200, "categoryUplift": -200}},
+        {"promotion": 567,   "startDate": "2017-07-22", "spend": {"baseline":   400}},
+        {"promotion": 678,   "startDate": "2017-07-22", "spend": {"baseline":   200}},
+        {"promotion": 789,   "startDate": "2017-07-22", "spend": {"baseline":     0}},
+        {"promotion": 890,   "startDate": "2017-07-22", "spend": {"baseline":  -200}},
+        {"promotion": "012", "startDate": "2017-07-22", "spend": {"baseline":  -400}},
+        {"promotion": 246,   "startDate": "2017-07-22", "spend": {"baseline":  -600}},
+        {"promotion": 468,   "startDate": "2017-07-22", "spend": {"baseline":  -800}},
+        {"promotion": 802,   "startDate": "2017-07-22", "spend": {"baseline": -1000}}
+      ]
+    }
+  }
+}

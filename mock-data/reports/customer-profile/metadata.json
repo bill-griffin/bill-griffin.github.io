@@ -1,0 +1,4290 @@
+{
+  "data": {
+    "filters": [
+      {
+        "id": "category",
+        "name": "Category",
+        "mandatory": true,
+        "type": "items",
+        "selection": "single",
+        "values": [
+          {"id": 0, "name": "UNKNOWN"},
+          {"id": 873, "name": "MISC TRANSACTION"},
+          {"id": 307, "name": "ICE"},
+          {"id": 481, "name": "BOOKS/ MAGAZINES"},
+          {"id": 1583, "name": "BREAKFAST-MUFFINS"},
+          {"id": 13, "name": "TOBACCO & CIGARETTES"},
+          {"id": 174, "name": "GROCERY MISC CODES"},
+          {"id": 343, "name": "BREAD & BAKED GOODS"},
+          {"id": 1582, "name": "BREAKFAST- DONUTS"},
+          {"id": 1913, "name": "POPCORN"},
+          {"id": 1575, "name": "BREAD-ARTISAN,SPECIALITY CRSTY"},
+          {"id": 1589, "name": "DESSERTS-COOKIES"},
+          {"id": 1193, "name": "PROMOTIONAL ITEMS"},
+          {"id": 376, "name": "NUTS/SEEDS"},
+          {"id": 188, "name": "HBC MISC CODES"},
+          {"id": 186, "name": "GEN MDSE MISC CODES"},
+          {"id": 1616, "name": "DELI PREPARED SAUCES"},
+          {"id": 1646, "name": "FOUNTAIN BEVERAGE"},
+          {"id": 342, "name": "CARBONATED SOFT DRINKS"},
+          {"id": 193, "name": "BAKERY MISC CODES"},
+          {"id": 1634, "name": "PREPARED PROTEIN SALADS"},
+          {"id": 192, "name": "DAIRY MISC CODES"},
+          {"id": 198, "name": "FROZEN MISC CODES"},
+          {"id": 1516, "name": "CUT FLOWERS"},
+          {"id": 1580, "name": "BREAD-ROLLS"},
+          {"id": 1517, "name": "SEASONAL FLORAL"},
+          {"id": 750, "name": "HARDWARE"},
+          {"id": 1518, "name": "BALLOON"},
+          {"id": 393, "name": "CHARCOAL/LOGS/ACCESSORIES"},
+          {"id": 206, "name": "PHARMACY MISC CODES"},
+          {"id": 1645, "name": "PREPARED SOUPS"},
+          {"id": 1585, "name": "DESSERTS-BROWNIE/BARS"},
+          {"id": 1591, "name": "DESSERTS-SELF REWARD"},
+          {"id": 1584, "name": "BREAKFAST-SWEET GOODS"},
+          {"id": 1581, "name": "BREAKFAST- BAGELS"},
+          {"id": 845, "name": "REFRIGERATED SANDWICHES"},
+          {"id": 853, "name": "FUEL"},
+          {"id": 455, "name": "DOMESTICS"},
+          {"id": 40, "name": "GEN MDSE"},
+          {"id": 422, "name": "VITAMINS & SUPPLEMENTS"},
+          {"id": 1477, "name": "OTHER PRODUCE"},
+          {"id": 182, "name": "MEAT MISC CODES"},
+          {"id": 202, "name": "SEAFOOD MISC CODES"},
+          {"id": 348, "name": "COFFEE"},
+          {"id": 80, "name": "DELI"},
+          {"id": 15, "name": "GROCERY UNASSIGNED"},
+          {"id": 204, "name": "FLORAL MISC CODES"},
+          {"id": 1647, "name": "OLIVES/ANTIPASTO BAR"},
+          {"id": 1615, "name": "DELI PREPARED DIP SELF SERVICE"},
+          {"id": 1513, "name": "PLANTS"},
+          {"id": 121, "name": "GARDEN CENTER"},
+          {"id": 46, "name": "GEN MDSE UNASSIGNED"},
+          {"id": 124, "name": "FLORAL UNASSIGNED"},
+          {"id": 341, "name": "WATER"},
+          {"id": 462, "name": "GREETING CARDS/WRAPS"},
+          {"id": 170, "name": "PHARMACY"},
+          {"id": 1653, "name": "DELI BREAD"},
+          {"id": 70, "name": "BAKERY"},
+          {"id": 120, "name": "FLORAL"},
+          {"id": 196, "name": "DELI MISC CODES"},
+          {"id": 1614, "name": "DELI PREPARED APPETIZERS"},
+          {"id": 1617, "name": "DELI PREPARED ENTREES"},
+          {"id": 1644, "name": "PREPARED SNACKS"},
+          {"id": 82, "name": "DELI INGREDIENTS"},
+          {"id": 570, "name": "MEAT SNACK"},
+          {"id": 1572, "name": "HAM"},
+          {"id": 934, "name": "SUBWAY"},
+          {"id": 933, "name": "DAIRY QUEEN"},
+          {"id": 807, "name": "POULTRY - FROZEN"},
+          {"id": 806, "name": "POULTRY - FRESH"},
+          {"id": 1934, "name": "SUSHI"},
+          {"id": 302, "name": "MILK"},
+          {"id": 670, "name": "CREAM"},
+          {"id": 1515, "name": "ARRANGEMENTS"},
+          {"id": 893, "name": "FUEL MISC CODES"},
+          {"id": 644, "name": "FROZEN SNACKS"},
+          {"id": 466, "name": "BULK FOODS"},
+          {"id": 428, "name": "KITCHEN ACCESSORY"},
+          {"id": 620, "name": "SHELF STABLE - JUICES & DRINKS"},
+          {"id": 461, "name": "SOFT GOODS"},
+          {"id": 637, "name": "DISPOSABLE DISH"},
+          {"id": 338, "name": "FLOUR AND MEAL"},
+          {"id": 351, "name": "TEA - PACKAGED AND BAGS"},
+          {"id": 308, "name": "FROZEN PIZZA"},
+          {"id": 337, "name": "BAKING SUPPLIES"},
+          {"id": 977, "name": "CAFE"},
+          {"id": 1587, "name": "DESSERT-EVERYDAY CAKES"},
+          {"id": 385, "name": "SALTED SNACKS"},
+          {"id": 1586, "name": "DESSERT-SPEC OCCASSION CAKES"},
+          {"id": 1254, "name": "PROPANE"},
+          {"id": 1490, "name": "VEGETABLES OTHER"},
+          {"id": 1467, "name": "SPECIALITY FRUITS"},
+          {"id": 1497, "name": "PEPPERS"},
+          {"id": 353, "name": "COOKIES"},
+          {"id": 1470, "name": "DRIED FRT, VEGETABLE, SNK MXES"},
+          {"id": 1474, "name": "NON-SPECIFIC PRODUCE SALES"},
+          {"id": 1471, "name": "GRAINS"},
+          {"id": 1612, "name": "DELI PREPARED BREAKFAST FOODS"},
+          {"id": 16, "name": "GROCERY NON-FOOD UNASSIGNED"},
+          {"id": 975, "name": "BEER MISC CODES"},
+          {"id": 122, "name": "FLORAL SUPPLIES"},
+          {"id": 540, "name": "HONEY"},
+          {"id": 176, "name": "GROCERY NON-FOOD MISC CODES"},
+          {"id": 100, "name": "VIDEO RENTAL & SALES"},
+          {"id": 973, "name": "ROYALTY"},
+          {"id": 1433, "name": "APPLES"},
+          {"id": 1463, "name": "PEARS"},
+          {"id": 1459, "name": "CITRUS"},
+          {"id": 1468, "name": "STONE FRUITS"},
+          {"id": 1500, "name": "SPECIALITY VEGETABLES"},
+          {"id": 1484, "name": "ASPARAGUS"},
+          {"id": 1485, "name": "BROCCOLI"},
+          {"id": 1486, "name": "CABBAGE/BRUSSEL SPROUTS"},
+          {"id": 1476, "name": "ORNAMENTAL PRODUCE"},
+          {"id": 1460, "name": "GRAPES"},
+          {"id": 1482, "name": "COOKING GREENS"},
+          {"id": 1493, "name": "LETTUCE"},
+          {"id": 1461, "name": "MELONS"},
+          {"id": 1494, "name": "MUSHROOMS"},
+          {"id": 1502, "name": "SQUASH/PUMPKINS"},
+          {"id": 1503, "name": "TOMATOES"},
+          {"id": 1455, "name": "BERRIES"},
+          {"id": 1495, "name": "ONIONS"},
+          {"id": 811, "name": "FRESH FRUIT"},
+          {"id": 1487, "name": "CAULIFLOWER"},
+          {"id": 1454, "name": "BANANAS"},
+          {"id": 1464, "name": "PINEAPPLES"},
+          {"id": 1458, "name": "CHERRIES"},
+          {"id": 1453, "name": "AVOCADOS"},
+          {"id": 1456, "name": "RASPBERRIES"},
+          {"id": 1492, "name": "CUCUMBERS"},
+          {"id": 1479, "name": "BEANS"},
+          {"id": 1481, "name": "CELERY"},
+          {"id": 1498, "name": "POTATOES"},
+          {"id": 1491, "name": "CORN"},
+          {"id": 1488, "name": "EGGPLANT"},
+          {"id": 1483, "name": "ARTICHOKES"},
+          {"id": 1499, "name": "PREPARED VEGETABLES"},
+          {"id": 1489, "name": "PEAS"},
+          {"id": 1480, "name": "CARROTS"},
+          {"id": 1457, "name": "STRAWBERRIES"},
+          {"id": 1473, "name": "HERBS, SPICES AND SEASONINGS"},
+          {"id": 1505, "name": "ORGANICS"},
+          {"id": 30, "name": "PRODUCE"},
+          {"id": 380, "name": "HERB AND SPICE SEASONING"},
+          {"id": 953, "name": "COMMISSION SALES"},
+          {"id": 184, "name": "PRODUCE MISC CODES"},
+          {"id": 12, "name": "WINE"},
+          {"id": 1650, "name": "OTHER SEAFOOD"},
+          {"id": 190, "name": "LIQUOR MISC CODES"},
+          {"id": 180, "name": "WINE MISC CODES"},
+          {"id": 178, "name": "TOBACCO & CIGARETTES MISC CODE"},
+          {"id": 200, "name": "VIDEO RENTAL MISC CODES"},
+          {"id": 1693, "name": "LOYALTY"},
+          {"id": 1137, "name": "DUTCH FOODS"},
+          {"id": 345, "name": "CANDY"},
+          {"id": 795, "name": "MIXERS"},
+          {"id": 1942, "name": "BEER"},
+          {"id": 734, "name": "BABY ACCESSORIES"},
+          {"id": 432, "name": "SCHOOL SUPPLY"},
+          {"id": 707, "name": "SUNTAN PRODUCTS"},
+          {"id": 460, "name": "HOSIERY AND SOCKS"},
+          {"id": 1113, "name": "HISPANIC SPECIALTY"},
+          {"id": 579, "name": "SALTED SNACK DIPS"},
+          {"id": 797, "name": "KITCHEN ACCESSORIES - MISC"},
+          {"id": 1466, "name": "REFRIGERATED JUICE DRINKS"},
+          {"id": 731, "name": "STOMACH/UPPER G.I. MEDICATIONS"},
+          {"id": 1134, "name": "MEDITERRANEAN FOODS"},
+          {"id": 406, "name": "COSMETICS"},
+          {"id": 834, "name": "DELI CRACKERS"},
+          {"id": 1579, "name": "BREADS-OTHER"},
+          {"id": 1576, "name": "BREADS-BREAKFAST"},
+          {"id": 564, "name": "VINEGAR AND COOKING WINE"},
+          {"id": 713, "name": "ADULT NUTRITIONAL"},
+          {"id": 477, "name": "PET SUPPLIES"},
+          {"id": 456, "name": "TOYS, GAMES, HOBBIES"},
+          {"id": 484, "name": "SEASONAL ITEMS - GEN MDSE"},
+          {"id": 733, "name": "AUTOMOTIVE"},
+          {"id": 1753, "name": "AUTOMOTIVE"},
+          {"id": 572, "name": "PICKLES AND RELISH"},
+          {"id": 420, "name": "SHAMPOO AND CONDITIONER"},
+          {"id": 346, "name": "GUM/MINT"},
+          {"id": 541, "name": "PEANUT BUTTER"},
+          {"id": 429, "name": "LAWN/SOIL FERTILIZER/TREATMENT"},
+          {"id": 411, "name": "UPPER RESPIRATORY MEDICINE"},
+          {"id": 718, "name": "EYE CARE"},
+          {"id": 698, "name": "HAND AND BODY LOTION"},
+          {"id": 419, "name": "FACIAL CLEANSER & MOISTURIZER"},
+          {"id": 1475, "name": "NUTS & SEEDS"},
+          {"id": 582, "name": "WHOLESOME SNACKS"},
+          {"id": 808, "name": "SUMMER SAUSAGE"},
+          {"id": 304, "name": "CHEESE"},
+          {"id": 475, "name": "BATH PRODUCTS"},
+          {"id": 486, "name": "J-HOOKS & CLIPSTRIPS - GM"},
+          {"id": 585, "name": "MEXICAN FOOD"},
+          {"id": 414, "name": "FEMININE HYGIENE"},
+          {"id": 421, "name": "PAIN RELIEF"},
+          {"id": 500, "name": "CHECKSTANDS"},
+          {"id": 306, "name": "FROZEN NOVELTY"},
+          {"id": 418, "name": "ORAL HYGIENE"},
+          {"id": 626, "name": "FOOD STORAGE, WRAP & BAG"},
+          {"id": 627, "name": "OVEN COOKING BAG"},
+          {"id": 721, "name": "FOOT CARE"},
+          {"id": 415, "name": "FIRST AID"},
+          {"id": 724, "name": "LICE TREATMENT"},
+          {"id": 730, "name": "SMOKING CESSATION"},
+          {"id": 416, "name": "SHAVING NEEDS"},
+          {"id": 397, "name": "HOUSEHOLD CLEANING"},
+          {"id": 396, "name": "DEODORIZER/FRESHENER/SCENTS"},
+          {"id": 1651, "name": "PREPARED SEAFOOD"},
+          {"id": 696, "name": "PERSONAL CLEANSERS"},
+          {"id": 494, "name": "TRAVEL SIZE"},
+          {"id": 668, "name": "MARGARINE AND SPREAD"},
+          {"id": 1873, "name": "CLEANING SUPPLY"},
+          {"id": 508, "name": "BREADING"},
+          {"id": 539, "name": "PANCAKE MIX"},
+          {"id": 638, "name": "DOG FOOD"},
+          {"id": 617, "name": "SHELF STABLE - POTATO MIX"},
+          {"id": 569, "name": "MAYONNAISE"},
+          {"id": 594, "name": "ASIAN FOODS"},
+          {"id": 667, "name": "FROZEN ENTREES"},
+          {"id": 313, "name": "FROZEN VEGETABLES"},
+          {"id": 560, "name": "MEAT AND FISH SAUCE"},
+          {"id": 663, "name": "FROZEN ASIAN MEALS"},
+          {"id": 404, "name": "BABY NEEDS"},
+          {"id": 741, "name": "CLEANING PAD/SPONGE/CLOTH"},
+          {"id": 468, "name": "DOLLAR ITEMS"},
+          {"id": 769, "name": "PARTY SUPPLIES"},
+          {"id": 757, "name": "HOUSEHOLD PLASTICS"},
+          {"id": 373, "name": "CANNED FRUIT"},
+          {"id": 622, "name": "SHELF STABLE - VEGETABLES"},
+          {"id": 593, "name": "SHELF STABLE - TOMATOES"},
+          {"id": 375, "name": "JAM & JELLIY & PRESERVES"},
+          {"id": 550, "name": "DIPPING SAUCE"},
+          {"id": 565, "name": "MUSTARD"},
+          {"id": 383, "name": "SALAD DRESSING"},
+          {"id": 557, "name": "RTE CEREAL"},
+          {"id": 1556, "name": "PREPARED CHICKEN"},
+          {"id": 1563, "name": "FRESH CONDIMENTS AND SPREADS"},
+          {"id": 310, "name": "ICE CREAM"},
+          {"id": 544, "name": "POWDERED INSTANT DRINKS"},
+          {"id": 1535, "name": "FRESH CHICKEN"},
+          {"id": 1568, "name": "BACON"},
+          {"id": 546, "name": "BOXED PREPARED DINNERS"},
+          {"id": 556, "name": "HOT CEREAL"},
+          {"id": 61, "name": "DAIRY SUPPLIES"},
+          {"id": 836, "name": "DELI DIP"},
+          {"id": 1642, "name": "PREPARED HOLIDAY MEALS"},
+          {"id": 571, "name": "OLIVES"},
+          {"id": 566, "name": "PASTA SAUCE"},
+          {"id": 340, "name": "SUGAR"},
+          {"id": 512, "name": "PIE FILLING"},
+          {"id": 355, "name": "DESSERTS"},
+          {"id": 562, "name": "PIZZA SAUCE"},
+          {"id": 294, "name": "YOGURT"},
+          {"id": 1571, "name": "FRANKS"},
+          {"id": 1595, "name": "SELF SERVICE CHEESE"},
+          {"id": 1649, "name": "FROZEN SEAFOOD"},
+          {"id": 1573, "name": "PROCESSED PACKAGED LUNCH MEAT"},
+          {"id": 1554, "name": "OTHER PREPARED MEATS"},
+          {"id": 744, "name": "COFFEE MUGS AND FILTERS"},
+          {"id": 625, "name": "DISPOSABLE BAGS"},
+          {"id": 1569, "name": "DINNER SAUSAGES"},
+          {"id": 629, "name": "LAUNDRY BLEACH"},
+          {"id": 633, "name": "LAUNDRY DETERGENT"},
+          {"id": 377, "name": "DRY PASTA"},
+          {"id": 1504, "name": "BIRD SEED"},
+          {"id": 548, "name": "CATSUP"},
+          {"id": 374, "name": "DRIED FRUIT"},
+          {"id": 296, "name": "EGGS"},
+          {"id": 695, "name": "WHIPPED TOPPINGS"},
+          {"id": 643, "name": "FROZEN POTATOES & ONION RINGS"},
+          {"id": 293, "name": "BUTTER"},
+          {"id": 693, "name": "REFRIG BREAD"},
+          {"id": 509, "name": "CANNED MEAT"},
+          {"id": 1543, "name": "FROZEN BREAKFAST SAUSAGE"},
+          {"id": 1542, "name": "FRESH BREAKFAST SAUSAGE"},
+          {"id": 339, "name": "SHORTENING AND OILS"},
+          {"id": 578, "name": "SALAD TOPPING"},
+          {"id": 559, "name": "MARINADES"},
+          {"id": 1933, "name": "CULTURE"},
+          {"id": 382, "name": "PANCAKE SYRUP"},
+          {"id": 354, "name": "CRACKERS"},
+          {"id": 624, "name": "DISH DETERGENT"},
+          {"id": 1613, "name": "DELI PREPARED-POULTRY"},
+          {"id": 303, "name": "REFRIG JUICE & DRINKS"},
+          {"id": 1540, "name": "FROZEN PORK"},
+          {"id": 770, "name": "PHOTOGRAPHIC SUPPLIES"},
+          {"id": 381, "name": "CANNED SOUP"},
+          {"id": 1534, "name": "FROZEN BEEF"},
+          {"id": 581, "name": "TOASTER PASTRY"},
+          {"id": 533, "name": "COFFEE CREAMERS"},
+          {"id": 563, "name": "SAUCE/GRAVY/SEASONING MIXES"},
+          {"id": 1945, "name": "WAREHOUSE SNACKS"},
+          {"id": 636, "name": "TOILET PAPER"},
+          {"id": 336, "name": "BAKING MIXES"},
+          {"id": 634, "name": "PAPER NAPKIN"},
+          {"id": 300, "name": "REFRIG BAKED GOODS"},
+          {"id": 311, "name": "FROZEN BREAKFAST ENTREES"},
+          {"id": 575, "name": "PREPARED BEANS"},
+          {"id": 537, "name": "ICE CREAM TOPPINGS"},
+          {"id": 1536, "name": "FROZEN POULTRY"},
+          {"id": 315, "name": "FROZEN SWEET GOODS"},
+          {"id": 1637, "name": "MAINLINE SALADS"},
+          {"id": 835, "name": "DELI SALADS"},
+          {"id": 1640, "name": "PREPARED SANDWICHES"},
+          {"id": 1636, "name": "UPSCALE SALADS"},
+          {"id": 1635, "name": "PASTA SALADS"},
+          {"id": 1633, "name": "PREPARED GARDEN SALADS"},
+          {"id": 1638, "name": "OTHER SALADS"},
+          {"id": 1639, "name": "DELI PREPARED DESSERTS"},
+          {"id": 1465, "name": "PREPARED FRUITS"},
+          {"id": 1604, "name": "PROCESSED CHEESE"},
+          {"id": 388, "name": "PREPARED FOODS"},
+          {"id": 554, "name": "RICE"},
+          {"id": 547, "name": "GRAVY"},
+          {"id": 384, "name": "CANNED FISH"},
+          {"id": 386, "name": "DRY BEANS"},
+          {"id": 510, "name": "BOUILLON"},
+          {"id": 798, "name": "WATER SOFTENING PRODUCTS"},
+          {"id": 653, "name": "FROZEN BAKED GOODS"},
+          {"id": 671, "name": "CREAM CHEESE"},
+          {"id": 555, "name": "GRAIN CAKES"},
+          {"id": 1643, "name": "PREPARED SIDES"},
+          {"id": 1618, "name": "INTERNATIONAL PREPARED DELI"},
+          {"id": 511, "name": "SOUP AND CHILI MIX"},
+          {"id": 621, "name": "SHELF STABLE - MILK"},
+          {"id": 640, "name": "FACIAL TISSUES"},
+          {"id": 635, "name": "PAPER TOWEL"},
+          {"id": 513, "name": "PIE CRUSTS - MIXES & PREPARED"},
+          {"id": 1944, "name": "STUFFING"},
+          {"id": 542, "name": "HOT COCOA"},
+          {"id": 536, "name": "ICE CREAM CONES"},
+          {"id": 1567, "name": "HMR"},
+          {"id": 399, "name": "LAUNDRY ADDITIVES"},
+          {"id": 568, "name": "MARSHMALLOWS"},
+          {"id": 314, "name": "FROZEN JUICE"},
+          {"id": 312, "name": "FROZEN FRUIT"},
+          {"id": 657, "name": "FROZEN WHIPPED TOPPING"},
+          {"id": 645, "name": "FROZEN PASTA"},
+          {"id": 1560, "name": "FRESH OR FROZEN PREPARED PORK"},
+          {"id": 747, "name": "FILM"},
+          {"id": 743, "name": "COFFEE FILTERS"},
+          {"id": 395, "name": "DISPOSE DIAPERS/TRAINING PANTS"},
+          {"id": 1533, "name": "FRESH BEEF"},
+          {"id": 401, "name": "PET CARE"},
+          {"id": 549, "name": "COOKING SAUCE"},
+          {"id": 623, "name": "NEW AGE BEVERAGE"},
+          {"id": 485, "name": "VIDEO PRODUCTS PRERECORDED"},
+          {"id": 408, "name": "ETHNIC BEAUTY CARE"},
+          {"id": 425, "name": "INCENSE"},
+          {"id": 700, "name": "HAIR COLORING"},
+          {"id": 1598, "name": "SPECIALITY FRESH CHEESE"},
+          {"id": 1600, "name": "SPECIALITY SEMI FIRM"},
+          {"id": 1605, "name": "SPECIALITY CHEESE GRANA TYPES"},
+          {"id": 584, "name": "HISPANIC BEVERAGE"},
+          {"id": 412, "name": "UNDERARM DEODORANT"},
+          {"id": 702, "name": "HAIR SPRAY & STYLING PRODUCTS"},
+          {"id": 974, "name": "FLAVORED BEER/CIDER"},
+          {"id": 736, "name": "BATTERIES"},
+          {"id": 423, "name": "FLASHLIGHT"},
+          {"id": 704, "name": "HAIR CARE ACCESSORIES"},
+          {"id": 574, "name": "PIZZA KITS"},
+          {"id": 1602, "name": "SPECIALITY GOAT CHEESE"},
+          {"id": 24, "name": "MEAT UNASSIGNED"},
+          {"id": 21, "name": "MEAT (SELF SERVICE)"},
+          {"id": 666, "name": "FROZEN DINNERS"},
+          {"id": 457, "name": "HOME MAINTENANCE"},
+          {"id": 474, "name": "CANNING SUPPLIES -TAXABLE"},
+          {"id": 507, "name": "CANNING SUPPLIES - NON TAXABLE"},
+          {"id": 1588, "name": "DESSERT-CAKE HEALTH"},
+          {"id": 1590, "name": "DESSERTS-COOKIES HEALTH"},
+          {"id": 335, "name": "BABY FOOD"},
+          {"id": 417, "name": "FAMILY PLANNING"},
+          {"id": 558, "name": "INSTANT BREAKFAST"},
+          {"id": 759, "name": "INSECT REPELLENT PRODUCTS"},
+          {"id": 639, "name": "CAT FOOD"},
+          {"id": 1611, "name": "SELF SERVICE DELI MEATS"},
+          {"id": 1610, "name": "SERVICE DELI MEATS"},
+          {"id": 794, "name": "FROZEN NATURAL/ORGANIC FOODS"},
+          {"id": 654, "name": "FROZEN POT PIES"},
+          {"id": 295, "name": "YEAST"},
+          {"id": 72, "name": "BAKERY INGREDIENTS"},
+          {"id": 1813, "name": "SKIN CARE"},
+          {"id": 760, "name": "RODENTICIDE AND TRAPS"},
+          {"id": 493, "name": "KOSHER FOODS"},
+          {"id": 660, "name": "HISPANIC FROZEN FOODS"},
+          {"id": 1566, "name": "PREPARED SIDE DISHES"},
+          {"id": 299, "name": "MEAL STARTERS - REFRIGERATED"},
+          {"id": 669, "name": "open"},
+          {"id": 1594, "name": "BAKERY-OTHER MISCELLANEOUS"},
+          {"id": 1033, "name": "INSTITUTIONAL FOODS"},
+          {"id": 50, "name": "LIQUOR"},
+          {"id": 426, "name": "ELECTRONICS"},
+          {"id": 1603, "name": "SPECIALITY BLUES"},
+          {"id": 1544, "name": "FRESH AND FROZEN OTHER MEAT"},
+          {"id": 110, "name": "SEAFOOD (SERVICE)"},
+          {"id": 976, "name": "SUSHI"},
+          {"id": 615, "name": "KOSHER BEVERAGES"},
+          {"id": 1609, "name": "OTHER SPECIALITY CHEESE"},
+          {"id": 350, "name": "SOFT DRINKS - NON CARB - DSD"},
+          {"id": 1833, "name": "HISPANIC"},
+          {"id": 111, "name": "SEAFOOD (SELF SERVICE)"},
+          {"id": 1333, "name": "SEAFOOD FRESH"},
+          {"id": 501, "name": "CONTINUITY ITEMS"},
+          {"id": 1574, "name": "PACKAGED MEALS"},
+          {"id": 765, "name": "LIGHTBULBS"},
+          {"id": 739, "name": "CANDLES"},
+          {"id": 1501, "name": "SPROUTS"},
+          {"id": 73, "name": "BAKERY UNASSIGNED"},
+          {"id": 71, "name": "BAKERY SUPPLIES"},
+          {"id": 716, "name": "DIARRHEA REMEDY PRODUCT"},
+          {"id": 719, "name": "COTTON"},
+          {"id": 14, "name": "GROCERY SUPPLIES"},
+          {"id": 31, "name": "PRODUCE SUPPLIES"},
+          {"id": 735, "name": "BABY STUFF"},
+          {"id": 113, "name": "SEAFOOD INGREDIENTS"},
+          {"id": 740, "name": "CLEANING IMPLEMENTS & SUPPLY"},
+          {"id": 913, "name": "PAPER/PLASTIC CUP,BOWL, PLATES"},
+          {"id": 1592, "name": "DESSERTS-PIES"},
+          {"id": 842, "name": "REFRIGERATED CONDIMENTS"},
+          {"id": 779, "name": "WATER CONDITIONERS"},
+          {"id": 467, "name": "DOLLAR ITEMS - GROCERY"},
+          {"id": 473, "name": "CANNING AND FREEZING SUPPLIES"},
+          {"id": 297, "name": "READY-TO-EAT DESSERTS"},
+          {"id": 1514, "name": "PLANTERS"},
+          {"id": 1596, "name": "SERVICE CHEESE"},
+          {"id": 650, "name": "FROZEN TOASTER PASTRIES"},
+          {"id": 1334, "name": "SEAFOOD FROZEN"},
+          {"id": 502, "name": "KOSHER FOODS - REFRIGERATED"},
+          {"id": 764, "name": "LAUNDRY SUPPLIES"},
+          {"id": 1519, "name": "DECOR/GIFTWARE"},
+          {"id": 10, "name": "GROCERY"},
+          {"id": 840, "name": "REFRIGERATED APPETIZER"},
+          {"id": 812, "name": "FRESH VEGETABLES & HERBS"},
+          {"id": 1593, "name": "BAKERY-ETHNIC"},
+          {"id": 1469, "name": "DRESSING, GLAZE, MARINDE, SCES"},
+          {"id": 1478, "name": "PRODUCE DIPS"},
+          {"id": 433, "name": "INSECTICIDE & PESTICIDE"},
+          {"id": 1564, "name": "MARINADES, SAUCES AND SEASON"},
+          {"id": 778, "name": "VAPORIZER/HUMIDIFIER/AIR CLNR"},
+          {"id": 1713, "name": "CLOSEOUTS"},
+          {"id": 487, "name": "DOLLAR ITEMS - NON GROCERY"},
+          {"id": 309, "name": "MEAL STARTERS - FROZEN"},
+          {"id": 837, "name": "LUNCH COMBINATION"},
+          {"id": 32, "name": "PRODUCE UNASSIGNED"},
+          {"id": 17, "name": "WINE  UNASSIGNED"},
+          {"id": 52, "name": "LIQUOR UNASSIGNED"},
+          {"id": 83, "name": "DELI UNASSIGNED"},
+          {"id": 62, "name": "DAIRY UNASSIGNED"},
+          {"id": 92, "name": "FROZEN UNASSIGNED"},
+          {"id": 18, "name": "TOBACCO & CIGARETTES UNASSIGND"},
+          {"id": 47, "name": "HBC UNASSIGNED"},
+          {"id": 81, "name": "DELI SUPPLIES"},
+          {"id": 1673, "name": "GELATIN"},
+          {"id": 1472, "name": "HEALTHY ALTERNATIVES"},
+          {"id": 1073, "name": "ITALIAN FOODS"},
+          {"id": 479, "name": "HOUSEHOLD SUPPLIES"},
+          {"id": 1577, "name": "BREADS-SANDWICH"},
+          {"id": 763, "name": "LAUNDRY AND IRONING ACCESSORY"},
+          {"id": 1393, "name": "SPECIALTY FOODS"},
+          {"id": 817, "name": "PRE-CUT FRUIT"},
+          {"id": 1619, "name": "PREPARED DELI PLATTERS"},
+          {"id": 11, "name": "GROCERY NON-FOOD"},
+          {"id": 534, "name": "HERBAL TEA"},
+          {"id": 465, "name": "HEALTH & NATURAL FOODS"},
+          {"id": 1053, "name": "ORGANIC PRODUCE"},
+          {"id": 822, "name": "PRODUCE - SNACKS"},
+          {"id": 816, "name": "VEGETABLE SNACKS W/DIP"},
+          {"id": 478, "name": "REM PET FOOD"},
+          {"id": 661, "name": "FROZEN MEAT - IMITATION"},
+          {"id": 1641, "name": "MADE TO ORDER SANDWICHES"},
+          {"id": 993, "name": "GEN MDSE SPECIAL STORE ORDERS"},
+          {"id": 41, "name": "HBC"},
+          {"id": 1606, "name": "ARTISAN CHEESE"},
+          {"id": 823, "name": "REFRIG SALAD DRESSING"}
+        ]
+      },
+      {
+        "id": "subcategory",
+        "name": "Sub-category",
+        "type": "childrenItems",
+        "parentFilterId": "category",
+        "selection": "single",
+        "childrenValues": {
+          "0": [
+            {"id": 0, "name": "UNKNOWN"}
+          ],
+          "10": [
+            {"id": 34, "name": "OPEN"}
+          ],
+          "11": [
+            {"id": 66, "name": "GROCERY SACKS"}
+          ],
+          "12": [
+            {"id": 68, "name": "REGIONAL"},
+            {"id": 3285, "name": "IMPORTED"},
+            {"id": 3887, "name": "DOMESTIC"}
+          ],
+          "13": [
+            {"id": 71, "name": "TOBACCO, CIGARETTES & ACCESSOR"}
+          ],
+          "14": [
+            {"id": 72, "name": "SUPPLIES - GROCERY"}
+          ],
+          "15": [
+            {"id": 267, "name": "UNASSIGNED GROCERY"}
+          ],
+          "16": [
+            {"id": 268, "name": "UNASSIGNED GROCERY NON-FOOD"}
+          ],
+          "17": [
+            {"id": 269, "name": "UNASSIGNED WINE"}
+          ],
+          "18": [
+            {"id": 270, "name": "UNASSIGND TOBACCO & CIGARETTE"}
+          ],
+          "21": [
+            {"id": 98, "name": "PACKAGED MEAT - REMAINING"},
+            {"id": 89, "name": "HAM & SMOKED MEATS"},
+            {"id": 84, "name": "FRANKFURTERS"},
+            {"id": 97, "name": "PORK"},
+            {"id": 101, "name": "LUNCHMEATS"},
+            {"id": 100, "name": "SAUSAGE"}
+          ],
+          "24": [
+            {"id": 271, "name": "UNASSIGNED MEAT"}
+          ],
+          "30": [
+            {"id": 107, "name": "FRUITS - FRESH"},
+            {"id": 108, "name": "VEGETABLES - FRESH/ORGANIC"},
+            {"id": 109, "name": "PRODUCE - REMAINING"},
+            {"id": 106, "name": "DRIED FRUITS & NUTS"}
+          ],
+          "31": [
+            {"id": 111, "name": "SUPPLIES - PRODUCE"}
+          ],
+          "32": [
+            {"id": 272, "name": "UNASSIGNED PRODUCE"}
+          ],
+          "40": [
+            {"id": 345, "name": "CLOSEOUT GEN MDSE"},
+            {"id": 127, "name": "PROMOTIONAL ITEMS - GEN MDSE"}
+          ],
+          "41": [
+            {"id": 385, "name": "CLOSEOUTS"}
+          ],
+          "46": [
+            {"id": 273, "name": "UNASSIGNED GEN MDSE"}
+          ],
+          "47": [
+            {"id": 274, "name": "UNASSIGNED HBC"}
+          ],
+          "50": [
+            {"id": 151, "name": "LIQUOR"},
+            {"id": 3715, "name": "MISC LIQUOR"}
+          ],
+          "52": [
+            {"id": 275, "name": "UNASSIGNED LIQUOR"}
+          ],
+          "61": [
+            {"id": 169, "name": "SUPPLIES - DAIRY"}
+          ],
+          "62": [
+            {"id": 276, "name": "UNASSIGNED DAIRY"}
+          ],
+          "70": [
+            {"id": 171, "name": "BREADS - BAKERY"},
+            {"id": 172, "name": "SWEET GOODS"}
+          ],
+          "71": [
+            {"id": 173, "name": "SUPPLIES - BAKERY"}
+          ],
+          "72": [
+            {"id": 174, "name": "INGREDIENTS - BAKERY"}
+          ],
+          "73": [
+            {"id": 277, "name": "UNASSIGNED BAKERY"}
+          ],
+          "80": [
+            {"id": 186, "name": "SALADS - POTATO, ETC."},
+            {"id": 184, "name": "ENTREES - DELI"},
+            {"id": 190, "name": "SOUPS & STEWS - DELI"},
+            {"id": 179, "name": "DESSERTS - DELI"},
+            {"id": 183, "name": "PIZZA - DELI"},
+            {"id": 175, "name": "BEVERAGES - DELI"},
+            {"id": 178, "name": "MEATS - DELI"},
+            {"id": 189, "name": "SNACKS - DELI"},
+            {"id": 176, "name": "CHEESE - DELI"},
+            {"id": 182, "name": "PASTA - DELI"}
+          ],
+          "81": [
+            {"id": 191, "name": "SUPPLIES - DELI"}
+          ],
+          "82": [
+            {"id": 192, "name": "DELI INGREDIENTS"}
+          ],
+          "83": [
+            {"id": 278, "name": "UNASSIGNED DELI"}
+          ],
+          "92": [
+            {"id": 279, "name": "UNASSIGNED FROZEN"}
+          ],
+          "100": [
+            {"id": 212, "name": "VIDEO RENTALS"}
+          ],
+          "110": [
+            {"id": 214, "name": "FIN FISH - SERVICE"}
+          ],
+          "111": [
+            {"id": 218, "name": "SEAFOOD - REMAINING"},
+            {"id": 220, "name": "SHELL FISH"}
+          ],
+          "113": [
+            {"id": 222, "name": "INGREDIENTS - SEAFOOD"}
+          ],
+          "120": [
+            {"id": 228, "name": "PLANTS & PLANTERS - FRESH"},
+            {"id": 227, "name": "FLOWERS - FRESH"},
+            {"id": 224, "name": "NOVELTIES & GIFTS - FLORAL"}
+          ],
+          "121": [
+            {"id": 4546, "name": "CONTAINERS"},
+            {"id": 4545, "name": "FLATS"},
+            {"id": 4544, "name": "HANGING BASKETS"},
+            {"id": 229, "name": "GARDEN CENTER"},
+            {"id": 5225, "name": "SUB ZERO ROSES"}
+          ],
+          "122": [
+            {"id": 230, "name": "SUPPLIES - FLORAL"}
+          ],
+          "124": [
+            {"id": 282, "name": "UNASSIGNED FLORAL"}
+          ],
+          "170": [
+            {"id": 263, "name": "PHARMACY - REMAINING"}
+          ],
+          "174": [
+            {"id": 286, "name": "DISCOUNTS, MARKDOWNS - GROCERY"},
+            {"id": 285, "name": "OTHER MISC KEY - GROCERY"},
+            {"id": 288, "name": "BOTTLE DEPOSITS AND REFUNDS"}
+          ],
+          "176": [
+            {"id": 290, "name": "OTHER MISC KEY - GROC NON-FOOD"},
+            {"id": 291, "name": "DISCOUNTS, MARKDOWNS - GROC NF"}
+          ],
+          "178": [
+            {"id": 293, "name": "OTHER MISC KEY - TOBACCO"}
+          ],
+          "180": [
+            {"id": 297, "name": "OTHER MISC KEY -WINE"},
+            {"id": 298, "name": "DISCOUNTS, MARKDOWNS - WINE"}
+          ],
+          "182": [
+            {"id": 301, "name": "OTHER MISC KEY - MEAT"},
+            {"id": 302, "name": "DISCOUNTS, MARKDOWNS - MEAT"}
+          ],
+          "184": [
+            {"id": 305, "name": "DISCOUNTS, MARKDOWNS - PRODUCE"},
+            {"id": 304, "name": "OTHER MISC KEY - PRODUCE"}
+          ],
+          "186": [
+            {"id": 307, "name": "OTHER MISC KEY - GEN MDSE"},
+            {"id": 308, "name": "DISCOUNTS, MARKDOWNS - GENMDSE"}
+          ],
+          "188": [
+            {"id": 310, "name": "OTHER MISC KEY - HBC"},
+            {"id": 311, "name": "DISCOUNTS, MARKDOWNS - HBC"}
+          ],
+          "190": [
+            {"id": 313, "name": "OTHER MISC KEY - LIQUOR"}
+          ],
+          "192": [
+            {"id": 316, "name": "OTHER MISC KEY - DAIRY"},
+            {"id": 317, "name": "DISCOUNTS, MARKDOWNS - DAIRY"}
+          ],
+          "193": [
+            {"id": 319, "name": "OTHER MISC KEY - BAKERY"},
+            {"id": 320, "name": "DISCOUNTS, MARKDOWNS - BAKERY"}
+          ],
+          "196": [
+            {"id": 323, "name": "DISCOUNTS, MARKDOWNS - DELI"},
+            {"id": 322, "name": "OTHER MISC KEY - DELI"}
+          ],
+          "198": [
+            {"id": 325, "name": "OTHER MISC KEY - FROZEN"},
+            {"id": 326, "name": "DISCOUNTS, MARKDOWNS - FROZEN"}
+          ],
+          "200": [
+            {"id": 328, "name": "OTHER MISC KEY - VIDEO RENTAL"}
+          ],
+          "202": [
+            {"id": 331, "name": "OTHER MISC KEY - SEAFOOD"},
+            {"id": 332, "name": "DISCOUNTS, MARKDOWNS - SEAFOOD"}
+          ],
+          "204": [
+            {"id": 334, "name": "OTHER MISC KEY - FLORAL"}
+          ],
+          "206": [
+            {"id": 337, "name": "OTHER MISC KEY - PHARMACY"}
+          ],
+          "293": [
+            {"id": 545, "name": "BUTTER - STICK"},
+            {"id": 2062, "name": "BUTTER - SOFT"}
+          ],
+          "294": [
+            {"id": 547, "name": "YOGURT - TRADITIONAL"},
+            {"id": 2142, "name": "YOGURT - LARGE TUBS"},
+            {"id": 2134, "name": "YOGURT - DAIRY ALTERNATIVE"},
+            {"id": 5325, "name": "YOGURT- GREEK"},
+            {"id": 2141, "name": "YOGURT - ADULT BEVERAGES"},
+            {"id": 6032, "name": "YOGURT-ORGANIC AND PREMIUM"},
+            {"id": 2137, "name": "YOGURT - KIDS"}
+          ],
+          "295": [
+            {"id": 548, "name": "YEAST"}
+          ],
+          "296": [
+            {"id": 549, "name": "WHITE EGGS"},
+            {"id": 2090, "name": "BROWN EGGS"},
+            {"id": 2089, "name": "EGG SUBST - REFRIG"}
+          ],
+          "297": [
+            {"id": 550, "name": "REFRIG PUDDING"}
+          ],
+          "299": [
+            {"id": 554, "name": "MEAL STARTERS - REFRIGERATED"}
+          ],
+          "300": [
+            {"id": 555, "name": "REFRIG BISCUIT DOUGH"},
+            {"id": 557, "name": "REFRIG ROLL DOUGH"},
+            {"id": 558, "name": "REFRIG SWEET ROLL DOUGH"},
+            {"id": 2107, "name": "REFRIG PIE AND PASTY DOUGH"},
+            {"id": 2111, "name": "REFRIG PIZZA CRUST DOUGH"},
+            {"id": 556, "name": "REFRIG COOKIE DOUGH"},
+            {"id": 2108, "name": "REFRIG BREAD DOUGH"}
+          ],
+          "302": [
+            {"id": 2100, "name": "MILK - TWO PERCENT"},
+            {"id": 2101, "name": "MILK - WHOLE"},
+            {"id": 2093, "name": "FLAVORED MILK"},
+            {"id": 564, "name": "EGGNOG"},
+            {"id": 2097, "name": "MILK SPECIALTY"},
+            {"id": 565, "name": "BUTTERMILK"},
+            {"id": 3548, "name": "MILK - HALF PERCENT"},
+            {"id": 2098, "name": "MILK - ONE PERCENT"},
+            {"id": 2099, "name": "MILK - SKIM"},
+            {"id": 2094, "name": "MILK - OTHER TYPES"}
+          ],
+          "303": [
+            {"id": 572, "name": "REFRIG ORANGE JUICE"},
+            {"id": 574, "name": "REFRIG JUICE/DRINKS OTHER"},
+            {"id": 568, "name": "REFRIG APPLE JUICE"},
+            {"id": 569, "name": "REFRIG CRANBERRY DRINK/JUICE"},
+            {"id": 571, "name": "REFRIG GRAPEFRUIT JUICE"},
+            {"id": 570, "name": "REFRIG GRAPE JUICE"},
+            {"id": 2121, "name": "REFRIG LEMONADE"}
+          ],
+          "304": [
+            {"id": 580, "name": "IMPORT CHEESE"},
+            {"id": 579, "name": "SHREDDED/GRATED CHEESE"},
+            {"id": 2146, "name": "CHUNK CHEESE"},
+            {"id": 575, "name": "SANDWICH CHEESE"},
+            {"id": 2149, "name": "SNACKING CHEESE"},
+            {"id": 576, "name": "PROCESSED CHEESE"},
+            {"id": 2150, "name": "TOPPING CHEESE"},
+            {"id": 578, "name": "NATURAL CHEESE *"},
+            {"id": 2148, "name": "INGREDIENT CHEESE"},
+            {"id": 2145, "name": "CHEESE SPREADS"},
+            {"id": 2147, "name": "ENTERTAINING CHEESE"}
+          ],
+          "306": [
+            {"id": 2035, "name": "FRZN NOVELTY - SUPER PREMIUM"},
+            {"id": 581, "name": "FRZN NOVELTY - MAINSTREAM"},
+            {"id": 2032, "name": "FRZN NOVELTY - DIET"}
+          ],
+          "307": [
+            {"id": 582, "name": "ICE"}
+          ],
+          "308": [
+            {"id": 1887, "name": "FRZN PIZZA - POPULAR"},
+            {"id": 1889, "name": "FRZN PIZZA - SUPER PREMIUM"},
+            {"id": 1885, "name": "FRZN PIZZA - ECONOMY"},
+            {"id": 1883, "name": "FRZN PIZZA - FRENCH BREAD"},
+            {"id": 584, "name": "FROZEN PIZZA - ORGANIC"},
+            {"id": 1884, "name": "FRZN PIZZA - REDUCED CALORIE"},
+            {"id": 1888, "name": "FRZN PIZZA - PREMIUM"}
+          ],
+          "309": [
+            {"id": 585, "name": "MEAL STARTERS - FRZN"}
+          ],
+          "310": [
+            {"id": 1999, "name": "ICE CREAM - PREMIUM"},
+            {"id": 2002, "name": "ICE CREAM - VALUE"},
+            {"id": 2003, "name": "SHERBET"},
+            {"id": 2006, "name": "FRZN YOGURT"},
+            {"id": 2007, "name": "ICE CREAM - DIET"},
+            {"id": 2001, "name": "ICE CREAM - SUPER PREMIUM"},
+            {"id": 2004, "name": "SORBET"}
+          ],
+          "311": [
+            {"id": 1971, "name": "FRZN BRKFST ENTREE - WAFFLE"},
+            {"id": 1973, "name": "FRZN BRKFST SANDWICH"},
+            {"id": 588, "name": "FRZN BRKFST ENTREE - OTHER"},
+            {"id": 1970, "name": "FRZN BRKFST ENTREE - SAUS/BSCT"},
+            {"id": 1968, "name": "FRZN BRKFST ENTREE - PANCAKE"},
+            {"id": 589, "name": "FRZN BRKFST STRUDEL"},
+            {"id": 1967, "name": "FRZN BRKFST ENTREE - FRNCH TST"},
+            {"id": 1966, "name": "FRZN BRKFST ENTREE - EGG"}
+          ],
+          "312": [
+            {"id": 591, "name": "FRZN FRUIT - OTHER"},
+            {"id": 1985, "name": "FRZN FRUIT - STRAWBERRY"},
+            {"id": 1983, "name": "FRZN FRUIT - MIXED"},
+            {"id": 1984, "name": "FRZN FRUIT - RASPBERRY"},
+            {"id": 1982, "name": "FRZN FRUIT - BLUEBERRY"}
+          ],
+          "313": [
+            {"id": 1949, "name": "FRZN VEGS - EDAMAME SOYBEAN"},
+            {"id": 603, "name": "FRZN VEGS - OTHER"},
+            {"id": 593, "name": "FRZN VEGS - BROCCOLI"},
+            {"id": 1943, "name": "FRZN VEGS - IN SAUCE"},
+            {"id": 1951, "name": "FRZN VEGS - SOUTHERN"},
+            {"id": 1948, "name": "FRZN VEGS - CORN ON THE COB"},
+            {"id": 599, "name": "FRZN VEGS - MIXED"},
+            {"id": 594, "name": "FRZN VEGS - CARROTS"},
+            {"id": 597, "name": "FRZN VEGS - GREEN BEANS"},
+            {"id": 598, "name": "FRZN VEGS - LIMA BEANS"},
+            {"id": 601, "name": "FRZN VEGS - PEAS"},
+            {"id": 1946, "name": "FRZN VEGS - BRUSSEL SPROUT"},
+            {"id": 595, "name": "FRZN VEGS - CORN"},
+            {"id": 1947, "name": "FRZN VEGS - CAULIFLOWER"},
+            {"id": 1952, "name": "FRZN VEGS - SPINACH"},
+            {"id": 1953, "name": "FRZN VEGS - SQUASH"},
+            {"id": 1950, "name": "FRZN VEGS - ONION"},
+            {"id": 1945, "name": "FRZN VEGS - ASPARGUS"}
+          ],
+          "314": [
+            {"id": 1878, "name": "FRZN FRUIT PUNCH"},
+            {"id": 1879, "name": "FRZN LEMONADE"},
+            {"id": 608, "name": "FRZN ORANGE JUICE"},
+            {"id": 606, "name": "FRZN GRAPE JUICE"},
+            {"id": 609, "name": "FRZN JUICE - OTHER"}
+          ],
+          "315": [
+            {"id": 1923, "name": "FRZN FILLED PASTRY"},
+            {"id": 1924, "name": "FRZN PIE SHELLS"},
+            {"id": 616, "name": "FRZN PIE"},
+            {"id": 615, "name": "FRZN CAKE"}
+          ],
+          "335": [
+            {"id": 645, "name": "SECOND FOODS"},
+            {"id": 642, "name": "TODDLER FOODS"},
+            {"id": 644, "name": "THIRD FOODS"},
+            {"id": 640, "name": "FIRST FOODS"},
+            {"id": 1770, "name": "BABY CEREAL"},
+            {"id": 4105, "name": "BABY FOOD, ORGANIC"}
+          ],
+          "336": [
+            {"id": 649, "name": "CAKE MIX"},
+            {"id": 652, "name": "ALL PURPOSE BAKING MIX"},
+            {"id": 647, "name": "BROWNIE MIX"},
+            {"id": 646, "name": "BREAD MIX"},
+            {"id": 1182, "name": "COOKIE MIX"},
+            {"id": 648, "name": "DESSERT MIXES"},
+            {"id": 3626, "name": "BAKING MIX GLUTEN FREE"}
+          ],
+          "337": [
+            {"id": 1187, "name": "BAKING SUPPLY - REGULAR"},
+            {"id": 656, "name": "BAKING POWDER & BAKING SODA"},
+            {"id": 1185, "name": "BAKING CHOCOLATE"},
+            {"id": 1190, "name": "READY TO SPREAD FROSTING"},
+            {"id": 1186, "name": "BAKING NUTS"},
+            {"id": 655, "name": "BAKING CHIP"},
+            {"id": 1191, "name": "YEAST"},
+            {"id": 1189, "name": "NATURAL BAKING PRODUCT"}
+          ],
+          "338": [
+            {"id": 1377, "name": "ALL PURPOSE FLOUR"},
+            {"id": 1378, "name": "SPECIALTY FLOUR"},
+            {"id": 669, "name": "CORN MEAL"}
+          ],
+          "339": [
+            {"id": 673, "name": "COOKING SPRAYS"},
+            {"id": 676, "name": "OLIVE OIL"},
+            {"id": 677, "name": "SALAD & COOKING OIL"},
+            {"id": 678, "name": "SHORTENING"}
+          ],
+          "340": [
+            {"id": 679, "name": "SUGAR SUBST"},
+            {"id": 682, "name": "CONFECTIONERS SUGAR"},
+            {"id": 680, "name": "BROWN SUGAR"},
+            {"id": 681, "name": "GRANULATED SUGAR"},
+            {"id": 1230, "name": "SUGAR - ALL OTHER TYPES"}
+          ],
+          "341": [
+            {"id": 3486, "name": "WATER FILTRATION"},
+            {"id": 3485, "name": "WATER - PET"},
+            {"id": 1545, "name": "WATER"},
+            {"id": 683, "name": "SPARKLING WATER"},
+            {"id": 684, "name": "DISTILLED WATER"},
+            {"id": 3487, "name": "WATER SPECIALTY"}
+          ],
+          "342": [
+            {"id": 1548, "name": "SOFT DRINKS - REGULAR"},
+            {"id": 1546, "name": "SOFT DRINKS - OTHER"},
+            {"id": 688, "name": "SOFT DRINKS - SPECIALTY"},
+            {"id": 1547, "name": "SOFT DRINKS - DIET"},
+            {"id": 5970, "name": "SOFT DRINKS-SINGLE SERVE"}
+          ],
+          "343": [
+            {"id": 699, "name": "REM. FRESH BREAD & BAKED GOODS"},
+            {"id": 691, "name": "FRESH BREAD"},
+            {"id": 692, "name": "FRESH BRKFST CAKES/SWT ROLLS"},
+            {"id": 693, "name": "FRESH BUNS"},
+            {"id": 698, "name": "FRESH ROLLS"},
+            {"id": 696, "name": "FRESH MUFFINS"},
+            {"id": 3965, "name": "COMMERCIAL SNACK CAKES"},
+            {"id": 697, "name": "FRESH PIES"}
+          ],
+          "345": [
+            {"id": 1388, "name": "CANDY - NON SEASONAL"},
+            {"id": 1385, "name": "CANDY - CHRISTMAS"},
+            {"id": 1386, "name": "CANDY - EASTER"},
+            {"id": 1115, "name": "CANDY - CHECK OUT"},
+            {"id": 1387, "name": "CANDY - HALLOWEEN"},
+            {"id": 1391, "name": "CANDY - VALENTINE"},
+            {"id": 1390, "name": "CANDY - SPECIAL OCCASION"},
+            {"id": 1389, "name": "CANDY - OTHER HOLIDAYS"}
+          ],
+          "346": [
+            {"id": 1581, "name": "GUM - CHECKLANE"},
+            {"id": 1585, "name": "GUM - NON SEASONAL"}
+          ],
+          "348": [
+            {"id": 720, "name": "BULK COFFEE"},
+            {"id": 719, "name": "PREMIUM GROUND"},
+            {"id": 722, "name": "WHOLE BEAN COFFEE"},
+            {"id": 1265, "name": "GROUND COFFEE BAGS"},
+            {"id": 717, "name": "MAINSTREAM"},
+            {"id": 721, "name": "INSTANT COFFEE"},
+            {"id": 1266, "name": "PODS"}
+          ],
+          "350": [
+            {"id": 1766, "name": "NEW AGE BEVERAGE - DSD"}
+          ],
+          "351": [
+            {"id": 738, "name": "TEA PACKAGED"},
+            {"id": 736, "name": "TEA BAGS"}
+          ],
+          "353": [
+            {"id": 6035, "name": "OTHER"},
+            {"id": 757, "name": "COOKIES - ALL FAMILY"},
+            {"id": 6033, "name": "ADULT APPEAL"},
+            {"id": 6034, "name": "HEALTHY"},
+            {"id": 1277, "name": "COOKIES - AWAY FROM HOME"}
+          ],
+          "354": [
+            {"id": 1281, "name": "CRACKERS - ALL FAMILY"},
+            {"id": 6030, "name": "PREMIUM / ENTERTAINING"},
+            {"id": 6029, "name": "HEALTHY"},
+            {"id": 1282, "name": "CRACKERS - AWAY FROM HOME"},
+            {"id": 3867, "name": "OPEN"},
+            {"id": 3868, "name": "OPEN"},
+            {"id": 3867, "name": "CRACKERS - KIDS"},
+            {"id": 3868, "name": "CRACKERS - SPECIALTY"}
+          ],
+          "355": [
+            {"id": 765, "name": "GELATIN MIX - REGULAR"},
+            {"id": 766, "name": "PUDDING MIX - REGULAR"},
+            {"id": 1291, "name": "CANNED PUDDING"},
+            {"id": 5885, "name": "DESSERT MIXES"}
+          ],
+          "373": [
+            {"id": 6007, "name": "CHERRIES"},
+            {"id": 6008, "name": "CRANBERRY SAUCE"},
+            {"id": 6014, "name": "MARASCHINO CHERRIES"},
+            {"id": 6012, "name": "MANDARIN ORANGES"},
+            {"id": 6013, "name": "MANGOS"},
+            {"id": 6019, "name": "PEACHES LIGHT"},
+            {"id": 6009, "name": "FRUIT COCKTAIL"},
+            {"id": 6021, "name": "PEARS LIGHT"},
+            {"id": 6003, "name": "APPLESAUCE REGULAR"},
+            {"id": 6001, "name": "APPLESAUCE CINNAMON"},
+            {"id": 6002, "name": "APPLESAUCE NATURAL"},
+            {"id": 6004, "name": "APPLESAUCE OTHER"},
+            {"id": 6018, "name": "PEACHES"},
+            {"id": 791, "name": "CANNED FRUIT - PEACHES"},
+            {"id": 6020, "name": "PEARS"},
+            {"id": 6015, "name": "MIXED FRUIT"},
+            {"id": 6023, "name": "PINEAPPLE NATURAL"},
+            {"id": 6006, "name": "APRICOT"},
+            {"id": 788, "name": "CANNED FRUIT - FRUIT COCKTAIL"},
+            {"id": 6022, "name": "PINEAPPLE"},
+            {"id": 794, "name": "CANNED FRUIT - PINEAPPLE"},
+            {"id": 785, "name": "APPLE SAUCE"},
+            {"id": 6017, "name": "OTHER"},
+            {"id": 6005, "name": "APPLES"}
+          ],
+          "374": [
+            {"id": 799, "name": "PRUNE"},
+            {"id": 800, "name": "RAISIN"},
+            {"id": 1308, "name": "APPLE - DRIED"},
+            {"id": 1315, "name": "TROPICAL FRUIT - DRIED"},
+            {"id": 798, "name": "OTHER DRIED FRUIT"},
+            {"id": 1311, "name": "CRANBERRY - DRIED"}
+          ],
+          "375": [
+            {"id": 804, "name": "PRESERVES"},
+            {"id": 1342, "name": "JELLY"},
+            {"id": 802, "name": "JAMS"},
+            {"id": 1343, "name": "MARMALADE"},
+            {"id": 805, "name": "FRUIT SPREADS"},
+            {"id": 1341, "name": "BUTTER - FRUIT AND HONEY"}
+          ],
+          "376": [
+            {"id": 806, "name": "CANNED NUTS"},
+            {"id": 807, "name": "BAGGED NUTS"},
+            {"id": 808, "name": "NUTS - JARS"}
+          ],
+          "377": [
+            {"id": 1395, "name": "MAINSTREAM - OTHER"},
+            {"id": 1394, "name": "HEALTHY - GLUTEN FREE"},
+            {"id": 1398, "name": "MAINSTREAM - UPSCALE"},
+            {"id": 1396, "name": "NOODLE"},
+            {"id": 1393, "name": "HEALTHY - VEGGIE"},
+            {"id": 1397, "name": "HEALTHY - HIGH PROTEIN"},
+            {"id": 1392, "name": "MAINSTREAM - STANDARD"},
+            {"id": 3425, "name": "HEALTHY - WHITE FIBER"}
+          ],
+          "380": [
+            {"id": 1325, "name": "SPICES"},
+            {"id": 1319, "name": "ONION PRODUCTS"},
+            {"id": 1322, "name": "SEASONED BLENDS"},
+            {"id": 829, "name": "BLACK PEPPER"},
+            {"id": 5866, "name": "EXTRACTS REAL"},
+            {"id": 1324, "name": "HERBS"},
+            {"id": 1323, "name": "GARLIC PRODUCTS"},
+            {"id": 5865, "name": "EXTRACTS IMITATION"},
+            {"id": 830, "name": "SALT"},
+            {"id": 1321, "name": "SEASONED SALT"},
+            {"id": 826, "name": "OTHER SEASONINGS"},
+            {"id": 4565, "name": "DRY SEASONING MIX"}
+          ],
+          "381": [
+            {"id": 833, "name": "CANNED SOUP - CONDENSED"},
+            {"id": 1194, "name": "CANNED SOUP - RTS"}
+          ],
+          "382": [
+            {"id": 1330, "name": "COOKING SYRUP"},
+            {"id": 1331, "name": "MAPLE FLAVORED SYRUP"},
+            {"id": 836, "name": "MOLASSES"}
+          ],
+          "383": [
+            {"id": 841, "name": "SALAD DRESSING - REGULAR"},
+            {"id": 1511, "name": "SALAD DRESSING - FAT FREE"},
+            {"id": 843, "name": "SALAD DRESSING MIX"},
+            {"id": 842, "name": "SALAD DRESSING - LOW FAT"},
+            {"id": 1510, "name": "GOURMET SALAD DRESSING REGULAR"}
+          ],
+          "384": [
+            {"id": 848, "name": "CANNED TUNA"},
+            {"id": 846, "name": "CANNED SARDINES"},
+            {"id": 845, "name": "CANNED SALMON"},
+            {"id": 1205, "name": "CANNED REM SEAFOOD"}
+          ],
+          "385": [
+            {"id": 1530, "name": "OTHER SALTED SNACKS"},
+            {"id": 1526, "name": "MULTIGRAIN SNACKS"},
+            {"id": 854, "name": "POTATO CHIPS"},
+            {"id": 855, "name": "PRETZELS"},
+            {"id": 1522, "name": "CHEESE SNACKS"},
+            {"id": 858, "name": "TORTILLA CHIPS"},
+            {"id": 6054, "name": "POPPED POPCORN"},
+            {"id": 851, "name": "CORN CHIPS"},
+            {"id": 856, "name": "PUFFED CHEESE"},
+            {"id": 1517, "name": "POTATO SNACKS"},
+            {"id": 1531, "name": "PARTY MIX"},
+            {"id": 1525, "name": "MEAT SNACK"},
+            {"id": 1519, "name": "SNACK MIX"},
+            {"id": 1520, "name": "TRAIL MIX"},
+            {"id": 1523, "name": "CRACKER SNACKS"},
+            {"id": 1527, "name": "ONION SNACKS"},
+            {"id": 1518, "name": "SALTED SNACKS - VARIETY PACK"}
+          ],
+          "386": [
+            {"id": 864, "name": "BARLEY - DRY"},
+            {"id": 1402, "name": "DRY PEAS"},
+            {"id": 1403, "name": "LENTILS"},
+            {"id": 860, "name": "DRY BEANS"}
+          ],
+          "388": [
+            {"id": 1506, "name": "PREPARED FOODS - REGULAR"},
+            {"id": 1505, "name": "PREPARED FOODS - MICROWAVE"}
+          ],
+          "393": [
+            {"id": 906, "name": "FIRELOGS/NON COOK WOOD CHIPS"},
+            {"id": 905, "name": "CHARCOAL"},
+            {"id": 1775, "name": "FIREPLACE MATCH"},
+            {"id": 1772, "name": "CHARCOAL LIGHTER"}
+          ],
+          "395": [
+            {"id": 912, "name": "DIAPER WIPES"}
+          ],
+          "396": [
+            {"id": 913, "name": "AIR FRESHENERS"},
+            {"id": 914, "name": "CARPET DEODORIZER"},
+            {"id": 1779, "name": "HOUSEHOLD DEODORIZER"}
+          ],
+          "397": [
+            {"id": 4056, "name": "CLEANSERS"},
+            {"id": 923, "name": "RUG AND UPHOLSTERY CLEANER"},
+            {"id": 1801, "name": "FURNITURE AND WOOD POLISH"},
+            {"id": 2770, "name": "CLEANING SPONGE, PADS, CLOTHS"},
+            {"id": 1805, "name": "MULTI PURPOSE CLEANER"},
+            {"id": 925, "name": "GLASS AND SURFACE CLEANER"},
+            {"id": 917, "name": "AMMONIA"},
+            {"id": 918, "name": "BATHROOM CLEANER"},
+            {"id": 1803, "name": "KITCHEN CLEANER"},
+            {"id": 924, "name": "TOILET BOWL CLEANER"},
+            {"id": 1800, "name": "FLOOR CARE"},
+            {"id": 1806, "name": "OTHER CLEANER"},
+            {"id": 1799, "name": "DRAIN CLEANER"},
+            {"id": 1807, "name": "OUTDOOR CLEANER"}
+          ],
+          "399": [
+            {"id": 937, "name": "FABRIC SOFTENER"},
+            {"id": 940, "name": "STARCH"},
+            {"id": 939, "name": "SOIL & STAIN REMOVER"}
+          ],
+          "401": [
+            {"id": 946, "name": "CAT LITTER"}
+          ],
+          "404": [
+            {"id": 965, "name": "BABY CARE PRODUCTS - BATHSOAP"},
+            {"id": 963, "name": "BABY CARE ACCESSORIES"},
+            {"id": 968, "name": "BABY CARE PRODUCTS - OIL/LOTNS"}
+          ],
+          "406": [
+            {"id": 971, "name": "COSMETICS - EYE"},
+            {"id": 973, "name": "COSMETICS - LIP"},
+            {"id": 974, "name": "COSMETICS - NAIL"},
+            {"id": 2210, "name": "COSMETICS - FRAGRANCES"},
+            {"id": 972, "name": "COSMETICS - FACE"}
+          ],
+          "408": [
+            {"id": 980, "name": "AFR AMER HAIR CARE"},
+            {"id": 2218, "name": "AFR AMER SKIN CARE"},
+            {"id": 2221, "name": "HISP HAIR CARE"}
+          ],
+          "411": [
+            {"id": 2403, "name": "DECONGESTANT & SINUS"},
+            {"id": 989, "name": "COUGH & COLD REMEDY"},
+            {"id": 2400, "name": "ALLERGY REMEDY"},
+            {"id": 991, "name": "COUGH & COLD SYRUPS"},
+            {"id": 992, "name": "NASAL PRODUCTS"},
+            {"id": 2404, "name": "CHILDREN"}
+          ],
+          "412": [
+            {"id": 2260, "name": "UNDERARM DEODORANT - MEN"},
+            {"id": 2259, "name": "UNDERARM DEODORANT - WOMEN"},
+            {"id": 2261, "name": "NATURAL DEODORANT"}
+          ],
+          "414": [
+            {"id": 1004, "name": "FEM HYGIENE - REMAINING"},
+            {"id": 2174, "name": "FEM ITCH & YEAST TREATMENT"},
+            {"id": 2171, "name": "FEM HYGIENE - MEDICATION"},
+            {"id": 2175, "name": "FEM HYGIENE - MEDICATED PWDR"},
+            {"id": 2173, "name": "FEM HYGIENE - WIPE"},
+            {"id": 2172, "name": "FEM HYGIENE - SOAP"},
+            {"id": 1002, "name": "FEM HYGIENE - DOUCHES"}
+          ],
+          "415": [
+            {"id": 5105, "name": "DIABETIC AIDS"},
+            {"id": 1008, "name": "FIRST AID TREATMENTS"},
+            {"id": 2361, "name": "FIRST AID OTHER"},
+            {"id": 2357, "name": "FIRST AID CLEANSING"},
+            {"id": 1006, "name": "FIRST AID - COTTON AND SWABS"},
+            {"id": 1005, "name": "FIRST AID - BANDAGES"},
+            {"id": 1007, "name": "FIRST AID - PADS/GAUZE/TAPE"},
+            {"id": 2359, "name": "FIRST AID LOTION"}
+          ],
+          "416": [
+            {"id": 2251, "name": "AFTER SHAVE"},
+            {"id": 2254, "name": "SHAVING LOTIONS"},
+            {"id": 1012, "name": "SHAVING NEEDS - OTHER"},
+            {"id": 2253, "name": "PRESHAVE"},
+            {"id": 1014, "name": "SHAVING CREAM"}
+          ],
+          "417": [
+            {"id": 2354, "name": "PERSONAL LUBRICANTS"}
+          ],
+          "418": [
+            {"id": 1018, "name": "DENTURE PRODUCTS"},
+            {"id": 2244, "name": "DENTAL FLOSS AND ACCESSORY"},
+            {"id": 1019, "name": "ORAL RINSE & ANTISEPTIC"},
+            {"id": 1017, "name": "BREATH FRESHENERS"}
+          ],
+          "419": [
+            {"id": 1024, "name": "FACIAL CLNSR & MOISTZR OTHER"},
+            {"id": 2169, "name": "SKIN CARE TONING"},
+            {"id": 1023, "name": "ACNE PRODUCTS"},
+            {"id": 2165, "name": "FACIAL WASH"},
+            {"id": 2161, "name": "FACIAL CLEANSER"},
+            {"id": 2162, "name": "FACIAL CLEANSER WIPE"},
+            {"id": 2164, "name": "FACIAL MOISTURIZER"},
+            {"id": 2160, "name": "FACE CARE"}
+          ],
+          "420": [
+            {"id": 1032, "name": "SHAMPOO"},
+            {"id": 1028, "name": "CONDITIONER"},
+            {"id": 5974, "name": "LICE TREATMENT"},
+            {"id": 5975, "name": "MEDICATED"},
+            {"id": 2206, "name": "SHAMPOO/CONDITIONER COMBO"}
+          ],
+          "421": [
+            {"id": 1036, "name": "HEADACHE & BODY PAIN - ADULT"},
+            {"id": 5666, "name": "SLEEPING AIDS"},
+            {"id": 2385, "name": "EXTERNAL ANALGESIC - ADULT"},
+            {"id": 1037, "name": "REMAINING PAIN REMEDIES"}
+          ],
+          "422": [
+            {"id": 1050, "name": "VITAMINS"},
+            {"id": 1046, "name": "MINERALS"},
+            {"id": 2410, "name": "SUPPLEMENTS"}
+          ],
+          "423": [
+            {"id": 2511, "name": "FLASHLIGHT - SMALL"},
+            {"id": 1055, "name": "FLASHLIGHT"}
+          ],
+          "425": [
+            {"id": 1060, "name": "INCENSE"}
+          ],
+          "426": [
+            {"id": 3945, "name": "ELECTRONICS"},
+            {"id": 3565, "name": "ELECTRONICS IPOD"}
+          ],
+          "428": [
+            {"id": 2588, "name": "COOKING UTENSILS"},
+            {"id": 2596, "name": "DRINKWARE - ADULT"},
+            {"id": 2608, "name": "KITCHEN ACCESSORY - OTHER"},
+            {"id": 2609, "name": "KITCHEN HOLDER - OTHER"},
+            {"id": 2597, "name": "ETHNIC COOKWARE"},
+            {"id": 2594, "name": "DINNERWARE"},
+            {"id": 2603, "name": "GLASS CONTAINER"},
+            {"id": 2602, "name": "GADGETS"},
+            {"id": 2593, "name": "CUTLERY"},
+            {"id": 2575, "name": "BAKING CUP"},
+            {"id": 2589, "name": "COOKWARE"},
+            {"id": 2574, "name": "BAKING/MEASURING/MIXING UTENSL"},
+            {"id": 2604, "name": "GLASS COOKWARE"},
+            {"id": 2595, "name": "DISHWASHING ACCESSORY PRODUCTS"}
+          ],
+          "429": [
+            {"id": 2636, "name": "SOIL"}
+          ],
+          "432": [
+            {"id": 2542, "name": "SCHOOL SUPPLIES"},
+            {"id": 1078, "name": "ARTIST & HOBBY PAINT & SUPPLY"},
+            {"id": 2533, "name": "HOME OFFICE SUPPLIES"},
+            {"id": 2540, "name": "SCHOOL & OFFICE PAPER & FORMS"},
+            {"id": 5588, "name": "PENCILS"},
+            {"id": 2530, "name": "CORRECTION FLUID AND ERASERS"},
+            {"id": 2538, "name": "SCHOOL & OFFICE BASICS"},
+            {"id": 2539, "name": "SCHOOL & OFFICE MEASURERS"},
+            {"id": 2537, "name": "REPORT COVERS/DIVIDERS/LABELS"},
+            {"id": 2541, "name": "SCHOOL & OFFICE STORG/DISPENSR"},
+            {"id": 2536, "name": "PERSONAL PLANRS/BINDRS/FOLDRS"},
+            {"id": 2532, "name": "DRY ERASE BULLETIN BOARD/ACCES"},
+            {"id": 5589, "name": "PENS"},
+            {"id": 2535, "name": "MARKERS & HIGHLIGHTERS"},
+            {"id": 2531, "name": "CRAYONS"},
+            {"id": 2534, "name": "INK JET & TONER CARTRIDGE"}
+          ],
+          "433": [
+            {"id": 2562, "name": "FLYING INSECT KILLER"}
+          ],
+          "455": [
+            {"id": 1091, "name": "DOMESTICS"}
+          ],
+          "456": [
+            {"id": 1092, "name": "TOYS, GAMES, HOBBIES"}
+          ],
+          "457": [
+            {"id": 1093, "name": "HOME MAINTENANCE"}
+          ],
+          "460": [
+            {"id": 1099, "name": "SOCKS"}
+          ],
+          "461": [
+            {"id": 1174, "name": "SHOES"},
+            {"id": 3681, "name": "WINTER WEAR"},
+            {"id": 3675, "name": "BLANKETS"},
+            {"id": 3678, "name": "SHIRTS"},
+            {"id": 3931, "name": "PILLOWS"},
+            {"id": 3672, "name": "BAGS"},
+            {"id": 1104, "name": "REMAINING SOFT GOODS"},
+            {"id": 1102, "name": "JEANS"},
+            {"id": 3677, "name": "SANDALS"},
+            {"id": 1100, "name": "CAPS, HANDBAGS, HANDKERCHIEFS"}
+          ],
+          "462": [
+            {"id": 1105, "name": "GREETING CARDS"},
+            {"id": 1106, "name": "GIFT WRAPS"},
+            {"id": 1107, "name": "GIFTWARE"}
+          ],
+          "465": [
+            {"id": 1114, "name": "NATURAL FOODS"}
+          ],
+          "466": [
+            {"id": 1116, "name": "BULK FOODS"}
+          ],
+          "467": [
+            {"id": 1118, "name": "DOLLAR ITEMS - GROCERY"}
+          ],
+          "468": [
+            {"id": 1119, "name": "DOLLAR ITEMS - GM"}
+          ],
+          "473": [
+            {"id": 1125, "name": "CANNING SUPPLIES"}
+          ],
+          "474": [
+            {"id": 1127, "name": "HOME CANNING SUPPLY"},
+            {"id": 1853, "name": "OPEN"},
+            {"id": 1128, "name": "FOOD STORG CONT - CANNG/FRZNG"}
+          ],
+          "475": [
+            {"id": 2156, "name": "BATH PRODUCTS - ADULT"},
+            {"id": 2157, "name": "BATH PRODUCTS - CHILDREN"}
+          ],
+          "477": [
+            {"id": 2688, "name": "PET FOOD STORAGE"},
+            {"id": 2684, "name": "PET ACCESSORIES - OTHER"},
+            {"id": 2695, "name": "RAWHIDE CHEWBONE AND STICK"},
+            {"id": 2693, "name": "PET TOYS"},
+            {"id": 2685, "name": "PET BRUSH"}
+          ],
+          "478": [
+            {"id": 1140, "name": "REMAINING PET FOOD"}
+          ],
+          "479": [
+            {"id": 1149, "name": "REMAINING HOUSEHOLD SUPPLIES"}
+          ],
+          "481": [
+            {"id": 1153, "name": "BOOKS"},
+            {"id": 3367, "name": "MAGAZINES"}
+          ],
+          "484": [
+            {"id": 1158, "name": "SEASONAL ITEMS - GEN MDSE"}
+          ],
+          "485": [
+            {"id": 2753, "name": "VIDEO PRODS PRERECORD - DVD"},
+            {"id": 1159, "name": "VIDEO PRODS PRERECORD OTHER"}
+          ],
+          "486": [
+            {"id": 1161, "name": "J-HOOKS & CLIPSTRIPS - GM"}
+          ],
+          "487": [
+            {"id": 1162, "name": "DOLLAR ITEMS - NON GROCERY"}
+          ],
+          "493": [
+            {"id": 1652, "name": "KOSHER - GUM AND CANDY"},
+            {"id": 1664, "name": "KOSHER - MAYONNAISE"},
+            {"id": 1676, "name": "KOSHER - REMAINING"},
+            {"id": 1662, "name": "KOSHER - JELLY"}
+          ],
+          "494": [
+            {"id": 2280, "name": "TRL SZ - PERSONAL CLEANSER"},
+            {"id": 2295, "name": "TRL SZ - DEODORANT"},
+            {"id": 2275, "name": "TRL SZ - HAND & BODY LOTION"},
+            {"id": 1166, "name": "TRIAL SIZES REMAINING"}
+          ],
+          "500": [
+            {"id": 1172, "name": "CHECKSTANDS"}
+          ],
+          "501": [
+            {"id": 1173, "name": "CONTINUITY ITEMS"}
+          ],
+          "502": [
+            {"id": 1175, "name": "KOSHER FOODS - REFREIGERATED"}
+          ],
+          "507": [
+            {"id": 1197, "name": "CANNING SPICES"},
+            {"id": 1196, "name": "FRUIT PROTECTOR AND PECTIN"}
+          ],
+          "508": [
+            {"id": 1198, "name": "BREADING PRODUCTS"},
+            {"id": 1199, "name": "STUFFING PRODUCTS"}
+          ],
+          "509": [
+            {"id": 1223, "name": "SLOPPY JOE SAUCE"},
+            {"id": 3825, "name": "CANNED MEAT STEW"},
+            {"id": 1217, "name": "POULTRY - CANNED"},
+            {"id": 3827, "name": "CANNED MEAT CHILI"},
+            {"id": 3826, "name": "CANNED MEAT HASH"},
+            {"id": 1221, "name": "SAUSAGE - VIENNA - CANNED"},
+            {"id": 1216, "name": "POTTED MEAT - CANNED"},
+            {"id": 1208, "name": "CANNED MEAT - OTHER"},
+            {"id": 1211, "name": "DRIED BEEF"},
+            {"id": 1209, "name": "CORNED BEEF - CANNED"}
+          ],
+          "510": [
+            {"id": 1225, "name": "BOUILLON - CHICKEN"},
+            {"id": 1224, "name": "BOUILLON - BEEF"},
+            {"id": 1227, "name": "BOUILLON - OTHER"}
+          ],
+          "511": [
+            {"id": 1229, "name": "SOUP MIX"},
+            {"id": 1228, "name": "CHILI MIXES"}
+          ],
+          "512": [
+            {"id": 1244, "name": "PIE FILLING - OTHER"},
+            {"id": 1242, "name": "PIE FILLING - CHERRY"},
+            {"id": 1246, "name": "PIE FILLING - PUMPKIN"},
+            {"id": 1241, "name": "PIE FILLING - APPLE"}
+          ],
+          "513": [
+            {"id": 1248, "name": "PIE CRUST"}
+          ],
+          "533": [
+            {"id": 1270, "name": "COFFEE CREAMERS - POWDERED"}
+          ],
+          "534": [
+            {"id": 1273, "name": "HERBAL TEA PACKAGED"}
+          ],
+          "536": [
+            {"id": 1297, "name": "WAFER CONE"}
+          ],
+          "537": [
+            {"id": 1307, "name": "SYRUP TOPPING"},
+            {"id": 1304, "name": "NUT TOPPING"},
+            {"id": 1300, "name": "FRUIT TOPPING"},
+            {"id": 1306, "name": "SUNDAE TOPPING"},
+            {"id": 1303, "name": "MARSHMALLOW CREAM"}
+          ],
+          "539": [
+            {"id": 1328, "name": "PANCAKE MIX - SHAKE & POUR"},
+            {"id": 1329, "name": "PANCAKE MIX - SPECIALTY"},
+            {"id": 1326, "name": "PANCAKE MIX - COMPLETE"},
+            {"id": 1327, "name": "PANCAKE MIX - REGULAR"}
+          ],
+          "540": [
+            {"id": 1334, "name": "HONEY"}
+          ],
+          "541": [
+            {"id": 1336, "name": "PEANUT BUTTER - OTHER NUT SPRD"},
+            {"id": 1335, "name": "PEANUT BUTTER"},
+            {"id": 1339, "name": "PEANUT BUTTER - NATURAL"}
+          ],
+          "542": [
+            {"id": 1350, "name": "HOT COCOA - SWEETENED"}
+          ],
+          "544": [
+            {"id": 1354, "name": "POWDERED DRINKS - REMAINING"},
+            {"id": 2769, "name": "FREEZER POPS - UNFROZEN"},
+            {"id": 5625, "name": "DRINKS ADDITIVE LIQ-OTHER"}
+          ],
+          "546": [
+            {"id": 1363, "name": "BOXED PREP DINNERS - REGULAR"},
+            {"id": 1362, "name": "BOXED PREP DINNERS - MICROWAVE"}
+          ],
+          "547": [
+            {"id": 6040, "name": "GRAVY - JAR"},
+            {"id": 6039, "name": "GRAVY - CANNED"}
+          ],
+          "548": [
+            {"id": 1372, "name": "CATSUP - ADULT"}
+          ],
+          "549": [
+            {"id": 1375, "name": "COOKING SAUCE - SPECIALTY"},
+            {"id": 1374, "name": "COOKING SAUCE - ADD MEAT"}
+          ],
+          "550": [
+            {"id": 1376, "name": "DIPPING SAUCE"}
+          ],
+          "554": [
+            {"id": 1407, "name": "WHITE RICE"},
+            {"id": 1404, "name": "RICE - INSTANT"},
+            {"id": 1405, "name": "RICE - OTHER"},
+            {"id": 1408, "name": "WILD RICE"},
+            {"id": 5665, "name": "RICE - PREPARED"},
+            {"id": 3587, "name": "RICE - SPECIALITY"},
+            {"id": 3586, "name": "RICE - COUSCOUS"}
+          ],
+          "555": [
+            {"id": 3927, "name": "GRAIN CAKE - LARGE"},
+            {"id": 1410, "name": "GRAIN CAKE - RICE MINI"}
+          ],
+          "556": [
+            {"id": 1414, "name": "INSTANT HOT CEREAL"},
+            {"id": 1412, "name": "GRITS"},
+            {"id": 1413, "name": "REGULAR HOT CEREAL"}
+          ],
+          "557": [
+            {"id": 1418, "name": "RTE CEREAL - FAMILY"},
+            {"id": 5983, "name": "PRIVATE BRAND"},
+            {"id": 1419, "name": "RTE CEREAL - KIDS"},
+            {"id": 1417, "name": "RTE CEREAL - ADULT"},
+            {"id": 1416, "name": "RTE CEREAL - SINGLES"}
+          ],
+          "558": [
+            {"id": 1421, "name": "INSTANT BREAKFAST - LIQUID"}
+          ],
+          "559": [
+            {"id": 1426, "name": "MARINADE - OTHER"},
+            {"id": 1423, "name": "MARINADE - ALL PURPOSE"}
+          ],
+          "560": [
+            {"id": 1439, "name": "SEAFOOD SAUCE"},
+            {"id": 1434, "name": "HOT SAUCE"},
+            {"id": 1432, "name": "CHILI SAUCE"},
+            {"id": 1431, "name": "BARBECUE SAUCE"},
+            {"id": 1435, "name": "MEAT SAUCE"},
+            {"id": 1438, "name": "WORCESTERSHIRE SAUCE"},
+            {"id": 1436, "name": "REMAINING SAUCE"},
+            {"id": 1437, "name": "TABASCO/PEPPER SAUCE"}
+          ],
+          "562": [
+            {"id": 1443, "name": "PIZZA SAUCE"}
+          ],
+          "563": [
+            {"id": 1457, "name": "SAUCE MIX - OTHER TYPES"},
+            {"id": 5205, "name": "TACO MIX"}
+          ],
+          "564": [
+            {"id": 1464, "name": "SPECIALTY VINEGAR"},
+            {"id": 1462, "name": "CIDER VINEGAR"},
+            {"id": 1465, "name": "WHITE VINEGAR"},
+            {"id": 1463, "name": "COOKING WINE"}
+          ],
+          "565": [
+            {"id": 1471, "name": "MUSTARD - ETHNIC"},
+            {"id": 1470, "name": "MUSTARD - YELLOW"},
+            {"id": 1467, "name": "MUSTARD - DIJON"},
+            {"id": 1468, "name": "MUSTARD - HONEY"},
+            {"id": 1466, "name": "MUSTARD - BROWN"}
+          ],
+          "566": [
+            {"id": 1476, "name": "PASTA SAUCE - MARINARA"},
+            {"id": 1472, "name": "PASTA SAUCE - ALFREDO"},
+            {"id": 1478, "name": "PASTA SAUCE - REMAINING"},
+            {"id": 1475, "name": "PASTA SAUCE - SPECIALITY"}
+          ],
+          "568": [
+            {"id": 1483, "name": "MARSHMALLOWS - REGULAR"}
+          ],
+          "569": [
+            {"id": 1485, "name": "MAYONNAISE"},
+            {"id": 1487, "name": "SPOONABLE SALAD DRESSING"},
+            {"id": 1486, "name": "SANDWICH SPREAD"}
+          ],
+          "570": [
+            {"id": 1489, "name": "MEAT SNACK - STICK"},
+            {"id": 1488, "name": "MEAT SNACK - JERKY"}
+          ],
+          "571": [
+            {"id": 1490, "name": "OLIVES - RIPE"},
+            {"id": 1491, "name": "OLIVES - SPANISH"},
+            {"id": 1492, "name": "OLIVES - KALAMATA"},
+            {"id": 1493, "name": "OLIVES - STUFFED & SPECIALTY"}
+          ],
+          "572": [
+            {"id": 1495, "name": "DILL PICKLES"},
+            {"id": 1496, "name": "RELISHES"},
+            {"id": 5972, "name": "PEPPERS"},
+            {"id": 1494, "name": "SPECIALTY & OTHER"}
+          ],
+          "574": [
+            {"id": 1498, "name": "PIZZA CRUST MIX"}
+          ],
+          "575": [
+            {"id": 6043, "name": "VARIETY BEANS"},
+            {"id": 6044, "name": "OTHER"},
+            {"id": 1503, "name": "BAKED BEANS"},
+            {"id": 1504, "name": "PORK AND BEANS"}
+          ],
+          "578": [
+            {"id": 1513, "name": "CROUTONS"},
+            {"id": 1512, "name": "BACON BITS"},
+            {"id": 1514, "name": "DRY SALAD TOPPING"}
+          ],
+          "579": [
+            {"id": 1532, "name": "SALTED SNACK DIPS - BEAN"},
+            {"id": 1535, "name": "SALTED SNACK DIPS - OTHER"},
+            {"id": 1537, "name": "SALTED SNACK DIP MIX"}
+          ],
+          "581": [
+            {"id": 1538, "name": "CHOCOLATE AND SWEET"},
+            {"id": 1539, "name": "FRUIT AND CINNAMON"}
+          ],
+          "582": [
+            {"id": 1543, "name": "CHEWY CRUNCHY AND GRANOLA BARS"},
+            {"id": 1542, "name": "DRIED FRUIT SNACK"},
+            {"id": 5978, "name": "FIBER AND PROTEIN BARS"},
+            {"id": 5980, "name": "GLUTEN FREE BARS"},
+            {"id": 5981, "name": "INDULGENT/DESSERT BARS"},
+            {"id": 1541, "name": "TREAT BARS"},
+            {"id": 5982, "name": "NATURAL AND ORGANIC BARS"},
+            {"id": 5979, "name": "FRUIT CEREAL BARS"}
+          ],
+          "584": [
+            {"id": 1554, "name": "HISP - JUICE AND DRINKS"},
+            {"id": 1556, "name": "HISP - SOFT DRINK"}
+          ],
+          "585": [
+            {"id": 3596, "name": "HISP - BREAD"},
+            {"id": 5848, "name": "MEXICAN VEGETABLES"},
+            {"id": 5849, "name": "ENCHILADA SAUCE"},
+            {"id": 5846, "name": "TACO SHELLS"},
+            {"id": 5850, "name": "MEXICAN SALSA, PICANTE, DIPS"},
+            {"id": 5845, "name": "REFRIED BEANS"},
+            {"id": 5851, "name": "TACO SAUCE"},
+            {"id": 5852, "name": "MEXCAN SAUCE MIX"},
+            {"id": 1558, "name": "HISP - BAKING AISLE"},
+            {"id": 1564, "name": "HISP - CANNED SEAFOOD"},
+            {"id": 1561, "name": "HISP - CANDY AND GUM"},
+            {"id": 1569, "name": "HISP - DESSERTS"},
+            {"id": 1578, "name": "HISP - VEGETABLES & GRAINS"},
+            {"id": 3595, "name": "HISP - SEASONING MIX"}
+          ],
+          "593": [
+            {"id": 6045, "name": "FLAVORED CANNED TOMATOES"},
+            {"id": 1615, "name": "PLAIN CANNED TOMATOES"},
+            {"id": 1616, "name": "TOMATO PASTE & PUREE"},
+            {"id": 1618, "name": "TOMATO SAUCE"}
+          ],
+          "594": [
+            {"id": 3591, "name": "ASIAN - VINEGAR& COOKING WINE"},
+            {"id": 1629, "name": "ASIAN - VEGETABLES AND GRAINS"},
+            {"id": 1627, "name": "ASIAN - SAUCES"},
+            {"id": 3593, "name": "ASIAN - BAKING"},
+            {"id": 1632, "name": "ORIENTAL NOODLES"},
+            {"id": 1624, "name": "ASIAN - OILS"},
+            {"id": 1619, "name": "ASIAN - BREADING PRODUCTS"},
+            {"id": 3588, "name": "ASIAN - SPECIALITY"},
+            {"id": 1631, "name": "ASIAN - JUICE AND DRINKS"},
+            {"id": 1626, "name": "ASIAN - SALAD DRESSING"},
+            {"id": 1628, "name": "ASIAN - SOUP"},
+            {"id": 1625, "name": "ASIAN - PREPARED DINNERS"},
+            {"id": 1630, "name": "CHOW MEIN NOODLES"},
+            {"id": 1623, "name": "ASIAN - CRACKERS"},
+            {"id": 3590, "name": "ASIAN - SNACK"}
+          ],
+          "615": [
+            {"id": 1673, "name": "KOSHER - JUICE AND DRINKS"}
+          ],
+          "617": [
+            {"id": 1704, "name": "SHELF STABLE - POTATO OTHER"},
+            {"id": 1708, "name": "SHELF STABLE - POTATO UNFLAV"},
+            {"id": 1706, "name": "SHELF STABLE - POTATO SCALLOPD"},
+            {"id": 1701, "name": "SHELF STABLE - POTATO AUGRATIN"},
+            {"id": 1703, "name": "SHELF STABLE - POTATO MASHED"},
+            {"id": 1702, "name": "SHELF STABLE - POTATO HASHBRWN"}
+          ],
+          "620": [
+            {"id": 1756, "name": "SHELF STABLE - VEG JUICE"},
+            {"id": 4059, "name": "SHELF STABLE - JUICES & DRINKS"},
+            {"id": 1755, "name": "SHELF STABLE - FRUIT JUICE"},
+            {"id": 1714, "name": "ASEPTIC JUICES & DRINKS"},
+            {"id": 1750, "name": "JUICE & DRINK CONCENTRATE"},
+            {"id": 1754, "name": "SNGL/MLTPK JUICE/DRNK"},
+            {"id": 1757, "name": "SPORTS BEVERAGE"}
+          ],
+          "621": [
+            {"id": 5507, "name": "SHELF STABLE - CONDENSED MILK"},
+            {"id": 5508, "name": "SHELF STABLE - EVAPORATED MILK"},
+            {"id": 5506, "name": "SHELF STABLE - POWDERED MILK"}
+          ],
+          "622": [
+            {"id": 1732, "name": "BEETS"},
+            {"id": 1730, "name": "ARTICHOKE"},
+            {"id": 1733, "name": "CARROTS"},
+            {"id": 1727, "name": "CORN"},
+            {"id": 1739, "name": "PEAS"},
+            {"id": 1740, "name": "SHELF STABLE - PEAS & CARROTS"},
+            {"id": 1726, "name": "BEANS"},
+            {"id": 1731, "name": "ASPARAGUS"},
+            {"id": 1743, "name": "POTATOES"},
+            {"id": 1735, "name": "MIXED VEG"},
+            {"id": 1749, "name": "SWEET POTATO/YAMS"},
+            {"id": 1745, "name": "SAUERKRAUT"},
+            {"id": 1747, "name": "SPINACH"},
+            {"id": 1729, "name": "SHELF STABLE - TOMATOES"},
+            {"id": 1736, "name": "MUSHROOMS"},
+            {"id": 1737, "name": "ONIONS"},
+            {"id": 1728, "name": "SHELF STABLE - PEPPERS"},
+            {"id": 1738, "name": "OTHER"},
+            {"id": 1748, "name": "SHELF STABLE - ETHNIC VEG"}
+          ],
+          "623": [
+            {"id": 1761, "name": "NEW AGE JUICE ALTERNATIVES"},
+            {"id": 1765, "name": "NEW AGE RTD COFFEE"},
+            {"id": 1762, "name": "NEW AGE RTD TEA"},
+            {"id": 1759, "name": "NEW AGE ENERGY DRINK"},
+            {"id": 1763, "name": "NEW AGE BEV - VEG JUICE/DRNK"}
+          ],
+          "624": [
+            {"id": 1783, "name": "DISH LIGHT DUTY LIQUID"},
+            {"id": 1782, "name": "DISHWASHER RINSING AIDS"},
+            {"id": 1781, "name": "DISH AUTO DETERGENT"}
+          ],
+          "625": [
+            {"id": 1786, "name": "BAGS - TRASH"},
+            {"id": 1785, "name": "BAG - TALL KITCHEN"},
+            {"id": 1788, "name": "BAGS - WASTE"},
+            {"id": 1784, "name": "BAGS - LAWN AND LEAF"},
+            {"id": 1787, "name": "BAGS - TRASH COMPACTOR"}
+          ],
+          "626": [
+            {"id": 5646, "name": "ALUMINUM FOIL"},
+            {"id": 5648, "name": "WAX PAPER"},
+            {"id": 1792, "name": "FREEZER BAG"},
+            {"id": 1790, "name": "FOOD STORAGE BAG"},
+            {"id": 5645, "name": "FOOD STORAGE CONTAINER"},
+            {"id": 1793, "name": "SNACK BAG"},
+            {"id": 5647, "name": "PLASTIC WRAP"}
+          ],
+          "627": [
+            {"id": 1794, "name": "OVEN COOKING BAG"}
+          ],
+          "629": [
+            {"id": 1812, "name": "LAUNDRY BLEACH - LIQUID"}
+          ],
+          "633": [
+            {"id": 1832, "name": "LAUNDRY DETERG - LIQUID"},
+            {"id": 1833, "name": "LAUNDRY DETERG - POWDER"},
+            {"id": 1831, "name": "LAUNDRY DETERG - BAR SOAP"}
+          ],
+          "634": [
+            {"id": 1841, "name": "PAPER NAPKIN - REGULAR"},
+            {"id": 1838, "name": "PAPER NAPKIN - DINNER"},
+            {"id": 1842, "name": "WIPES - NAPKINS"}
+          ],
+          "635": [
+            {"id": 1845, "name": "PAPER TOWEL - PREMIUM"},
+            {"id": 1844, "name": "PAPER TOWEL - ENVIRONMENTAL"},
+            {"id": 1846, "name": "PAPER TOWEL - VALUE"},
+            {"id": 1843, "name": "PAPER TOWEL - ECONOMY"}
+          ],
+          "636": [
+            {"id": 1848, "name": "BATH TISSUE - AFFORDABLE"},
+            {"id": 1850, "name": "BATH TISSUE - SUPER PREMIUM"},
+            {"id": 1847, "name": "BATH TISSUE - TOWELETTES"}
+          ],
+          "637": [
+            {"id": 1859, "name": "DISPOSABLE DISH - BAR SUPPLIES"},
+            {"id": 1860, "name": "DISPOSABLE DISH - PICNIC"},
+            {"id": 1861, "name": "DISPOSABLE DISH - PLASTICWARE"}
+          ],
+          "638": [
+            {"id": 1862, "name": "DOG TREATS"},
+            {"id": 1865, "name": "WET DOG FOOD"},
+            {"id": 1863, "name": "DRY DOG FOOD"},
+            {"id": 1864, "name": "MOIST DOG FOOD"}
+          ],
+          "639": [
+            {"id": 1867, "name": "DRY CAT FOOD"},
+            {"id": 1869, "name": "WET CAT FOOD"},
+            {"id": 1866, "name": "CAT TREATS"}
+          ],
+          "640": [
+            {"id": 1870, "name": "FACIAL TISSUES - ECONOMY"},
+            {"id": 1872, "name": "FACIAL TISSUES - PREMIUM"}
+          ],
+          "643": [
+            {"id": 1897, "name": "POTATO - SPECIALTY/OTHER - FRZ"},
+            {"id": 1891, "name": "BREADED ONIONS - FRZN"},
+            {"id": 1892, "name": "FRZN FRENCH FRIES"},
+            {"id": 1899, "name": "TATER TOT - FRZN"},
+            {"id": 1893, "name": "HASH BROWNS - FRZN"},
+            {"id": 1894, "name": "MASHED POTATO - FRZN"}
+          ],
+          "644": [
+            {"id": 5925, "name": "FROZEN APPETIZER"},
+            {"id": 1904, "name": "OPEN"},
+            {"id": 1906, "name": "FRZN SANDWICHES"}
+          ],
+          "645": [
+            {"id": 1910, "name": "FRZN PASTA - NOODLE"}
+          ],
+          "650": [
+            {"id": 1927, "name": "FRZN TOASTER PASTRIES - REG"}
+          ],
+          "653": [
+            {"id": 1937, "name": "FRZN BREAD"},
+            {"id": 1939, "name": "FRZN GARLIC BREAD"},
+            {"id": 1941, "name": "FRZN ROLL"},
+            {"id": 1938, "name": "FRZN BREAD DOUGH"}
+          ],
+          "654": [
+            {"id": 1954, "name": "FRZN POT PIES"}
+          ],
+          "657": [
+            {"id": 1977, "name": "FRZN WHIPPED TOPPING"}
+          ],
+          "660": [
+            {"id": 1987, "name": "HISP FRZN DINNER"}
+          ],
+          "661": [
+            {"id": 2016, "name": "FRZN MEAT - IMITATION"}
+          ],
+          "663": [
+            {"id": 2036, "name": "FRZN EGG ROLL"},
+            {"id": 2038, "name": "FRZN ASIAN DINNER"}
+          ],
+          "666": [
+            {"id": 4051, "name": "FRZN DINNER - MULTISERVE"},
+            {"id": 2053, "name": "FRZN DINNER - REGULAR"},
+            {"id": 2052, "name": "FRZN DINNER - RED CALORIE"},
+            {"id": 2051, "name": "FRZN DINNER - MEXICAN"}
+          ],
+          "667": [
+            {"id": 4057, "name": "FRZN ENTREE - ASIAN"},
+            {"id": 2061, "name": "FRZN ENTREE - REGULAR"},
+            {"id": 2060, "name": "FRZN ENTREE - RED CALORIE"},
+            {"id": 2056, "name": "FRZN ENTREE - MEXICAN"}
+          ],
+          "668": [
+            {"id": 2064, "name": "MARGARINE"},
+            {"id": 2067, "name": "MARGARINE - BLEND"},
+            {"id": 2068, "name": "MARGARINE - HEALTHY"}
+          ],
+          "669": [
+            {"id": 2071, "name": "COTTAGE CHEESE - REGULAR"}
+          ],
+          "670": [
+            {"id": 2077, "name": "CREAM"},
+            {"id": 2078, "name": "WHIPPING CREAM"},
+            {"id": 2076, "name": "COFFEE CREAMER"}
+          ],
+          "671": [
+            {"id": 2082, "name": "CREAM CHEESE - SOFT & WHIPPED"},
+            {"id": 2080, "name": "CREAM CHEESE - BRICK"},
+            {"id": 2083, "name": "CREAM CHEESE - SPREADS"}
+          ],
+          "693": [
+            {"id": 2117, "name": "REFRIG BAGEL"},
+            {"id": 2114, "name": "REFRIG ENGLISH MUFFIN"},
+            {"id": 2144, "name": "REFRIG TORTILLA SHELLS"}
+          ],
+          "695": [
+            {"id": 2131, "name": "WHIPPED TOPPING - AEROSOL REG"}
+          ],
+          "696": [
+            {"id": 2153, "name": "BODY WASH"},
+            {"id": 2152, "name": "BAR SOAP"},
+            {"id": 2155, "name": "LIQUID HAND SOAP"},
+            {"id": 2154, "name": "HAND SANITIZER"}
+          ],
+          "698": [
+            {"id": 2185, "name": "HAND & BODY LOTION - EVERYDAY"},
+            {"id": 2187, "name": "HAND & BODY LOTION - PRICE"},
+            {"id": 2186, "name": "HAND & BODY LOTION - EXPERIMNT"},
+            {"id": 2188, "name": "HAND & BODY LOTION - THERAPUTC"}
+          ],
+          "700": [
+            {"id": 2191, "name": "HAIR COLOR - MEN"},
+            {"id": 2192, "name": "HAIR COLOR - WOMEN - OTHER"}
+          ],
+          "702": [
+            {"id": 2204, "name": "TREATMENTS"},
+            {"id": 2201, "name": "GEL/PASTE/CREAM"},
+            {"id": 2200, "name": "HAIR SPRAY"},
+            {"id": 2203, "name": "SPRAY GEL"}
+          ],
+          "704": [
+            {"id": 2224, "name": "COMB"},
+            {"id": 2232, "name": "HAIR BRUSH"},
+            {"id": 2229, "name": "HAIR ACCESSORIES"}
+          ],
+          "707": [
+            {"id": 2255, "name": "SUN CARE PRODUCT - ADULT"},
+            {"id": 2256, "name": "SUN CARE PRODUCT - BABY"},
+            {"id": 2257, "name": "SUN CARE PRODUCT - CHILD"}
+          ],
+          "713": [
+            {"id": 2307, "name": "COMPLETE NUTRITIONAL"},
+            {"id": 2305, "name": "ADULT NUTRITIONAL BARS"},
+            {"id": 2308, "name": "DIET DRINKS"},
+            {"id": 2315, "name": "SPORTS SUPPLEMENTS - ADULT"}
+          ],
+          "716": [
+            {"id": 2335, "name": "DIARRHEA REMEDY - GRANULE"}
+          ],
+          "718": [
+            {"id": 2346, "name": "OTHER EYE CARE PRODUCT"},
+            {"id": 2341, "name": "ARTIFICIAL TEARS"},
+            {"id": 2343, "name": "EYE MEDS - DECONGEST/ANTIHIST"}
+          ],
+          "719": [
+            {"id": 5345, "name": "COTTON - SWABS, BALLS, PADS"}
+          ],
+          "721": [
+            {"id": 2367, "name": "FOOT CARE - INSOLES AND DEVICE"},
+            {"id": 2364, "name": "ATHLETE FOOT PRODUCT"},
+            {"id": 2365, "name": "CORN/CALLUS/BUNION PRODUCTS"},
+            {"id": 2366, "name": "FOOT CARE - GROOMS AND SOAKS"}
+          ],
+          "724": [
+            {"id": 2377, "name": "LICE KILLER"}
+          ],
+          "730": [
+            {"id": 2395, "name": "ANTI SMOKING PRODUCT - OTHER"},
+            {"id": 2394, "name": "ANTI SMOKING PRODUCT - PATCH"},
+            {"id": 2392, "name": "ANTI SMOKING PRODUCT - GUM"}
+          ],
+          "731": [
+            {"id": 2396, "name": "ANTACIDS"},
+            {"id": 2398, "name": "LAXATIVE PRODUCT"}
+          ],
+          "733": [
+            {"id": 2414, "name": "AUTOMOTIVE ADDITIVES"},
+            {"id": 2417, "name": "AUTOMOTIVE CLEANERS"},
+            {"id": 2413, "name": "AUTOMOTIVE ACCESSORIES"},
+            {"id": 2415, "name": "AUTOMOTIVE AIR FRESHENERS"},
+            {"id": 2416, "name": "AUTOMOTIVE BRUSH AND SPONGE"}
+          ],
+          "734": [
+            {"id": 2423, "name": "BABY FEEDING SUPPLIES"},
+            {"id": 2426, "name": "NURSERY SUPPLIES"},
+            {"id": 2428, "name": "PACIFIER PRODUCTS"},
+            {"id": 2427, "name": "NURSING ACCESSORY"},
+            {"id": 2422, "name": "BABY ACCESSORY"}
+          ],
+          "735": [
+            {"id": 2439, "name": "STRETCH MARK LOTION"},
+            {"id": 2429, "name": "BABY BATH"}
+          ],
+          "736": [
+            {"id": 2442, "name": "BATTERY - ALL PURPOSE"},
+            {"id": 2449, "name": "BATTERY - OTHER"},
+            {"id": 2444, "name": "BATTERY - CAMERA"},
+            {"id": 2446, "name": "BATTERY - HEARING AID"},
+            {"id": 2452, "name": "BATTERY - WATCH/CALCULATOR"},
+            {"id": 2450, "name": "BATTERY - PHONE"}
+          ],
+          "739": [
+            {"id": 2456, "name": "CANDLE HOLDER & ACCESSORY"},
+            {"id": 2459, "name": "CANDLE - OTHER"}
+          ],
+          "740": [
+            {"id": 2471, "name": "SCRUB BRUSH"},
+            {"id": 2469, "name": "MOP REFILL"},
+            {"id": 2470, "name": "MOPS"}
+          ],
+          "741": [
+            {"id": 2473, "name": "CLEANING SUPPLIES"},
+            {"id": 2476, "name": "SCOURING PAD"},
+            {"id": 2477, "name": "SPONGE"}
+          ],
+          "743": [
+            {"id": 2482, "name": "COFFEE FILTER - BASKET"},
+            {"id": 2483, "name": "COFFEE FILTER - CONE"}
+          ],
+          "744": [
+            {"id": 2486, "name": "MISC COFFEE ITEMS"}
+          ],
+          "747": [
+            {"id": 2498, "name": "FILM - 35MM"},
+            {"id": 2507, "name": "FILM - PRINT"},
+            {"id": 2496, "name": "FILM - 110"}
+          ],
+          "750": [
+            {"id": 2519, "name": "HARDWARE ACCESSORIES"},
+            {"id": 2520, "name": "HARDWARE TAPE"}
+          ],
+          "757": [
+            {"id": 2549, "name": "HOUSEHLD PLASTCS - FOOD CONTCT"},
+            {"id": 2548, "name": "HOUSEHLD PLASTCS - CLOTHING"},
+            {"id": 2551, "name": "HOUSEHLD PLASTCS - OTHR STORG"},
+            {"id": 2550, "name": "HOUSEHLD PLASTCS - HOUSEHOLD"}
+          ],
+          "759": [
+            {"id": 2556, "name": "PERSONAL INSECT REPELLENT"},
+            {"id": 2555, "name": "INSECT REPELLENT - OTHER"}
+          ],
+          "760": [
+            {"id": 2571, "name": "RODENTICIDE"},
+            {"id": 2569, "name": "MOUSE TRAP"}
+          ],
+          "763": [
+            {"id": 2625, "name": "HANGERS"}
+          ],
+          "764": [
+            {"id": 2629, "name": "LAUNDRY BRUSHES"}
+          ],
+          "765": [
+            {"id": 2642, "name": "INCANDESCENT BULB"}
+          ],
+          "769": [
+            {"id": 2667, "name": "PARTY SUPPLIES - OTHER"},
+            {"id": 2666, "name": "PARTY NAPKINS - OCCASION"},
+            {"id": 2664, "name": "PARTY FAVORS - PENS"},
+            {"id": 2658, "name": "CANDLES - CAKE"}
+          ],
+          "770": [
+            {"id": 2670, "name": "CAMERAS"}
+          ],
+          "778": [
+            {"id": 2730, "name": "VAPORIZER"}
+          ],
+          "779": [
+            {"id": 2732, "name": "WATER SOFTENING SALT"}
+          ],
+          "794": [
+            {"id": 2766, "name": "FRZN NATURAL/ORGANIC FOODS"}
+          ],
+          "795": [
+            {"id": 2768, "name": "MIXERS"}
+          ],
+          "797": [
+            {"id": 2780, "name": "THAWING SALT"},
+            {"id": 2777, "name": "BAKING CUP LINERS"}
+          ],
+          "798": [
+            {"id": 2782, "name": "WATER SOFTENING SALT"},
+            {"id": 2781, "name": "WATER SOFTENERS/CONDITIONERS"}
+          ],
+          "806": [
+            {"id": 2827, "name": "TURKEY - FRESH"}
+          ],
+          "807": [
+            {"id": 2828, "name": "POULTRY - FROZEN"}
+          ],
+          "808": [
+            {"id": 2831, "name": "DINNER SAUSAGE"},
+            {"id": 5905, "name": "SUMMER SAUSAGE"}
+          ],
+          "811": [
+            {"id": 2921, "name": "FRESH FRUIT - MELONS"},
+            {"id": 2845, "name": "FRESH FRUIT - APPLES"},
+            {"id": 2913, "name": "FRESH FRUIT - APRICOTS"}
+          ],
+          "812": [
+            {"id": 2860, "name": "FRESH VEG - LIMA BEANS"},
+            {"id": 2867, "name": "FRESH VEG - OTHER"}
+          ],
+          "816": [
+            {"id": 2875, "name": "VEGETABLE SNACKS W/DIP"}
+          ],
+          "817": [
+            {"id": 2876, "name": "PRE-CUT FRUIT - APPLE"}
+          ],
+          "822": [
+            {"id": 2907, "name": "MEATLESS SNACKS"}
+          ],
+          "823": [
+            {"id": 2910, "name": "REFRG SALAD DRESSING - REG"}
+          ],
+          "834": [
+            {"id": 2946, "name": "DELI CRACKERS"}
+          ],
+          "835": [
+            {"id": 2957, "name": "POTATO SALAD"},
+            {"id": 2955, "name": "MEAT SALAD - OTHER"}
+          ],
+          "836": [
+            {"id": 2964, "name": "DIP - DELI"}
+          ],
+          "837": [
+            {"id": 2968, "name": "LUNCH COMBO - BREAKFAST"},
+            {"id": 2973, "name": "LUNCH COMBO - PIZZA"},
+            {"id": 2974, "name": "LUNCH COMBO - SANDWICH"}
+          ],
+          "840": [
+            {"id": 2985, "name": "MEXICAN APPETIZER - REGFRIG"}
+          ],
+          "842": [
+            {"id": 2997, "name": "SAUCE - DIPPING - REFRIG"}
+          ],
+          "845": [
+            {"id": 3023, "name": "SANDWICH - OTHER - REFRIG"},
+            {"id": 3027, "name": "SANDWICH OR SUB - REFRIG"}
+          ],
+          "853": [
+            {"id": 3045, "name": "FUEL"}
+          ],
+          "873": [
+            {"id": 3065, "name": "MISC TRANSACTION"}
+          ],
+          "893": [
+            {"id": 3085, "name": "DISCOUNTS, MARKDOWNS, FUEL"}
+          ],
+          "913": [
+            {"id": 3125, "name": "PAPER/PLASTIC CUP,BOWL,PLATES"}
+          ],
+          "933": [
+            {"id": 3145, "name": "DAIRY QUEEN"}
+          ],
+          "934": [
+            {"id": 3146, "name": "SUBWAY"}
+          ],
+          "953": [
+            {"id": 3165, "name": "COMMISSION SALES"}
+          ],
+          "973": [
+            {"id": 3185, "name": "BEVERAGE"},
+            {"id": 3190, "name": "PASTRIES"},
+            {"id": 3189, "name": "MERCHANDISE"},
+            {"id": 3205, "name": "SUPPLIES"},
+            {"id": 3191, "name": "SANDWICHES"},
+            {"id": 3188, "name": "PACKAGED FOOD"},
+            {"id": 3187, "name": "WHOLE BEAN COFFEE"}
+          ],
+          "974": [
+            {"id": 5706, "name": "CIDER/APPLE ALE"},
+            {"id": 5245, "name": "NON ALCOHOLIC"},
+            {"id": 3193, "name": "DOMESTIC/PREMIUM"},
+            {"id": 3445, "name": "IMPORTS"}
+          ],
+          "975": [
+            {"id": 3196, "name": "OTHER MISC KEY- BEER"}
+          ],
+          "976": [
+            {"id": 3199, "name": "SUSHI"}
+          ],
+          "977": [
+            {"id": 3200, "name": "CAFE"}
+          ],
+          "993": [
+            {"id": 3225, "name": "GEN MDSE SPECIAL STORE ORDERS"}
+          ],
+          "1033": [
+            {"id": 3345, "name": "INSTITUTIONAL FOODS"}
+          ],
+          "1053": [
+            {"id": 3366, "name": "ORGANICS"}
+          ],
+          "1073": [
+            {"id": 4026, "name": "ITALIAN PASTA"}
+          ],
+          "1113": [
+            {"id": 3505, "name": "HISPANIC SPECIALTY"}
+          ],
+          "1134": [
+            {"id": 3606, "name": "MEDITERRANEAN SPREAD"},
+            {"id": 5546, "name": "MEDITERRANEAN MISC"}
+          ],
+          "1137": [
+            {"id": 3610, "name": "DUTCH FOODS"}
+          ],
+          "1193": [
+            {"id": 3745, "name": "PROMOTIONAL ITEMS"}
+          ],
+          "1254": [
+            {"id": 3886, "name": "PROPANE"}
+          ],
+          "1333": [
+            {"id": 3988, "name": "SMOKED"}
+          ],
+          "1334": [
+            {"id": 4065, "name": "SHRIMP"}
+          ],
+          "1393": [
+            {"id": 4058, "name": "SPECIALTY FOODS"}
+          ],
+          "1433": [
+            {"id": 4184, "name": "SOUTHERN ROSE"},
+            {"id": 4165, "name": "CAMEO"},
+            {"id": 4145, "name": "APPLE VARIETAL OTHER"},
+            {"id": 4173, "name": "HONEYCRISP"},
+            {"id": 4182, "name": "RED DELICIOUS"},
+            {"id": 4171, "name": "GOLD DELICIOUS"},
+            {"id": 4172, "name": "GRANNY SMITH"},
+            {"id": 4178, "name": "MCINTOSH"},
+            {"id": 4170, "name": "GINGER GOLD"},
+            {"id": 4146, "name": "BRAEBURN"},
+            {"id": 4166, "name": "CORTLAND"},
+            {"id": 4179, "name": "PACIFIC ROSE"},
+            {"id": 4167, "name": "EMPIRE"},
+            {"id": 4181, "name": "PINK LADY"},
+            {"id": 4168, "name": "FUJI"},
+            {"id": 4169, "name": "GALA"},
+            {"id": 4174, "name": "IDA RED"},
+            {"id": 4176, "name": "JONAMAC"},
+            {"id": 4175, "name": "JONAGOLD"},
+            {"id": 4177, "name": "JONATHON"},
+            {"id": 4183, "name": "ROME BEAUTY"}
+          ],
+          "1453": [
+            {"id": 4187, "name": "ADVOCADOS HASS"},
+            {"id": 4186, "name": "ADVOCADOS GREEN"}
+          ],
+          "1454": [
+            {"id": 4190, "name": "BANANAS REGULAR"},
+            {"id": 4191, "name": "BANANAS SPECIALTY"},
+            {"id": 4189, "name": "BANANAS-OTHER"}
+          ],
+          "1455": [
+            {"id": 4193, "name": "BLUEBERRIES"},
+            {"id": 4192, "name": "BLACKBERRIES"}
+          ],
+          "1456": [
+            {"id": 4196, "name": "RASPBERRIES"}
+          ],
+          "1457": [
+            {"id": 4197, "name": "STRAWBERRIES REGULAR"}
+          ],
+          "1458": [
+            {"id": 4199, "name": "BING"},
+            {"id": 4200, "name": "RAINER"}
+          ],
+          "1459": [
+            {"id": 4204, "name": "ORANGES"},
+            {"id": 4201, "name": "GRAPEFRUIT"},
+            {"id": 4206, "name": "TANGERINES"},
+            {"id": 4202, "name": "LEMONS"},
+            {"id": 4203, "name": "LIMES"},
+            {"id": 4205, "name": "CITRUS SPECIALITY FRUITS"}
+          ],
+          "1460": [
+            {"id": 4208, "name": "GRAPES-OTHER"},
+            {"id": 4210, "name": "WHITE/GREEN"},
+            {"id": 4209, "name": "GRAPES RED"},
+            {"id": 4207, "name": "BLACK/BLUE"}
+          ],
+          "1461": [
+            {"id": 4212, "name": "HONEYDEW"},
+            {"id": 4213, "name": "MELON SPECIALTIES"},
+            {"id": 4214, "name": "WATERMELON"},
+            {"id": 4211, "name": "CANTALOUPE"}
+          ],
+          "1463": [
+            {"id": 4216, "name": "ANJOU"},
+            {"id": 4224, "name": "RED"},
+            {"id": 4225, "name": "PACKHAM"},
+            {"id": 4217, "name": "BARTLETT"},
+            {"id": 4218, "name": "BOSC"},
+            {"id": 4219, "name": "PEARS"}
+          ],
+          "1464": [
+            {"id": 4227, "name": "PINEAPPLE GOLD"}
+          ],
+          "1465": [
+            {"id": 4240, "name": "PREPARED MIXED FRUITS"},
+            {"id": 4239, "name": "PREPARED MELONS"},
+            {"id": 4231, "name": "PREPARED APPLES"},
+            {"id": 4245, "name": "PREPARED PINEAPPLE"},
+            {"id": 4243, "name": "PREPARED PEACHES"},
+            {"id": 4230, "name": "PREPARED FRUITS OTHER"},
+            {"id": 4246, "name": "PREPARED STRAWBERRIES"}
+          ],
+          "1466": [
+            {"id": 4248, "name": "REFRIGERATED CIDER"}
+          ],
+          "1467": [
+            {"id": 4259, "name": "SPECIALITY FRUITS OTHER"},
+            {"id": 4252, "name": "DATES"},
+            {"id": 4260, "name": "PAPAYA"},
+            {"id": 4258, "name": "MANGO"},
+            {"id": 4263, "name": "POMEGRANATE"},
+            {"id": 4256, "name": "KIWI"},
+            {"id": 4267, "name": "STAR FRUIT"},
+            {"id": 4250, "name": "CHERIMOYA"},
+            {"id": 4251, "name": "COCONUT"},
+            {"id": 4253, "name": "FEIJOA"},
+            {"id": 4255, "name": "GUAVA"},
+            {"id": 4257, "name": "LYCHEE"},
+            {"id": 4261, "name": "PASSION FRUIT"},
+            {"id": 4262, "name": "PERSIMMON"},
+            {"id": 4265, "name": "QUINCE"},
+            {"id": 4249, "name": "CACTUS PEAR"},
+            {"id": 4264, "name": "RHUBARB"},
+            {"id": 4268, "name": "TAMARILLO"},
+            {"id": 4266, "name": "SAPOTE"},
+            {"id": 4254, "name": "FIGS"}
+          ],
+          "1468": [
+            {"id": 4270, "name": "NECTARINES"},
+            {"id": 4269, "name": "APRICOTS"},
+            {"id": 4271, "name": "PEACHES"},
+            {"id": 4273, "name": "PLUMCOT"},
+            {"id": 4272, "name": "PLUMS"}
+          ],
+          "1469": [
+            {"id": 4280, "name": "SALAD DRESSINGS"},
+            {"id": 4279, "name": "DRESSINGS OTHER"},
+            {"id": 4278, "name": "OILS"},
+            {"id": 4275, "name": "HONEY"}
+          ],
+          "1470": [
+            {"id": 4282, "name": "BULK DRIED FRUIT, VEG, SNACKS"},
+            {"id": 4283, "name": "PACKAGED DRIED FRT, VEG, SNACK"}
+          ],
+          "1471": [
+            {"id": 4286, "name": "OTHER GRAIN"},
+            {"id": 4289, "name": "RICE"},
+            {"id": 4288, "name": "QUINOA"},
+            {"id": 4285, "name": "COUS COUS"}
+          ],
+          "1472": [
+            {"id": 4294, "name": "OTHER HEALTHY ALTERNATIVES"},
+            {"id": 4293, "name": "HEALTHY SPREADS"}
+          ],
+          "1473": [
+            {"id": 4547, "name": "HERBS"},
+            {"id": 4296, "name": "GARLIC"},
+            {"id": 4550, "name": "SPICES"},
+            {"id": 4548, "name": "OTHER"}
+          ],
+          "1474": [
+            {"id": 4298, "name": "BULK NUTS"},
+            {"id": 4299, "name": "BULK SEEDS"},
+            {"id": 4297, "name": "NON-SPECIFIC PRODUCE SALES"}
+          ],
+          "1475": [
+            {"id": 4300, "name": "PACKAGED NUTS"},
+            {"id": 4301, "name": "PACKAGED SEEDS"}
+          ],
+          "1476": [
+            {"id": 4304, "name": "INDIAN CORN"},
+            {"id": 4303, "name": "GOURDS"},
+            {"id": 4302, "name": "CORN STALKS"},
+            {"id": 4305, "name": "OTHER ORNAMENTAL PRODUCE"}
+          ],
+          "1477": [
+            {"id": 4310, "name": "MISCELLANEOUS PRODUCE"},
+            {"id": 4306, "name": "CANDIES"},
+            {"id": 4312, "name": "SNACKS"},
+            {"id": 4308, "name": "CROUTONS"},
+            {"id": 4307, "name": "COOKIES"},
+            {"id": 4309, "name": "FRUIT BASKETS"},
+            {"id": 4313, "name": "DRY MIXES"}
+          ],
+          "1478": [
+            {"id": 4318, "name": "VEGETABLE DIPS"},
+            {"id": 4316, "name": "FRUIT DIPS"}
+          ],
+          "1479": [
+            {"id": 4324, "name": "GREEN BEANS"},
+            {"id": 4320, "name": "CHINESE BEANS"},
+            {"id": 4328, "name": "POLE BEANS"},
+            {"id": 4333, "name": "YELLOW BEANS"},
+            {"id": 4327, "name": "PINTO BEANS"},
+            {"id": 4326, "name": "BEANS OTHER"},
+            {"id": 4322, "name": "DRY BEANS"},
+            {"id": 4325, "name": "LIMA BEANS"},
+            {"id": 4323, "name": "FAVA BEANS"}
+          ],
+          "1480": [
+            {"id": 4336, "name": "CARROTS BUNCH"},
+            {"id": 4335, "name": "CARROTS BULK"},
+            {"id": 4337, "name": "CARROTS OTHER"},
+            {"id": 4334, "name": "BABY"}
+          ],
+          "1481": [
+            {"id": 4342, "name": "CELERY REGULAR"},
+            {"id": 4340, "name": "CELERY HEARTS"},
+            {"id": 4341, "name": "CELERY OTHER"}
+          ],
+          "1482": [
+            {"id": 4348, "name": "KALE"},
+            {"id": 4352, "name": "SPINACH"},
+            {"id": 4351, "name": "RAPINI/BROCCLI RAAB"},
+            {"id": 4344, "name": "CHARD"},
+            {"id": 4345, "name": "COLLARD GREENS"},
+            {"id": 4346, "name": "DANDELION GREENS"},
+            {"id": 4349, "name": "MUSTARD GREENS"},
+            {"id": 4353, "name": "TURNIP GREENS"},
+            {"id": 4350, "name": "COOKING GREENS OTHER"}
+          ],
+          "1483": [
+            {"id": 4354, "name": "ARTICHOKES"}
+          ],
+          "1484": [
+            {"id": 4355, "name": "ASPARAGUS"}
+          ],
+          "1485": [
+            {"id": 4356, "name": "BROCCOLI"}
+          ],
+          "1486": [
+            {"id": 4357, "name": "BRUSSEL SPROUTS"},
+            {"id": 4358, "name": "CABBAGE"}
+          ],
+          "1487": [
+            {"id": 4359, "name": "CAULIFLOWER"}
+          ],
+          "1488": [
+            {"id": 4360, "name": "EGGPLANT"},
+            {"id": 4362, "name": "OKRA"}
+          ],
+          "1489": [
+            {"id": 4364, "name": "PEAS"}
+          ],
+          "1490": [
+            {"id": 4368, "name": "VEGETABLE OTHER"},
+            {"id": 4365, "name": "ROOT VEGETABLES"},
+            {"id": 4366, "name": "KOHLRABI"}
+          ],
+          "1491": [
+            {"id": 4372, "name": "WHITE CORN"},
+            {"id": 4370, "name": "BI-COLOR CORN"},
+            {"id": 4371, "name": "CORN OTHER"}
+          ],
+          "1492": [
+            {"id": 4374, "name": "CUCUMBERS"}
+          ],
+          "1493": [
+            {"id": 4386, "name": "ROMAINE LETTUCE"},
+            {"id": 4376, "name": "BOSTON LETTUCE"},
+            {"id": 4382, "name": "LETTUCE OTHER"},
+            {"id": 4381, "name": "ICEBERG LETTUCE"},
+            {"id": 4384, "name": "RED LEAF LETTUCE"},
+            {"id": 4380, "name": "GREEN LEAF LETTUCE"},
+            {"id": 4378, "name": "ENDIVE"},
+            {"id": 4379, "name": "ESCAROLE"},
+            {"id": 4375, "name": "BIBB LETTUCE"},
+            {"id": 4383, "name": "RADICCHIO"},
+            {"id": 4385, "name": "ROMAINE HEARTS"}
+          ],
+          "1494": [
+            {"id": 4390, "name": "MUSHROOM OTHER"},
+            {"id": 5185, "name": "MUSHROOM WHITE"},
+            {"id": 4387, "name": "MUSHROOMS BROWN"},
+            {"id": 4389, "name": "MUSHROOM DRIED"}
+          ],
+          "1495": [
+            {"id": 4394, "name": "ONIONS DRY"},
+            {"id": 4395, "name": "ONIONS FRESH"},
+            {"id": 4396, "name": "ONIONS OTHER"}
+          ],
+          "1497": [
+            {"id": 4404, "name": "HOT PEPPERS"},
+            {"id": 4405, "name": "SWEET PEPPERS"}
+          ],
+          "1498": [
+            {"id": 4410, "name": "POTATOES RUSSET"},
+            {"id": 4409, "name": "POTATOES RED"},
+            {"id": 4412, "name": "SWEET POTATOES"},
+            {"id": 4413, "name": "POTATOES WHITE"},
+            {"id": 4407, "name": "POTATOES OTHER"},
+            {"id": 4414, "name": "POTATOES YELLOW/YUKON"},
+            {"id": 4411, "name": "POTATOES SPECIALITY"}
+          ],
+          "1499": [
+            {"id": 4430, "name": "RADISHES RED"},
+            {"id": 4420, "name": "PREPARED MIXED VEGETABLES"},
+            {"id": 4416, "name": "OTHER PREPARED VEGETABLES"},
+            {"id": 4428, "name": "DAIKON"},
+            {"id": 4429, "name": "RADISHES OTHER"},
+            {"id": 4422, "name": "PREPARED PEPPERS"},
+            {"id": 4421, "name": "PREPARED ONIONS"},
+            {"id": 4424, "name": "PREPARED VEGETABLE TRAYS"},
+            {"id": 4419, "name": "PREPARED CELERY"},
+            {"id": 4425, "name": "PREPARED SQUASH"}
+          ],
+          "1500": [
+            {"id": 4436, "name": "SPECIALTY VEGETABLES OTHER"},
+            {"id": 4432, "name": "BITTER MELON"},
+            {"id": 4433, "name": "CACTUS LEAVES"},
+            {"id": 4435, "name": "JICAMA"}
+          ],
+          "1501": [
+            {"id": 4439, "name": "ALFALFA SPROUTS"},
+            {"id": 4440, "name": "BEAN SPROUTS"},
+            {"id": 4442, "name": "MIXED SPROUTS"}
+          ],
+          "1502": [
+            {"id": 4444, "name": "PUMPKINS"},
+            {"id": 4445, "name": "SUMMER SQUASH"},
+            {"id": 4446, "name": "WINTER SQUASH"}
+          ],
+          "1503": [
+            {"id": 4451, "name": "TOMATO SPECIALITY"},
+            {"id": 4450, "name": "TOMATO HH ON THE VINE"},
+            {"id": 4448, "name": "TOMATO FIELD GROWN"},
+            {"id": 4449, "name": "TOMATO HH BEEFSTEAK"},
+            {"id": 4452, "name": "TOMATO ROMA"},
+            {"id": 4447, "name": "TOMATO GRAPE"}
+          ],
+          "1504": [
+            {"id": 4453, "name": "BIRD SEED"}
+          ],
+          "1505": [
+            {"id": 4532, "name": "ORGANIC CUCUMBERS"},
+            {"id": 4536, "name": "ORGANIC PACKAGED SALAD"},
+            {"id": 4464, "name": "ORGANIC PEARS"},
+            {"id": 4485, "name": "ORGANIC STONE FRUITS"},
+            {"id": 4522, "name": "ORGANIC COOKING GREENS"},
+            {"id": 4533, "name": "ORGANIC LETTUCE"},
+            {"id": 4459, "name": "ORGANIC CITRUS"},
+            {"id": 4467, "name": "ORGANIC SPECIALITY FRUITS"},
+            {"id": 4463, "name": "ORGANIC TOMATOES"},
+            {"id": 4454, "name": "ORGANIC APPLES"},
+            {"id": 4461, "name": "ORGANIC MELONS"},
+            {"id": 4456, "name": "ORGANIC BANANS"},
+            {"id": 4460, "name": "ORGANIC GRAPES"},
+            {"id": 4458, "name": "ORGANIC CHERRIES"},
+            {"id": 4455, "name": "ORGANIC AVOCADOS"},
+            {"id": 4525, "name": "ORGANIC BROCCOLI"},
+            {"id": 4537, "name": "ORGANIC PEPPERS"},
+            {"id": 4543, "name": "ORGANIC SQUASH/PUMPKINS"},
+            {"id": 4535, "name": "ORGANIC ONIONS"},
+            {"id": 4526, "name": "ORGANIC CABBAGE/BRUSSEL SPROUT"},
+            {"id": 4521, "name": "ORGANIC CELERY"},
+            {"id": 4538, "name": "ORGANIC POTATOES"},
+            {"id": 4527, "name": "ORGANIC CAULIFLOWER"},
+            {"id": 4524, "name": "ORGANIC ASPARAGUS"},
+            {"id": 4528, "name": "ORGANIC EGGPLANT"},
+            {"id": 4540, "name": "ORGANIC RADISHES"},
+            {"id": 4520, "name": "ORGANIC CARROTS"},
+            {"id": 4465, "name": "ORGANIC PINEAPPLES"},
+            {"id": 4541, "name": "ORGANIC SPECIALTY VEGETABLES"},
+            {"id": 4530, "name": "ORGANIC VEGETABLES"},
+            {"id": 4539, "name": "ORGANIC PREPARED VEGETABLES"},
+            {"id": 4490, "name": "ORGANIC HERBS,SPICES&SEASONING"},
+            {"id": 4466, "name": "ORGANIC PREPARED FRUITS"},
+            {"id": 4492, "name": "ORGANIC NUTS & SEEDS"},
+            {"id": 4489, "name": "ORGANIC GRAINS"},
+            {"id": 4529, "name": "ORGANIC PEAS"},
+            {"id": 4534, "name": "ORGANIC MUSHROOMS"},
+            {"id": 4519, "name": "ORGANIC BEANS"},
+            {"id": 4491, "name": "ORGANIC NON-SPECIFIC PRODUCE S"},
+            {"id": 4487, "name": "ORGANIC DRIED FRT,VEG,SNK MIX"},
+            {"id": 4486, "name": "ORGANIC DRSSNG,GLAZE,MARN, SCE"},
+            {"id": 4493, "name": "ORGANIC OTHER PRODUCE"}
+          ],
+          "1513": [
+            {"id": 4496, "name": "BLOOMING PLANTS"},
+            {"id": 4497, "name": "SEASONAL PLANTS"},
+            {"id": 4494, "name": "FOLIAGE"}
+          ],
+          "1514": [
+            {"id": 4498, "name": "PLANTERS"}
+          ],
+          "1515": [
+            {"id": 4502, "name": "ARRANGEMENTS / CENTERPIECES"},
+            {"id": 4501, "name": "VASE ARRANGEMENTS"},
+            {"id": 4499, "name": "BUD VASES"},
+            {"id": 4500, "name": "ARRANGED ROSES"}
+          ],
+          "1516": [
+            {"id": 4503, "name": "BOUQUET MIXED"},
+            {"id": 4506, "name": "SPRING BULB STEMS"},
+            {"id": 4507, "name": "LOOSE FLOWERS"},
+            {"id": 4505, "name": "CUNSUMER BUNCHES"},
+            {"id": 4504, "name": "ROSE BOUQUETS"}
+          ],
+          "1517": [
+            {"id": 4508, "name": "SEASONAL FLORAL"}
+          ],
+          "1518": [
+            {"id": 4510, "name": "18 INCH"},
+            {"id": 4513, "name": "LATEX"},
+            {"id": 4514, "name": "BALLOON OTHER"},
+            {"id": 4512, "name": "AIR WALKERS"},
+            {"id": 4511, "name": "SUPER SHAPES"},
+            {"id": 4509, "name": "SHAPES"}
+          ],
+          "1519": [
+            {"id": 4515, "name": "DECOR/GIFTWARE"}
+          ],
+          "1533": [
+            {"id": 4590, "name": "FRESH STORE MADE GROUND BEEF"}
+          ],
+          "1534": [
+            {"id": 4599, "name": "FROZEN GROUND BEEF"},
+            {"id": 4598, "name": "FROZEN OFFALS"}
+          ],
+          "1535": [
+            {"id": 4606, "name": "FROZEN CHICKEN OFFALS"}
+          ],
+          "1536": [
+            {"id": 4612, "name": "FROZEN CHICKEN"}
+          ],
+          "1540": [
+            {"id": 4639, "name": "FROZEN PORK RIBS"}
+          ],
+          "1542": [
+            {"id": 4653, "name": "FRESH COOKED BREAKFAST SAUSAGE"}
+          ],
+          "1543": [
+            {"id": 4654, "name": "FROZN UNCOOK BREAKFAST SAUSAGE"}
+          ],
+          "1544": [
+            {"id": 4656, "name": "BUFFALO"}
+          ],
+          "1554": [
+            {"id": 4667, "name": "OTHER PREPARED MEATS"}
+          ],
+          "1556": [
+            {"id": 4676, "name": "FROZEN CHICKEN BREASTS"},
+            {"id": 4678, "name": "FROZEN CHICKEN NUGGETS"}
+          ],
+          "1560": [
+            {"id": 4685, "name": "FRESH OR FROZEN PREPARED PORK"}
+          ],
+          "1563": [
+            {"id": 4689, "name": "PICKLES"},
+            {"id": 4690, "name": "SAUERKRAUT"}
+          ],
+          "1564": [
+            {"id": 4697, "name": "SEASONINGS"},
+            {"id": 4696, "name": "OTHER SAUCES/SEASONINGS"}
+          ],
+          "1566": [
+            {"id": 4700, "name": "PREPARED VEGETABLES/STUFFING"}
+          ],
+          "1567": [
+            {"id": 4702, "name": "COOKED PREPARED SIDE DISHES"}
+          ],
+          "1568": [
+            {"id": 4705, "name": "SLICED BACON"}
+          ],
+          "1569": [
+            {"id": 4710, "name": "FRESH COOKED DINNER SAUSAGE"},
+            {"id": 4708, "name": "FRESH UNCOOKED DINNER SAUSAGE"}
+          ],
+          "1571": [
+            {"id": 4713, "name": "CORN DOGS/BAGEL DOGS"},
+            {"id": 4712, "name": "HOT DOGS/WEINERS"},
+            {"id": 4714, "name": "COCKTAIL FRANKS"}
+          ],
+          "1572": [
+            {"id": 4717, "name": "SMOKED HAMS"},
+            {"id": 4716, "name": "FRESH HAMS"}
+          ],
+          "1573": [
+            {"id": 4720, "name": "PACKAGED LUNCH MEAT TUBS"},
+            {"id": 4721, "name": "PACKAGED LUNCH MEAT STACKS"},
+            {"id": 4723, "name": "PROCESSED LUNCH SNACKS/OTHER"},
+            {"id": 4719, "name": "PACKAGED LUNCH MEAT PEGGED"},
+            {"id": 4722, "name": "OTHER LUNCH MEATS"}
+          ],
+          "1574": [
+            {"id": 4724, "name": "OTHER PACKAGED MEALS"}
+          ],
+          "1575": [
+            {"id": 4727, "name": "BREADS-ARTISAN"},
+            {"id": 4730, "name": "BREADS SPECIALITY"},
+            {"id": 4729, "name": "BREADS CRUSTY"}
+          ],
+          "1576": [
+            {"id": 4731, "name": "BREADS-BREAKFAST"}
+          ],
+          "1577": [
+            {"id": 4734, "name": "BREADS-WHEAT"},
+            {"id": 4735, "name": "BREADS-WHITE"},
+            {"id": 4732, "name": "BREADS-WHOLE GRIAN"}
+          ],
+          "1579": [
+            {"id": 4737, "name": "BREADS-ENHANCED"}
+          ],
+          "1580": [
+            {"id": 4740, "name": "ROLLS-DINNER"},
+            {"id": 4738, "name": "ROLLS-CRUSTY"},
+            {"id": 4739, "name": "ROLLS-BUNS"}
+          ],
+          "1581": [
+            {"id": 4741, "name": "BAGELS-BULK"},
+            {"id": 4742, "name": "BAGELS-PACKAGED"}
+          ],
+          "1582": [
+            {"id": 4744, "name": "DONUTS-BULK"},
+            {"id": 4746, "name": "DONUT HOLES"},
+            {"id": 4745, "name": "DONUTS-PACKAGED"}
+          ],
+          "1583": [
+            {"id": 4747, "name": "MUFFINS-BULK"},
+            {"id": 4748, "name": "MUFFINS-PACKAGED"},
+            {"id": 4750, "name": "MUFFINS-HEALTHY"}
+          ],
+          "1584": [
+            {"id": 4754, "name": "SWEET GOODS-PASTRIES"},
+            {"id": 4752, "name": "SWEET GOODS-DANISH BULK"},
+            {"id": 4755, "name": "SWEET GOODS-INDIVIDUAL SERVE"},
+            {"id": 4751, "name": "SWEET GOODS-ROLLS"},
+            {"id": 4753, "name": "SWEET GOODS DANISH-PACKAGED"}
+          ],
+          "1585": [
+            {"id": 4756, "name": "DESSERTS-BROWNIES"}
+          ],
+          "1586": [
+            {"id": 4760, "name": "CAKES SPEC OCCASSION SPECIALTY"},
+            {"id": 4761, "name": "CAKES SPEC OCCASSN ICE CRM CKE"}
+          ],
+          "1587": [
+            {"id": 4765, "name": "CAKES INDIVIDUAL SERVE"},
+            {"id": 4762, "name": "CAKES EVERYDAY-CHEESECAKE"},
+            {"id": 4766, "name": "CAKES EVERYDAY-OTHER"},
+            {"id": 4763, "name": "CAKES EVERYDAY-CUPCAKES"}
+          ],
+          "1588": [
+            {"id": 4767, "name": "CAKES EVERYDAY-HEALTHY"}
+          ],
+          "1589": [
+            {"id": 4771, "name": "COOKIES-SPECIALITY"},
+            {"id": 4770, "name": "COOKIES-SPECIAL OCCASION"},
+            {"id": 4769, "name": "COOKIES-BITE SIZE"},
+            {"id": 4768, "name": "COOKIES-PACKAGED"}
+          ],
+          "1590": [
+            {"id": 4772, "name": "COOKIES-HEALTHY"}
+          ],
+          "1591": [
+            {"id": 4773, "name": "DESSERTS SELF REWARD-OTHER"}
+          ],
+          "1592": [
+            {"id": 4775, "name": "PIES-FRUIT"},
+            {"id": 4777, "name": "PIES-HEALTHY"}
+          ],
+          "1593": [
+            {"id": 4781, "name": "ETHNIC ROLLS/BREAD"},
+            {"id": 4780, "name": "ETHNIC SWEET GOODS"}
+          ],
+          "1594": [
+            {"id": 4782, "name": "BAKERY INGREDIENTS"}
+          ],
+          "1595": [
+            {"id": 4784, "name": "CHEDDAR"},
+            {"id": 4788, "name": "OTHER"},
+            {"id": 4792, "name": "SPREADS"},
+            {"id": 4787, "name": "MOZZARELLA"}
+          ],
+          "1596": [
+            {"id": 4794, "name": "CHEDDAR"},
+            {"id": 4801, "name": "OTHER"}
+          ],
+          "1598": [
+            {"id": 4814, "name": "OTHERS FRESH"},
+            {"id": 4807, "name": "FETA"}
+          ],
+          "1600": [
+            {"id": 4827, "name": "FONTINA"}
+          ],
+          "1602": [
+            {"id": 4838, "name": "FRESH GOAT"},
+            {"id": 4839, "name": "SEMI FIRM"}
+          ],
+          "1603": [
+            {"id": 4844, "name": "ROQUEFORT"}
+          ],
+          "1604": [
+            {"id": 4846, "name": "COLD PACK CHEESE"},
+            {"id": 4847, "name": "PROCESSED CHEESE"},
+            {"id": 4845, "name": "CREAM CHEESE"}
+          ],
+          "1605": [
+            {"id": 4849, "name": "PARMESAN"},
+            {"id": 4848, "name": "ASIAGO"}
+          ],
+          "1606": [
+            {"id": 4853, "name": "GOAT"}
+          ],
+          "1609": [
+            {"id": 4862, "name": "OTHER SPECIALITY"}
+          ],
+          "1610": [
+            {"id": 4867, "name": "OTHER"},
+            {"id": 4872, "name": "OTHER DELI MEATS"},
+            {"id": 4868, "name": "SALAMI"}
+          ],
+          "1611": [
+            {"id": 4876, "name": "SALAMI"},
+            {"id": 4877, "name": "OTHER DELI PRESLICED"},
+            {"id": 4878, "name": "OTHER DELI CHUBS"}
+          ],
+          "1612": [
+            {"id": 4879, "name": "PREPARED BREAKFAST FOODS"}
+          ],
+          "1613": [
+            {"id": 4882, "name": "ROTISSERIE"},
+            {"id": 4880, "name": "POULTRY MEALS"}
+          ],
+          "1614": [
+            {"id": 4884, "name": "OTHER DELI APPETIZERS"},
+            {"id": 4883, "name": "CHICKEN APPETIZERS"}
+          ],
+          "1615": [
+            {"id": 4885, "name": "HUMMUS, DIPS & SPREADS"}
+          ],
+          "1616": [
+            {"id": 4887, "name": "RELISHES"},
+            {"id": 4886, "name": "CONDIMENTS"},
+            {"id": 4888, "name": "DRESSINGS"}
+          ],
+          "1617": [
+            {"id": 4902, "name": "FRANKS AND DINNER SAUSAGES"},
+            {"id": 4900, "name": "VEGETABLE ENTREES"},
+            {"id": 4890, "name": "PASTA DISHES"},
+            {"id": 4895, "name": "SEAFOOD"},
+            {"id": 4889, "name": "BEEF"},
+            {"id": 4891, "name": "HAM/PORK"},
+            {"id": 4898, "name": "CASSEREOLES"},
+            {"id": 4899, "name": "CHICKEN BREAST IN SAUCE"}
+          ],
+          "1618": [
+            {"id": 4903, "name": "HISPANIC"},
+            {"id": 4905, "name": "LATIN"}
+          ],
+          "1619": [
+            {"id": 4928, "name": "SALAD PLATTER"},
+            {"id": 4912, "name": "CHEESE AND FRUIT"},
+            {"id": 4916, "name": "OTHER DELI PLATTER"},
+            {"id": 4911, "name": "ENTREE PLATTER"},
+            {"id": 4914, "name": "MEAT AND CHEESE"}
+          ],
+          "1633": [
+            {"id": 4931, "name": "GARDEN SALADS"},
+            {"id": 4929, "name": "CAESAR ENTREE SALAD"},
+            {"id": 4932, "name": "SEVEN LAYER"},
+            {"id": 4930, "name": "CHEF/JULIENNE/COBB SALADS"},
+            {"id": 4933, "name": "TACO SALADS"}
+          ],
+          "1634": [
+            {"id": 4934, "name": "DELI SALAD BAR"},
+            {"id": 4936, "name": "CHICKEN SALAD"},
+            {"id": 4935, "name": "OTHER DELI SALADS"},
+            {"id": 4941, "name": "SEAFOOD SALAD"},
+            {"id": 4939, "name": "TUNA SALAD"},
+            {"id": 4938, "name": "HAM SALAD"},
+            {"id": 4937, "name": "EGG SALAD"}
+          ],
+          "1635": [
+            {"id": 4942, "name": "OIL BASED PASTA SALAD"},
+            {"id": 4944, "name": "PASTA WITH PROTEIN"}
+          ],
+          "1636": [
+            {"id": 4948, "name": "VEGETABLE"},
+            {"id": 4947, "name": "PROTEIN"},
+            {"id": 4949, "name": "OTHER UPSCALE SALADS"}
+          ],
+          "1637": [
+            {"id": 4951, "name": "MACARONI SALAD"},
+            {"id": 4950, "name": "POTATO SALADS"},
+            {"id": 4952, "name": "COLE SLAW SALAD"}
+          ],
+          "1638": [
+            {"id": 4958, "name": "FRUIT SALAD"},
+            {"id": 4956, "name": "VEGETABLE BASED"},
+            {"id": 4954, "name": "SALAD KITS"},
+            {"id": 4955, "name": "BEANS/LEGUME"}
+          ],
+          "1639": [
+            {"id": 4959, "name": "MOUSSES/FLUFFS"},
+            {"id": 4963, "name": "OTHER PREPARED DESSERTS"},
+            {"id": 4961, "name": "PUDDINGS"},
+            {"id": 4962, "name": "BAKED PREPARED DESSERTS"}
+          ],
+          "1640": [
+            {"id": 4964, "name": "PREPARED SANDWICHES OTHER"},
+            {"id": 4965, "name": "SALAD SANDWICHES"},
+            {"id": 4966, "name": "HAM"},
+            {"id": 4969, "name": "TURKEY"}
+          ],
+          "1641": [
+            {"id": 4972, "name": "MADE TO ORDER SANDWICHES OTHER"}
+          ],
+          "1642": [
+            {"id": 4974, "name": "TURKEY HOLIDAY MEAL"}
+          ],
+          "1643": [
+            {"id": 4983, "name": "PREPARED VEGETABLES"},
+            {"id": 4980, "name": "RICE SIDES"},
+            {"id": 4978, "name": "POTATO SIDES"},
+            {"id": 4979, "name": "OTHER DELI PREPARED SIDES"},
+            {"id": 4976, "name": "PASTA SIDES"}
+          ],
+          "1644": [
+            {"id": 4989, "name": "TORTILLA CHIPS"},
+            {"id": 4984, "name": "CRACKER SNACK"},
+            {"id": 4987, "name": "OTHER DELI SNACKS"}
+          ],
+          "1645": [
+            {"id": 4994, "name": "OTHER DELI SOUPS"},
+            {"id": 4990, "name": "BEEF SOUPS"},
+            {"id": 4992, "name": "CHILI"},
+            {"id": 4993, "name": "VEGETABLE SOUP"},
+            {"id": 4991, "name": "POULTRY/CHICKEN/TURKEY SOUPS"}
+          ],
+          "1646": [
+            {"id": 4996, "name": "FOUNTAIN BEVERAGES"}
+          ],
+          "1647": [
+            {"id": 4998, "name": "ANTIPASTO SALADS"},
+            {"id": 4997, "name": "OLIVES"}
+          ],
+          "1649": [
+            {"id": 5003, "name": "FROZEN SHELLFISH"},
+            {"id": 5002, "name": "FROZEN FISH"},
+            {"id": 5028, "name": "FROZEN OTHER SEAFOOD"}
+          ],
+          "1650": [
+            {"id": 5005, "name": "FRESH OTHER SEAFOOD"},
+            {"id": 5006, "name": "SAUCES AND SEASONINGS"},
+            {"id": 5004, "name": "FRESH SEAFOOD DIPS AND SPREADS"}
+          ],
+          "1651": [
+            {"id": 5008, "name": "IMITATION SEAFOOD"},
+            {"id": 5010, "name": "FRESH/ FROZEN VALUE ADDED SEAF"},
+            {"id": 5009, "name": "FRESH PREPARED SEAFOOD MEALS/K"}
+          ],
+          "1653": [
+            {"id": 5027, "name": "DELI BREAD"}
+          ],
+          "1673": [
+            {"id": 5045, "name": "GELATIN"}
+          ],
+          "1693": [
+            {"id": 5085, "name": "LOYALTY"}
+          ],
+          "1713": [
+            {"id": 5125, "name": "CLOSEOUTS"}
+          ],
+          "1753": [
+            {"id": 5285, "name": "AUTOMOTIVE WNDSHIELD WSHR FLD"}
+          ],
+          "1813": [
+            {"id": 5525, "name": "FACIAL CLEANSER & MOISTURIZER"},
+            {"id": 5526, "name": "HAND & BODY LOTION"}
+          ],
+          "1833": [
+            {"id": 5545, "name": "HISPANIC PRODUCTS"}
+          ],
+          "1873": [
+            {"id": 5779, "name": "RUG CLEANER RENTAL"},
+            {"id": 5784, "name": "CLEANERS & CHEMICALS"},
+            {"id": 5785, "name": "CLEANING IMPLEMENTS"},
+            {"id": 5759, "name": "CLEANING PADS/SPONGE/CLOTH"},
+            {"id": 5728, "name": "HOUSEHOLD GLOVES"},
+            {"id": 5727, "name": "LAUNDRY ACCESSORIES"}
+          ],
+          "1913": [
+            {"id": 5945, "name": "POPPED POPCORN"},
+            {"id": 5946, "name": "UNPOPPED POPCORN"}
+          ],
+          "1933": [
+            {"id": 5966, "name": "DIPS - REFRIG"},
+            {"id": 5967, "name": "SOUR CREAM"},
+            {"id": 5965, "name": "COTTAGE AND RICOTTA CHEESE"}
+          ],
+          "1934": [
+            {"id": 5971, "name": "SUSHI"}
+          ],
+          "1942": [
+            {"id": 6028, "name": "CRAFT"},
+            {"id": 6049, "name": "IMPORTS"},
+            {"id": 6027, "name": "CIDER"},
+            {"id": 6026, "name": "DOMESTIC/PREMIUM"},
+            {"id": 6024, "name": "DOMESTIC/ECONOMY"},
+            {"id": 6025, "name": "DOMESTIC/POPULAR"},
+            {"id": 6048, "name": "DOMESTIC/SUPER PREMIUM"},
+            {"id": 6052, "name": "NON ALCOHOLIC"},
+            {"id": 6050, "name": "MALTERNATIVES"}
+          ],
+          "1944": [
+            {"id": 6047, "name": "STUFFING PRODUCTS"}
+          ],
+          "1945": [
+            {"id": 6059, "name": "SNACK MIX"},
+            {"id": 6058, "name": "POTATO STICKS"}
+          ]
+        }
+      },
+      {
+        "id": "dateRange",
+        "name": "Date Range",
+        "type": "dateRange",
+        "dateRangeLimits": {
+          "end": "2017-02-05",
+          "start": "2014-05-01"
+        }
+      },
+      {
+        "id": "format",
+        "name": "Store Format",
+        "type": "items",
+        "selection": "single",
+        "values": [
+          {"id": 210, "name": "South"},
+          {"id": 110, "name": "North"},
+          {"id": 250, "name": "D&W Fresh Markets"},
+          {"id": 270, "name": "VG's"},
+          {"id": 280, "name": "Valu Land"}
+        ]
+      },
+      {
+        "id": "mechanic",
+        "name": "Mechanic",
+        "type": "items",
+        "selection": "multiple",
+        "values": [
+          {"id": 3, "name": "Weekly Ad"},
+          {"id": 6, "name": "Temporary Price Reduction"},
+          {"id": 1, "name": "Special Ad"},
+          {"id": 7, "name": "Price Freeze"},
+          {"id": 4, "name": "Basket Of Value"},
+          {"id": 2, "name": "Wall Of Value"
+          }
+        ]
+      },
+      {
+        "id": "supplier",
+        "name": "Supplier",
+        "type": "childrenItems",
+        "parentFilterId": "category",
+        "selection": "single",
+        "childrenValues": {
+          "0": [
+            {"id": 6728, "name": "NO BRAND NAME"},
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 11163, "name": "DELI"},
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11214, "name": "MEAT"},
+            {"id": 12196, "name": "PRODUCE"},
+            {"id": 8389, "name": "SEAFOOD"},
+            {"id": 14245, "name": "KAR'S"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 7947, "name": "VG'S"},
+            {"id": 9059, "name": "FRESH"},
+            {"id": 9036, "name": "STARBUCKS"},
+            {"id": 4926, "name": "BRACH'S"},
+            {"id": 5358, "name": "DEL MONTE"},
+            {"id": 28824, "name": "POTATO"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 5874, "name": "GREEN GIANT"},
+            {"id": 10915, "name": "EARTHBOUND FARM"},
+            {"id": 5609, "name": "FAYGO"},
+            {"id": 13632, "name": "SEATTLE'S BEST"},
+            {"id": 19916, "name": "BLAND FARMS"},
+            {"id": 9341, "name": "OCEAN POTION"},
+            {"id": 5285, "name": "COVER GIRL"},
+            {"id": 7443, "name": "SLIM-FAST"},
+            {"id": 11129, "name": "AUNT MILLIE'S"},
+            {"id": 11211, "name": "MAGAZINE"},
+            {"id": 14508, "name": "MT. OLIVE"},
+            {"id": 11309, "name": "LINDT"},
+            {"id": 12942, "name": "NUTELLA"},
+            {"id": 5389, "name": "DIAMOND"},
+            {"id": 10837, "name": "EMERALD"},
+            {"id": 14144, "name": "THE FATHERS TABLE"},
+            {"id": 20803, "name": "PUMPKIN MASTER"},
+            {"id": 5982, "name": "HERSHEY"},
+            {"id": 8032, "name": "WHOPPERS"},
+            {"id": 5959, "name": "HEATH"},
+            {"id": 13216, "name": "REYNOLDS"},
+            {"id": 13550, "name": "AXE"},
+            {"id": 5417, "name": "DOVE"},
+            {"id": 6363, "name": "LEVER 2000"},
+            {"id": 6087, "name": "IMPERIAL"},
+            {"id": 8078, "name": "WOOLITE"},
+            {"id": 8396, "name": "FEBREZE"},
+            {"id": 8082, "name": "WRIGHT'S"},
+            {"id": 16559, "name": "FAST SHAKE"},
+            {"id": 4651, "name": "ALPO"},
+            {"id": 6038, "name": "HUNGRY JACK"},
+            {"id": 5521, "name": "EIGHT O'CLOCK"},
+            {"id": 5345, "name": "DAWN"},
+            {"id": 7716, "name": "TABASCO"},
+            {"id": 14946, "name": "CADY FARMS"},
+            {"id": 12166, "name": "PAAS"},
+            {"id": 13924, "name": "VALU TIME"},
+            {"id": 22325, "name": "WORLD CLASSICS"},
+            {"id": 24326, "name": "SWEET P'S"},
+            {"id": 7801, "name": "TOOTSIE ROLL"},
+            {"id": 5156, "name": "CHUNG'S"},
+            {"id": 7844, "name": "TROLLI"},
+            {"id": 8044, "name": "WILLIAMS"},
+            {"id": 15622, "name": "BLACK TIE"},
+            {"id": 11222, "name": "MOUNTAIN DEW"},
+            {"id": 6390, "name": "LIPTON"},
+            {"id": 6779, "name": "OCEAN SPRAY"},
+            {"id": 12262, "name": "SIERRA MIST"},
+            {"id": 6801, "name": "OLD SPICE"},
+            {"id": 13627, "name": "WHOLESOME SWEETENERS"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 6396, "name": "LISTERINE"},
+            {"id": 5792, "name": "GLAD"},
+            {"id": 20470, "name": "GLADWARE"},
+            {"id": 20228, "name": "SPECIALTY BAKERS"},
+            {"id": 10409, "name": "LA CROIX"},
+            {"id": 5965, "name": "HEINZ"},
+            {"id": 20966, "name": "LABREA BAKERY"},
+            {"id": 4588, "name": "ACE"},
+            {"id": 5840, "name": "GOODY"},
+            {"id": 5294, "name": "CREAM OF WHEAT"},
+            {"id": 7693, "name": "SWEET BABY RAYS"},
+            {"id": 11128, "name": "ANNIE'S"},
+            {"id": 27087, "name": "ANNIES"},
+            {"id": 17998, "name": "TRUVIA"},
+            {"id": 5391, "name": "DIAMOND CRYSTAL"},
+            {"id": 5961, "name": "HEFTY"},
+            {"id": 7616, "name": "STOUFFER'S"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 11754, "name": "BELLS"},
+            {"id": 6944, "name": "PEPPERIDGE FARM"},
+            {"id": 20394, "name": "WONDERFUL"},
+            {"id": 4869, "name": "BIRDS EYE"},
+            {"id": 5706, "name": "FRESHLIKE"},
+            {"id": 6623, "name": "MOTT'S"},
+            {"id": 5940, "name": "HAWAIIAN PUNCH"},
+            {"id": 5171, "name": "CLAMATO"},
+            {"id": 7154, "name": "REALEMON"},
+            {"id": 5771, "name": "GERBER"},
+            {"id": 5295, "name": "CREAMETTE"},
+            {"id": 7708, "name": "SWISS MISS"},
+            {"id": 11965, "name": "GARDEN OF EATIN'"},
+            {"id": 4800, "name": "BAR S"},
+            {"id": 5817, "name": "GOLD MEDAL"},
+            {"id": 4870, "name": "BISQUICK"},
+            {"id": 4848, "name": "BETTY CROCKER"},
+            {"id": 5768, "name": "GENERAL MILLS"},
+            {"id": 17856, "name": "FIBER ONE"},
+            {"id": 6980, "name": "PILLSBURY"},
+            {"id": 19397, "name": "FLORIDA'S NATURAL"},
+            {"id": 5668, "name": "FLINTSTONES"},
+            {"id": 22430, "name": "SPARKLING ICE"},
+            {"id": 7205, "name": "RIGHT GUARD"},
+            {"id": 5387, "name": "DIAL"},
+            {"id": 4717, "name": "ARMOUR"},
+            {"id": 5213, "name": "COAST"},
+            {"id": 10819, "name": "KAUKAUNA"},
+            {"id": 5293, "name": "CRAYOLA"},
+            {"id": 16596, "name": "GOOD COOK"},
+            {"id": 6577, "name": "MINUTE RICE"},
+            {"id": 6452, "name": "MAGIC"},
+            {"id": 6419, "name": "LOUISIANA"},
+            {"id": 4947, "name": "BRUCE'S"},
+            {"id": 24973, "name": "OP"},
+            {"id": 7101, "name": "PURINA"},
+            {"id": 17253, "name": "BENEFUL"},
+            {"id": 6251, "name": "KIT 'N KABOODLE"},
+            {"id": 7166, "name": "RED STAR"},
+            {"id": 6962, "name": "PET-RITZ"},
+            {"id": 11143, "name": "BUDWEISER"},
+            {"id": 15083, "name": "STELLA ARTOIS"},
+            {"id": 18300, "name": "BROWNWOOD FARMS"},
+            {"id": 15237, "name": "BAREFOOT BUBBLY"},
+            {"id": 5994, "name": "HILLS BROS."},
+            {"id": 10103, "name": "KASHI"},
+            {"id": 6213, "name": "KEEBLER"},
+            {"id": 12923, "name": "SUE BEE"},
+            {"id": 6376, "name": "LIFESAVERS"},
+            {"id": 9094, "name": "IAMS"},
+            {"id": 6441, "name": "LYSOL"},
+            {"id": 7186, "name": "RESOLVE"},
+            {"id": 4742, "name": "AUNT JEMIMA"},
+            {"id": 7926, "name": "VAN DE KAMP'S"},
+            {"id": 5427, "name": "DRANO"},
+            {"id": 8055, "name": "WINDEX"},
+            {"id": 7182, "name": "RENUZIT"},
+            {"id": 5168, "name": "CLABBER GIRL"},
+            {"id": 6792, "name": "OLD EL PASO"},
+            {"id": 7419, "name": "SIMPLY POTATOES"},
+            {"id": 13059, "name": "PERUGINA"},
+            {"id": 24264, "name": "MEADOWLAND FARMS"},
+            {"id": 6712, "name": "NEWMAN'S OWN"},
+            {"id": 9931, "name": "SNYDER"},
+            {"id": 7165, "name": "RED ROSE"},
+            {"id": 7284, "name": "SALADA"},
+            {"id": 7173, "name": "REGENT"},
+            {"id": 10625, "name": "TOBLERONE"},
+            {"id": 5287, "name": "CRACKER BARREL"},
+            {"id": 4931, "name": "BREAKSTONE'S"},
+            {"id": 7718, "name": "TACO BELL"},
+            {"id": 30712, "name": "VELVEETA"},
+            {"id": 5368, "name": "DEMING'S"},
+            {"id": 6478, "name": "MARIE CALLENDER"},
+            {"id": 7336, "name": "SCOTCH"},
+            {"id": 4559, "name": "3M"},
+            {"id": 6239, "name": "KIKKOMAN"},
+            {"id": 18933, "name": "BOULDER"},
+            {"id": 6726, "name": "NIVEA"},
+            {"id": 5519, "name": "EGGO"},
+            {"id": 5857, "name": "GRANDMA'S"},
+            {"id": 6307, "name": "LACTAID"},
+            {"id": 28510, "name": "MR CLEAN"},
+            {"id": 7874, "name": "TYSON"},
+            {"id": 5201, "name": "CLOROX"},
+            {"id": 5412, "name": "DOMINO"},
+            {"id": 6575, "name": "MINUTE MAID"},
+            {"id": 6218, "name": "KELLOGG'S"},
+            {"id": 7458, "name": "SMITHFIELD"},
+            {"id": 5794, "name": "GLADE"},
+            {"id": 9662, "name": "AQUA STAR"},
+            {"id": 13131, "name": "CRYSTAL FARMS"},
+            {"id": 15310, "name": "CARGILL"},
+            {"id": 6369, "name": "LIBBY'S"},
+            {"id": 18019, "name": "CARIBOU COFFEE"},
+            {"id": 5590, "name": "FANCY FEAST"},
+            {"id": 31323, "name": "FRESH SELECTIONS"},
+            {"id": 14413, "name": "PANERA BREAD"},
+            {"id": 5023, "name": "CAMPBELL'S"},
+            {"id": 5737, "name": "GAIN"},
+            {"id": 21274, "name": "IT'S IN THE BAG"},
+            {"id": 7815, "name": "TOTINO'S"},
+            {"id": 18124, "name": "CREATIVE CONVERTING"},
+            {"id": 7340, "name": "SCOTT"},
+            {"id": 27968, "name": "GRILLMATES"},
+            {"id": 7601, "name": "STELLA"},
+            {"id": 21273, "name": "PAPER CRAFT"},
+            {"id": 8138, "name": "XTRA"},
+            {"id": 31583, "name": "SCHWARTZKOPF"},
+            {"id": 31657, "name": "DENTALIFE"},
+            {"id": 30246, "name": "NATURE'S BAKERY COOPERATIVE"},
+            {"id": 6515, "name": "MCCORMICK"},
+            {"id": 5221, "name": "COLE'S"},
+            {"id": 17316, "name": "ATHENOS"},
+            {"id": 14722, "name": "IZZE BEVERAGE COMPANY"},
+            {"id": 12268, "name": "SNYDERS OF HANOVER"}
+          ],
+          "12": [
+            {"id": 24973, "name": "OP"},
+            {"id": 15237, "name": "BAREFOOT BUBBLY"}
+          ],
+          "21": [
+            {"id": 11214, "name": "MEAT"},
+            {"id": 9059, "name": "FRESH"},
+            {"id": 7458, "name": "SMITHFIELD"}
+          ],
+          "30": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "120": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "192": [
+            {"id": 5358, "name": "DEL MONTE"}
+          ],
+          "293": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "294": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11128, "name": "ANNIE'S"}
+          ],
+          "296": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 13131, "name": "CRYSTAL FARMS"}
+          ],
+          "297": [
+            {"id": 5982, "name": "HERSHEY"}
+          ],
+          "299": [
+            {"id": 7419, "name": "SIMPLY POTATOES"}
+          ],
+          "300": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 27087, "name": "ANNIES"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 6980, "name": "PILLSBURY"}
+          ],
+          "302": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 6307, "name": "LACTAID"}
+          ],
+          "303": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 19397, "name": "FLORIDA'S NATURAL"},
+            {"id": 6575, "name": "MINUTE MAID"}
+          ],
+          "304": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 5287, "name": "CRACKER BARREL"},
+            {"id": 30712, "name": "VELVEETA"},
+            {"id": 13131, "name": "CRYSTAL FARMS"}
+          ],
+          "306": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "308": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7616, "name": "STOUFFER'S"},
+            {"id": 7815, "name": "TOTINO'S"}
+          ],
+          "310": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 13924, "name": "VALU TIME"}
+          ],
+          "311": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6980, "name": "PILLSBURY"},
+            {"id": 4742, "name": "AUNT JEMIMA"},
+            {"id": 5519, "name": "EGGO"}
+          ],
+          "312": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 10915, "name": "EARTHBOUND FARM"}
+          ],
+          "313": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5874, "name": "GREEN GIANT"},
+            {"id": 4869, "name": "BIRDS EYE"}
+          ],
+          "314": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6575, "name": "MINUTE MAID"}
+          ],
+          "315": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6944, "name": "PEPPERIDGE FARM"},
+            {"id": 6980, "name": "PILLSBURY"},
+            {"id": 6962, "name": "PET-RITZ"},
+            {"id": 6478, "name": "MARIE CALLENDER"}
+          ],
+          "335": [
+            {"id": 5771, "name": "GERBER"}
+          ],
+          "336": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 4870, "name": "BISQUICK"},
+            {"id": 4848, "name": "BETTY CROCKER"},
+            {"id": 6980, "name": "PILLSBURY"}
+          ],
+          "337": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5389, "name": "DIAMOND"},
+            {"id": 5982, "name": "HERSHEY"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 4848, "name": "BETTY CROCKER"},
+            {"id": 6980, "name": "PILLSBURY"},
+            {"id": 7166, "name": "RED STAR"},
+            {"id": 5168, "name": "CLABBER GIRL"}
+          ],
+          "338": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5817, "name": "GOLD MEDAL"}
+          ],
+          "339": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "340": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 17998, "name": "TRUVIA"},
+            {"id": 5412, "name": "DOMINO"}
+          ],
+          "341": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5609, "name": "FAYGO"},
+            {"id": 10409, "name": "LA CROIX"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 22430, "name": "SPARKLING ICE"},
+            {"id": 14722, "name": "IZZE BEVERAGE COMPANY"}
+          ],
+          "342": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5609, "name": "FAYGO"},
+            {"id": 11222, "name": "MOUNTAIN DEW"},
+            {"id": 12262, "name": "SIERRA MIST"}
+          ],
+          "343": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11129, "name": "AUNT MILLIE'S"}
+          ],
+          "345": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 4926, "name": "BRACH'S"},
+            {"id": 11309, "name": "LINDT"},
+            {"id": 5982, "name": "HERSHEY"},
+            {"id": 8032, "name": "WHOPPERS"},
+            {"id": 7801, "name": "TOOTSIE ROLL"},
+            {"id": 7844, "name": "TROLLI"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 6376, "name": "LIFESAVERS"},
+            {"id": 13059, "name": "PERUGINA"},
+            {"id": 10625, "name": "TOBLERONE"}
+          ],
+          "348": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 9036, "name": "STARBUCKS"},
+            {"id": 13632, "name": "SEATTLE'S BEST"},
+            {"id": 5521, "name": "EIGHT O'CLOCK"},
+            {"id": 5994, "name": "HILLS BROS."},
+            {"id": 14413, "name": "PANERA BREAD"}
+          ],
+          "351": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6390, "name": "LIPTON"},
+            {"id": 7165, "name": "RED ROSE"},
+            {"id": 7284, "name": "SALADA"}
+          ],
+          "353": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 13924, "name": "VALU TIME"},
+            {"id": 17856, "name": "FIBER ONE"},
+            {"id": 6213, "name": "KEEBLER"}
+          ],
+          "354": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6944, "name": "PEPPERIDGE FARM"},
+            {"id": 6213, "name": "KEEBLER"}
+          ],
+          "355": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "373": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5358, "name": "DEL MONTE"},
+            {"id": 6779, "name": "OCEAN SPRAY"},
+            {"id": 6623, "name": "MOTT'S"}
+          ],
+          "374": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6779, "name": "OCEAN SPRAY"}
+          ],
+          "375": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "376": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 14245, "name": "KAR'S"},
+            {"id": 10837, "name": "EMERALD"}
+          ],
+          "377": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5295, "name": "CREAMETTE"}
+          ],
+          "380": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5391, "name": "DIAMOND CRYSTAL"},
+            {"id": 6515, "name": "MCCORMICK"}
+          ],
+          "381": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11128, "name": "ANNIE'S"},
+            {"id": 5023, "name": "CAMPBELL'S"}
+          ],
+          "382": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6038, "name": "HUNGRY JACK"},
+            {"id": 13627, "name": "WHOLESOME SWEETENERS"},
+            {"id": 4742, "name": "AUNT JEMIMA"},
+            {"id": 5857, "name": "GRANDMA'S"}
+          ],
+          "383": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6712, "name": "NEWMAN'S OWN"}
+          ],
+          "384": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5368, "name": "DEMING'S"}
+          ],
+          "385": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11128, "name": "ANNIE'S"},
+            {"id": 11965, "name": "GARDEN OF EATIN'"},
+            {"id": 9931, "name": "SNYDER"},
+            {"id": 12268, "name": "SNYDERS OF HANOVER"}
+          ],
+          "388": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "393": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "396": [
+            {"id": 8396, "name": "FEBREZE"},
+            {"id": 6441, "name": "LYSOL"},
+            {"id": 7182, "name": "RENUZIT"},
+            {"id": 5794, "name": "GLADE"}
+          ],
+          "397": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 8078, "name": "WOOLITE"},
+            {"id": 6441, "name": "LYSOL"},
+            {"id": 7186, "name": "RESOLVE"},
+            {"id": 5427, "name": "DRANO"},
+            {"id": 8055, "name": "WINDEX"},
+            {"id": 5201, "name": "CLOROX"}
+          ],
+          "399": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6452, "name": "MAGIC"}
+          ],
+          "406": [
+            {"id": 5285, "name": "COVER GIRL"}
+          ],
+          "412": [
+            {"id": 13550, "name": "AXE"},
+            {"id": 6801, "name": "OLD SPICE"},
+            {"id": 7205, "name": "RIGHT GUARD"}
+          ],
+          "416": [
+            {"id": 6726, "name": "NIVEA"}
+          ],
+          "418": [
+            {"id": 6396, "name": "LISTERINE"}
+          ],
+          "420": [
+            {"id": 5417, "name": "DOVE"}
+          ],
+          "422": [
+            {"id": 5668, "name": "FLINTSTONES"}
+          ],
+          "428": [
+            {"id": 16596, "name": "GOOD COOK"}
+          ],
+          "432": [
+            {"id": 5293, "name": "CRAYOLA"},
+            {"id": 7336, "name": "SCOTCH"},
+            {"id": 4559, "name": "3M"}
+          ],
+          "467": [
+            {"id": 6218, "name": "KELLOGG'S"}
+          ],
+          "476": [
+            {"id": 4848, "name": "BETTY CROCKER"}
+          ],
+          "477": [
+            {"id": 5959, "name": "HEATH"}
+          ],
+          "481": [
+            {"id": 11211, "name": "MAGAZINE"}
+          ],
+          "484": [
+            {"id": 20803, "name": "PUMPKIN MASTER"},
+            {"id": 12166, "name": "PAAS"},
+            {"id": 7173, "name": "REGENT"},
+            {"id": 21274, "name": "IT'S IN THE BAG"},
+            {"id": 18124, "name": "CREATIVE CONVERTING"},
+            {"id": 21273, "name": "PAPER CRAFT"}
+          ],
+          "508": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "509": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "510": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5023, "name": "CAMPBELL'S"}
+          ],
+          "511": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6390, "name": "LIPTON"}
+          ],
+          "512": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6369, "name": "LIBBY'S"}
+          ],
+          "513": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6213, "name": "KEEBLER"}
+          ],
+          "533": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "536": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "537": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5982, "name": "HERSHEY"}
+          ],
+          "539": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 16559, "name": "FAST SHAKE"},
+            {"id": 6038, "name": "HUNGRY JACK"},
+            {"id": 4742, "name": "AUNT JEMIMA"}
+          ],
+          "540": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 12923, "name": "SUE BEE"}
+          ],
+          "541": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 12942, "name": "NUTELLA"}
+          ],
+          "542": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6702, "name": "NESTLE"},
+            {"id": 7708, "name": "SWISS MISS"}
+          ],
+          "544": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "546": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 4848, "name": "BETTY CROCKER"},
+            {"id": 5287, "name": "CRACKER BARREL"},
+            {"id": 6218, "name": "KELLOGG'S"}
+          ],
+          "547": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5965, "name": "HEINZ"},
+            {"id": 5023, "name": "CAMPBELL'S"}
+          ],
+          "548": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5965, "name": "HEINZ"}
+          ],
+          "549": [
+            {"id": 6515, "name": "MCCORMICK"}
+          ],
+          "554": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6577, "name": "MINUTE RICE"}
+          ],
+          "556": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5294, "name": "CREAM OF WHEAT"}
+          ],
+          "557": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5768, "name": "GENERAL MILLS"},
+            {"id": 10103, "name": "KASHI"},
+            {"id": 6218, "name": "KELLOGG'S"}
+          ],
+          "559": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7693, "name": "SWEET BABY RAYS"}
+          ],
+          "560": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7716, "name": "TABASCO"},
+            {"id": 6283, "name": "KRAFT"},
+            {"id": 5965, "name": "HEINZ"},
+            {"id": 7693, "name": "SWEET BABY RAYS"},
+            {"id": 6419, "name": "LOUISIANA"}
+          ],
+          "562": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "563": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6515, "name": "MCCORMICK"}
+          ],
+          "564": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "565": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5965, "name": "HEINZ"}
+          ],
+          "566": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6712, "name": "NEWMAN'S OWN"}
+          ],
+          "568": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6283, "name": "KRAFT"}
+          ],
+          "569": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6283, "name": "KRAFT"}
+          ],
+          "570": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "571": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "572": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 14508, "name": "MT. OLIVE"},
+            {"id": 22325, "name": "WORLD CLASSICS"}
+          ],
+          "574": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "575": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "578": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 22325, "name": "WORLD CLASSICS"}
+          ],
+          "581": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6218, "name": "KELLOGG'S"}
+          ],
+          "582": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 10103, "name": "KASHI"},
+            {"id": 6218, "name": "KELLOGG'S"},
+            {"id": 30246, "name": "NATURE'S BAKERY COOPERATIVE"}
+          ],
+          "585": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 18300, "name": "BROWNWOOD FARMS"},
+            {"id": 6792, "name": "OLD EL PASO"},
+            {"id": 6712, "name": "NEWMAN'S OWN"},
+            {"id": 7718, "name": "TACO BELL"},
+            {"id": 6515, "name": "MCCORMICK"}
+          ],
+          "593": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "594": [
+            {"id": 22325, "name": "WORLD CLASSICS"},
+            {"id": 6239, "name": "KIKKOMAN"}
+          ],
+          "617": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6038, "name": "HUNGRY JACK"},
+            {"id": 4848, "name": "BETTY CROCKER"}
+          ],
+          "620": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6779, "name": "OCEAN SPRAY"},
+            {"id": 6623, "name": "MOTT'S"},
+            {"id": 5940, "name": "HAWAIIAN PUNCH"},
+            {"id": 5171, "name": "CLAMATO"},
+            {"id": 7154, "name": "REALEMON"},
+            {"id": 6575, "name": "MINUTE MAID"}
+          ],
+          "621": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "622": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5358, "name": "DEL MONTE"},
+            {"id": 5874, "name": "GREEN GIANT"},
+            {"id": 5706, "name": "FRESHLIKE"},
+            {"id": 4947, "name": "BRUCE'S"}
+          ],
+          "623": [
+            {"id": 9036, "name": "STARBUCKS"},
+            {"id": 11222, "name": "MOUNTAIN DEW"},
+            {"id": 6390, "name": "LIPTON"},
+            {"id": 22430, "name": "SPARKLING ICE"}
+          ],
+          "624": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5345, "name": "DAWN"}
+          ],
+          "625": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5792, "name": "GLAD"},
+            {"id": 5961, "name": "HEFTY"}
+          ],
+          "626": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5389, "name": "DIAMOND"},
+            {"id": 13216, "name": "REYNOLDS"},
+            {"id": 5792, "name": "GLAD"},
+            {"id": 20470, "name": "GLADWARE"},
+            {"id": 5961, "name": "HEFTY"}
+          ],
+          "627": [
+            {"id": 13216, "name": "REYNOLDS"}
+          ],
+          "629": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5201, "name": "CLOROX"}
+          ],
+          "633": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5737, "name": "GAIN"},
+            {"id": 8138, "name": "XTRA"}
+          ],
+          "634": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "635": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7340, "name": "SCOTT"}
+          ],
+          "636": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7340, "name": "SCOTT"}
+          ],
+          "637": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 5389, "name": "DIAMOND"},
+            {"id": 5792, "name": "GLAD"}
+          ],
+          "638": [
+            {"id": 4651, "name": "ALPO"},
+            {"id": 7101, "name": "PURINA"},
+            {"id": 17253, "name": "BENEFUL"},
+            {"id": 9094, "name": "IAMS"},
+            {"id": 31657, "name": "DENTALIFE"}
+          ],
+          "639": [
+            {"id": 7101, "name": "PURINA"},
+            {"id": 6251, "name": "KIT 'N KABOODLE"},
+            {"id": 9094, "name": "IAMS"},
+            {"id": 5590, "name": "FANCY FEAST"}
+          ],
+          "640": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "643": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "644": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7815, "name": "TOTINO'S"},
+            {"id": 5221, "name": "COLE'S"}
+          ],
+          "645": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "653": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6944, "name": "PEPPERIDGE FARM"},
+            {"id": 6980, "name": "PILLSBURY"},
+            {"id": 5221, "name": "COLE'S"}
+          ],
+          "654": [
+            {"id": 6478, "name": "MARIE CALLENDER"}
+          ],
+          "657": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "662": [
+            {"id": 7874, "name": "TYSON"}
+          ],
+          "666": [
+            {"id": 7616, "name": "STOUFFER'S"},
+            {"id": 4869, "name": "BIRDS EYE"},
+            {"id": 6478, "name": "MARIE CALLENDER"}
+          ],
+          "667": [
+            {"id": 7616, "name": "STOUFFER'S"},
+            {"id": 6478, "name": "MARIE CALLENDER"}
+          ],
+          "668": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6087, "name": "IMPERIAL"}
+          ],
+          "670": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "671": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6283, "name": "KRAFT"}
+          ],
+          "693": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "695": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "696": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 13550, "name": "AXE"},
+            {"id": 5417, "name": "DOVE"},
+            {"id": 6363, "name": "LEVER 2000"},
+            {"id": 5387, "name": "DIAL"},
+            {"id": 5213, "name": "COAST"},
+            {"id": 6726, "name": "NIVEA"}
+          ],
+          "700": [
+            {"id": 31583, "name": "SCHWARTZKOPF"}
+          ],
+          "702": [
+            {"id": 5417, "name": "DOVE"}
+          ],
+          "704": [
+            {"id": 4588, "name": "ACE"},
+            {"id": 5840, "name": "GOODY"}
+          ],
+          "707": [
+            {"id": 9341, "name": "OCEAN POTION"}
+          ],
+          "713": [
+            {"id": 7443, "name": "SLIM-FAST"},
+            {"id": 6218, "name": "KELLOGG'S"}
+          ],
+          "733": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "736": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "743": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "808": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "846": [
+            {"id": 14413, "name": "PANERA BREAD"}
+          ],
+          "1433": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1453": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1454": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1455": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1456": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1457": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1458": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1459": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1460": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1461": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1463": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1465": [
+            {"id": 12196, "name": "PRODUCE"},
+            {"id": 5358, "name": "DEL MONTE"}
+          ],
+          "1466": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1467": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1468": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1469": [
+            {"id": 14413, "name": "PANERA BREAD"}
+          ],
+          "1470": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1473": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1475": [
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 20394, "name": "WONDERFUL"}
+          ],
+          "1479": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1480": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1481": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1482": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1484": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1485": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1486": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1487": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1488": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1491": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1492": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1493": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1494": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1495": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 19916, "name": "BLAND FARMS"}
+          ],
+          "1496": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1497": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1498": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1499": [
+            {"id": 9059, "name": "FRESH"},
+            {"id": 5874, "name": "GREEN GIANT"}
+          ],
+          "1502": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1503": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1505": [
+            {"id": 9059, "name": "FRESH"},
+            {"id": 28824, "name": "POTATO"},
+            {"id": 10915, "name": "EARTHBOUND FARM"}
+          ],
+          "1513": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1516": [
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1533": [
+            {"id": 11214, "name": "MEAT"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 24264, "name": "MEADOWLAND FARMS"},
+            {"id": 15310, "name": "CARGILL"}
+          ],
+          "1534": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 4717, "name": "ARMOUR"},
+            {"id": 18933, "name": "BOULDER"}
+          ],
+          "1535": [
+            {"id": 11214, "name": "MEAT"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1536": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 11214, "name": "MEAT"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 13924, "name": "VALU TIME"},
+            {"id": 7874, "name": "TYSON"}
+          ],
+          "1537": [
+            {"id": 32092, "name": "OPEN ACRES"}
+          ],
+          "1539": [
+            {"id": 11214, "name": "MEAT"},
+            {"id": 32092, "name": "OPEN ACRES"}
+          ],
+          "1540": [
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"}
+          ],
+          "1542": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1543": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1554": [
+            {"id": 5156, "name": "CHUNG'S"}
+          ],
+          "1556": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 13924, "name": "VALU TIME"}
+          ],
+          "1558": [
+            {"id": 11214, "name": "MEAT"}
+          ],
+          "1560": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1563": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1567": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 7419, "name": "SIMPLY POTATOES"}
+          ],
+          "1568": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7458, "name": "SMITHFIELD"}
+          ],
+          "1569": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 27968, "name": "GRILLMATES"}
+          ],
+          "1571": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 4800, "name": "BAR S"}
+          ],
+          "1572": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 7458, "name": "SMITHFIELD"}
+          ],
+          "1573": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 4800, "name": "BAR S"}
+          ],
+          "1574": [
+            {"id": 4717, "name": "ARMOUR"}
+          ],
+          "1575": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 20966, "name": "LABREA BAKERY"}
+          ],
+          "1576": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1577": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1579": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1580": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1581": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1582": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1584": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1585": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 24326, "name": "SWEET P'S"}
+          ],
+          "1586": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1587": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 14144, "name": "THE FATHERS TABLE"}
+          ],
+          "1589": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1591": [
+            {"id": 11132, "name": "BAKERY"}
+          ],
+          "1592": [
+            {"id": 11132, "name": "BAKERY"},
+            {"id": 20228, "name": "SPECIALTY BAKERS"}
+          ],
+          "1595": [
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 14946, "name": "CADY FARMS"},
+            {"id": 8044, "name": "WILLIAMS"},
+            {"id": 7601, "name": "STELLA"}
+          ],
+          "1596": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1598": [
+            {"id": 17316, "name": "ATHENOS"}
+          ],
+          "1604": [
+            {"id": 10819, "name": "KAUKAUNA"}
+          ],
+          "1605": [
+            {"id": 7601, "name": "STELLA"}
+          ],
+          "1610": [
+            {"id": 11163, "name": "DELI"},
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 32092, "name": "OPEN ACRES"}
+          ],
+          "1612": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1613": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1615": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1617": [
+            {"id": 11163, "name": "DELI"},
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1634": [
+            {"id": 11163, "name": "DELI"},
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 7947, "name": "VG'S"}
+          ],
+          "1635": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1636": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1637": [
+            {"id": 11163, "name": "DELI"},
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1638": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1640": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1642": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1643": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1644": [
+            {"id": 7874, "name": "TYSON"}
+          ],
+          "1648": [
+            {"id": 8389, "name": "SEAFOOD"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"}
+          ],
+          "1649": [
+            {"id": 6728, "name": "NO BRAND NAME"},
+            {"id": 8389, "name": "SEAFOOD"},
+            {"id": 32092, "name": "OPEN ACRES"},
+            {"id": 9059, "name": "FRESH"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 15622, "name": "BLACK TIE"},
+            {"id": 9662, "name": "AQUA STAR"},
+            {"id": 31323, "name": "FRESH SELECTIONS"}
+          ],
+          "1650": [
+            {"id": 32092, "name": "OPEN ACRES"}
+          ],
+          "1651": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 8389, "name": "SEAFOOD"},
+            {"id": 21867, "name": "SPARTAN FRESH SELECTIONS"},
+            {"id": 7926, "name": "VAN DE KAMP'S"},
+            {"id": 9662, "name": "AQUA STAR"}
+          ],
+          "1653": [
+            {"id": 11163, "name": "DELI"}
+          ],
+          "1853": [
+            {"id": 9036, "name": "STARBUCKS"},
+            {"id": 18019, "name": "CARIBOU COFFEE"}
+          ],
+          "1873": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 8082, "name": "WRIGHT'S"},
+            {"id": 5345, "name": "DAWN"},
+            {"id": 28510, "name": "MR CLEAN"},
+            {"id": 5737, "name": "GAIN"}
+          ],
+          "1913": [
+            {"id": 7528, "name": "SPARTAN"}
+          ],
+          "1933": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 4931, "name": "BREAKSTONE'S"}
+          ],
+          "1942": [
+            {"id": 11754, "name": "BELLS"},
+            {"id": 11143, "name": "BUDWEISER"},
+            {"id": 15083, "name": "STELLA ARTOIS"}
+          ],
+          "1944": [
+            {"id": 7528, "name": "SPARTAN"},
+            {"id": 6944, "name": "PEPPERIDGE FARM"}
+          ],
+          "1945": [
+            {"id": 7528, "name": "SPARTAN"}
+          ]
+        }
+      }
+    ]
+  }
+}

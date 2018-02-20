@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "name": "Evaluation",
+      "reportInfos": [
+        {
+          "id": "databank",
+          "name": "Databank",
+          "acronym": "DB",
+          "imageUrl": "/assets/images/reports/databank.svg",
+          "description": "Easy access to all your promotion results.",
+          "routerLink": "databank",
+          "aboutHTML": "<p>The promotional results in the databank are split by category, store format, supplier and mechanic. When you choose a filter, you reduce the data to only the promotional results for the selected category, store format, supplier or mechanic. This report behaves differently to the other reports.</p><h4>Split Categories check box</h4><p>Whilst the split categories button is unchecked, the promotional results for multi-category promotions will be aggregated to a total across each category. So even if the selected category is Fresh Beef if a promotion contains products from both Fresh Beef and Fresh Chicken the result will be an aggregate of Fresh Beef and Fresh Chicken.</p><p>Checking the split categories option will split the results into one line for each category. In the example above one for Fresh Beef and one for Fresh Chicken.</p><h4>Definitions</h4><p>For a definition of each measure within the databank report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "customer-profile",
+          "name": "Customer Profile",
+          "acronym": "CP",
+          "imageUrl": "/assets/images/reports/customer-profile.svg",
+          "description": "Understand which customers are attracted to your promotions across different segmentations and demographics. Look across a whole category to identify customer groups who are not inspired by the promotion offering.",
+          "routerLink": "customer-profile",
+          "aboutHTML": "<p>The promotional results in the customer profile report display a total result for the promotion despite the category, store format, supplier and mechanic selected. The filters are used to find the group of promotions you want to display. This is different to the way the databank report operates.</p><h4>Definitions</h4><p>For a definition of each measure within the customer profile report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "loyalty-dynamics",
+          "name": "Loyalty Dynamics",
+          "acronym": "LD",
+          "imageUrl": "/assets/images/reports/loyalty-dynamics.svg",
+          "description": "Identify where your promotion customers are coming from, are they existing customer or has your promotion attracted new customers to the category.",
+          "routerLink": "loyalty-dynamics",
+          "aboutHTML": "<p>The promotional results in the loyalty dynamics report display a total result for the promotion despite the category, store format, supplier and mechanic selected. The filters are used to find the group of promotions you want to display. This is different to the way the databank report operates.</p><h4>Definitions</h4><p>For a definition of each measure within the loyalty dynamics report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "category-contribution",
+          "name": "Category Contribution",
+          "acronym": "CC",
+          "imageUrl": "/assets/images/reports/category-contribution.svg",
+          "description": "See the true incrementality of your promotions across a whole category for a chosen time period. Identify the decomposition of your category uplift, identifying pull forward and cannibalisation.",
+          "routerLink": "category-contribution",
+          "aboutHTML": "<p>The promotional results in the category contribution report display a total result for the promotion despite the category, store format, supplier and mechanic selected. The filters are used to find the group of promotions you want to display. This is different to the way the databank report operates.</p><h4>Definitions</h4><p>For a definition of each measure within the category contribution report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "landscape",
+          "name": "Landscape",
+          "acronym": "LS",
+          "imageUrl": "/assets/images/reports/landscape.svg",
+          "description": "Visualise the landscape of your promotions across a whole category, applying colour coding relating to your promotion attributes, also benchmarking a promotion against the category average.",
+          "routerLink": "landscape",
+          "aboutHTML": "<p>The promotional results in the landscape report display a total result for the promotion despite the category, store format, supplier and mechanic selected. The filters are used to find the group of promotions you want to display. This is different to the way the databank report operates.</p><h4>Definitions</h4><p>For a definition of each measure within the landscape report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "scoreboard",
+          "name": "Scoreboard",
+          "acronym": "SB",
+          "imageUrl": "/assets/images/reports/scoreboard.png",
+          "description": "Your one stop shop for evaluation of a particular promotion. Considering the incrementality and the decomposition of incrementality. Also see how the incrementality breaks down by the products within the promotion.",
+          "routerLink": "scoreboard",
+          "aboutHTML": "<p>The promotional results in the scoreboard report display a total result for the promotion despite the category, store format, supplier and mechanic selected. The filters are used to find the individual promotion that you wish to display. This is different to the way the databank report operates.</p><h4>Definitions</h4><p>For a definition of each measure within the customer profile report please see the separate glossary. We will include the definition of these measures within the module in the future.</p>"
+        },
+        {
+          "id": "effectiveness-matrix",
+          "name": "Effectiveness Matrix",
+          "acronym": "EM",
+          "imageUrl": "/assets/images/reports/effectiveness-matrix.svg",
+          "description": "Effectiveness Matrix Report",
+          "routerLink": "effectiveness-matrix"
+        }
+      ]
+    },
+    {
+      "name": "Planning",
+      "reportInfos": [
+        {
+          "id": "key-information",
+          "name": "Key Information",
+          "acronym": "KI",
+          "imageUrl": "/assets/images/reports/databank.svg",
+          "description": "Key Information description.",
+          "routerLink": "key-information",
+          "aboutHTML": "<p>About Key Information.</p>"
+        },
+        {
+          "id": "product-planning",
+          "name": "Product Planning",
+          "acronym": "PP",
+          "imageUrl": "/assets/images/reports/customer-profile.svg",
+          "description": "Product Planning description.",
+          "routerLink": "product-planning",
+          "aboutHTML": "<p>About Product Planning.</p>"
+        }
+      ]
+    }
+  ]
+}

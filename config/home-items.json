@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "width": 50,
+      "icon": "arrow_forward",
+      "title": "Welcome to Acme Analytics",
+      "htmlContent": "welcome.html"
+    },
+    {
+      "width": 50,
+      "icon": "chat",
+      "title": "Let us know what you think",
+      "htmlContent": "development.html"
+    },
+    {
+      "width": 50,
+      "icon": "star",
+      "title": "What’s new",
+      "htmlContent": "whats-new.html"
+    },
+    {
+      "width": 50,
+      "icon": "visibility",
+      "title": "What can I see?",
+      "htmlContent": "what-can-i-see.html"
+    }
+  ]
+}
