@@ -43,7 +43,7 @@
         "name": "Standard PPP",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -52,7 +52,7 @@
         "name": "Pro PPP",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -61,7 +61,7 @@
         "name": "Average Discount",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -93,7 +93,7 @@
         "name": "Cannibalisation",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -102,7 +102,7 @@
         "name": "Promotion Uplift",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -111,7 +111,7 @@
         "name": "Pull Forward",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -120,7 +120,7 @@
         "name": "Raw Pull Forward",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -136,7 +136,7 @@
         "name": "Baseline",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -145,7 +145,7 @@
         "name": "Margin",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -154,7 +154,7 @@
         "name": "Spend",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -163,7 +163,7 @@
         "name": "Discount",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       },
@@ -172,7 +172,7 @@
         "name": "Gross",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 2
         }
       }

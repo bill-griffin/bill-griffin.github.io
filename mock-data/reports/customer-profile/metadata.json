@@ -2967,8 +2967,8 @@
         "name": "Date Range",
         "type": "dateRange",
         "dateRangeLimits": {
-          "end": "2017-02-05",
-          "start": "2014-05-01"
+          "end": "2018-02-05",
+          "start": "2015-05-01"
         }
       },
       {

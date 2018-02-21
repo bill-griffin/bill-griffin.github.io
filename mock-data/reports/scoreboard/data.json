@@ -44,7 +44,7 @@
         }
       ],
       "measureFormats": {
-        "spend": {"type": "currency", "code": "USD", "decimals": 2},
+        "spend": {"type": "currency", "code": "GBP", "decimals": 2},
         "units": {"type": "integer"},
         "custs": {"type": "integer"},
         "visits": {"type": "integer"}
@@ -83,7 +83,7 @@
           "format": {
             "type": "period",
             "period": "week",
-            "weekStartDay": 0
+            "weekStartDay": 1
           }
         },
         {

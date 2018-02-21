@@ -203,7 +203,7 @@
         "name": "Average Weekly Giveaway",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 0
         }
       },
@@ -212,7 +212,7 @@
         "name": "Average Weekly Spend",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 0
         }
       }
@@ -220,7 +220,7 @@
     "legendColumnIds": ["mechanic", "discount", "storeFormat"],
     "tileColumnIds": ["categoryUpliftPct", "productUpliftPct", "avgWeeklyGiveaway", "avgWeeklySpend"],
     "tileTotals": {"categoryUpliftPct": 0.05, "productUpliftPct": 0.20, "avgWeeklyGiveaway": 5153, "avgWeeklySpend": 152482},
-    "weekStartDay": 0,
+    "weekStartDay": 1,
     "rows": [
       {"promotion": "00", "startDate": "2017-04-12", "endDate": "2017-04-18", "mechanic": "01", "discount": "02", "storeFormat": "02", "categoryUpliftPct": 0.01, "productUpliftPct": 0.51, "avgWeeklyGiveaway": 4082, "avgWeeklySpend": 349457},
       {"promotion": "01", "startDate": "2017-05-08", "endDate": "2017-05-12", "mechanic": "04", "discount": "03", "storeFormat": "01", "categoryUpliftPct": 0.31, "productUpliftPct": 0.53, "avgWeeklyGiveaway": 5316, "avgWeeklySpend": 165253},
@@ -346,7 +346,7 @@
           "format": {
             "type": "period",
             "period": "week",
-            "weekStartDay": 0
+            "weekStartDay": 1
           }
         },
         {
@@ -354,7 +354,7 @@
           "name": "Spend",
           "format": {
             "type": "currency",
-            "code": "USD",
+            "code": "GBP",
             "decimals": 0
           }
         },
@@ -572,25 +572,25 @@
         ],
         "rows": {
           "55": [
-            {"location": "01", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "01", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
             {"location": "03", "pricePoint": {"value": "2 for $3"}},
-            {"location": "04", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+            {"location": "04", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}}
           ],
           "19": [
-            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
             {"location": "04", "pricePoint": {"value": "2 for $3", "format": {"type": "text"}}},
-            {"location": "05", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "06", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "09", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+            {"location": "05", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "06", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "09", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}}
           ],
           "38": [
-            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
+            {"location": "02", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
             {"location": "03", "pricePoint": {"value": "2 for $3", "format": {"type": "text"}}},
-            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}},
-            {"location": "10", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "USD", "decimals": 2}}}
+            {"location": "07", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "08", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}},
+            {"location": "10", "pricePoint": {"value": 1234.56, "format": {"type": "currency", "code": "GBP", "decimals": 2}}}
           ]
         }
       }

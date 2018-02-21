@@ -20,7 +20,7 @@
         "name": "Spend",
         "format": {
           "type": "currency",
-          "code": "USD",
+          "code": "GBP",
           "decimals": 0
         }
       }
